@@ -39,8 +39,8 @@ gulp.task('scripts', function() {
     return gulp.src([
         // Without JQuery dependensies
         // JQuery dependent
-        'app/libs/jquery-3.4.1.min.js',
-        'app/libs/jquery.smartmenus.min.js',
+        'app/libs/jquery-3.4.1.js',
+        'app/libs/jquery.smartmenus.js',
         'app/libs/swiper.min.js',
         'app/libs/jquery.fancybox.min.js',
         'app/libs/jquery.event.move.js',
