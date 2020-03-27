@@ -1,0 +1,21 @@
+.consultation {
+  padding: rem(21px) 0 rem(32px);
+  color: #fff;
+  &__title {
+    @include h4Bold;
+    margin-bottom: rem(10px);
+  }
+  &__subtitle {
+    @include bodyRegular;
+    margin-bottom: rem(32px);
+  }
+  &__img {
+    width: rem(430px);
+    height: rem(271px);
+    margin-left: -50px;
+    img {
+      width: auto;
+      height: auto;
+    }
+  }
+}

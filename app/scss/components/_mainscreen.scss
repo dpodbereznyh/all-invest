@@ -1,0 +1,108 @@
+.main {
+  &__screen {
+    height: rem(660px);
+  }
+  &__slide_list {
+
+  }
+  &__slide {
+    height: rem(660px);
+    width: 100%;
+    position: relative;
+    img {
+      //max-width: 100%;
+      //width: 100%;
+      height: 100%;
+    }
+  }
+}
+.swiper-container-main {
+  height: rem(660px);
+  width: 100%;
+}
+.swiper-button-next-main, .swiper-button-prev-main {
+  //background: rgba(41, 101, 180, 0.7);
+  background: $secondGray;
+  width: rem(50px);
+  height: rem(50px);
+  z-index: 777;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: rem(30px);
+  transition: all 0.3s ease;
+  &:hover {
+    background: rgba(41, 101, 180, 0.7);
+    transition: all 0.3s ease;
+  }
+  &:after {
+    display: none;
+  }
+}
+.slick-prev, .slick-next {
+  display: block;
+}
+.swiper-button-next-main {
+  right: 0;
+}
+.swiper-button-prev-main {
+  left: 0;
+}
+.swiper-pagination-main {
+  position: static;
+  display: flex;
+  align-items: center;
+  margin-top: rem(87px);
+}
+.swiper-pagination-bullet {
+  bottom: rem(66px);
+  width: rem(14px);
+  height: rem(14px);
+  background: transparent;
+  margin: 0 rem(8px);
+  background: #B6B6B6;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 rem(8px);
+}
+
+.swiper-pagination-bullet-active{
+  width: rem(20px);
+  height: rem(20px);
+  background: rgba(41, 101, 180, 0.7);
+}
+.swiper-button-prev, .swiper-button-next {
+  outline: none;
+}
+.main__screen {
+  &_offer {
+    padding: rem(160px) 0 rem(167px);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+  }
+  &_title {
+    color: #ffffff;
+    @include h1Bold;
+    margin-bottom: rem(25px);
+    text-shadow: rem(5px) rem(3px) rem(15px) rgba(34, 34, 34, 0.43);
+  }
+  &_subtitle {
+    @include h3Bold;
+    color: #fff;
+    letter-spacing: 0.25px;
+    text-shadow: rem(5px) rem(3px) rem(15px) rgba(34, 34, 34, 0.43);
+    margin-bottom: rem(68px);
+  }
+}
+.selsystem_btn {
+  margin-right: rem(13px);
+}

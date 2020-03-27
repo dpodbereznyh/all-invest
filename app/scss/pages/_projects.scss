@@ -1,0 +1,127 @@
+.main__screen_inner-projects {
+  padding-bottom: rem(233px);
+}
+.projects__list {
+  padding: rem(80px) 0;
+  position: relative;
+  &-gray {
+    background: $border;
+  }
+  &_item {
+    height: rem(380px);
+    display: flex;
+    &_title {
+      @include subtitleMedium;
+      color: $main;
+      margin-bottom: rem(20px);
+    }
+    &_desc {
+      @include bodyMedium;
+      color: $secondGray;
+    }
+  }
+}
+.img__after {
+  height: inherit;
+  width: 100%;
+  img {
+    width: 100%;
+    height: inherit;
+  }
+}
+.projects__list_item_img {
+  width: rem(600px);
+  height: rem(380px);
+  img {
+    width: inherit;
+    height: inherit;
+  }
+}
+.swiper-container-projects {
+  margin-top: rem(30px);
+  height: rem(178px);
+  position: relative;
+}
+.swiper-wrapper-projects {
+  width: 100%;
+}
+.swiper-slide-projects {
+  width: rem(178px)!important;
+  height: rem(178px);
+  margin: 0 rem(16px);
+  img {
+    width: 100%;
+  }
+}
+.swiper-button-prev-projects {
+  width: rem(24px);
+  height: rem(26px);
+  position: absolute;
+  top: 79%;
+  left: -13px;
+   .fa-angle-left {
+     color: #8F8B8B;
+     font-size: 40px;
+     display: block;
+     transition: all 0.3s ease;
+     &:hover {
+       color: #0C4898;
+       transition: all 0.3s ease;
+     }
+  }
+}
+.swiper-button-next-projects {
+  width: rem(24px);
+  height: rem(26px);
+  position: absolute;
+  top: 79%;
+  right: -13px;
+  .fa-angle-right {
+    color: #8F8B8B;
+    font-size: 40px;
+    display: block;
+    transition: all 0.3s ease;
+    &:hover {
+      color: #0C4898;
+      transition: all 0.3s ease;
+    }
+  }
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+  display: none;
+}
+.projects__nav_page {
+  display: flex;
+  justify-content: center;
+  margin-top: rem(-30px);
+  &_link {
+    width: rem(29px);
+    height: rem(29px);
+    border-radius: 50%;
+    background: #B6B6B6;
+    opacity: 0.7;
+    @include bodyMedium;
+    color: $secondGray;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transition: all .3s ease;
+    &:active {
+      background: rgba(41, 101, 180, 0.7);
+      transition: all .3s ease;
+    }
+    &:focus {
+      background: rgba(41, 101, 180, 0.7);
+      transition: all .3s ease;
+    }
+    &:hover {
+      background: rgba(41, 101, 180, 0.7);
+      transition: all .3s ease;
+    }
+  }
+}
+.projects__nav_page_list {
+  display: flex;
+}

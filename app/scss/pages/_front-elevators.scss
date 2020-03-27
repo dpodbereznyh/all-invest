@@ -1,0 +1,257 @@
+.main__screen_inner-elevetors {
+  padding: rem(163px) 0 rem(235px)!important;
+}
+.front-elevators__second_screen {
+  background: url("/img/front-elevators/zlp630.png");
+  background-repeat: no-repeat;
+  background-size: auto 421px;
+  background-position: calc(50% + 636px);
+  padding: rem(80px) 0 rem(63px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(31px);
+  }
+  &_text {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(20px);
+    max-width: rem(857px);
+  }
+}
+.front-elevators__list {
+  margin-left: rem(16px);
+  max-width: rem(836px);
+  margin-bottom: rem(20px);
+  &_title {
+    @include subtitleMedium;
+    color: $mainText;
+    margin: rem(23px) 0 0;
+  }
+  &_item {
+    position: relative;
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(5px);
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6px);
+      height: rem(6px);
+      border-radius: 50%;
+      background: $assetInterface;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(rem(-16px), -25%);
+    }
+  }
+}
+.elevators-specification {
+  background: $border;
+  padding: rem(80px) 0 rem(73px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(45px);
+  }
+  &__table {
+    @include bodyMedium;
+    color: $secondGray;
+    width: 100%;
+
+    &_name {
+      padding: rem(4px) 0 rem(5px) rem(40px);
+    }
+    &_value {
+      padding: rem(4px) rem(62px) rem(5px) 0;
+      text-align: end;
+    }
+  }
+}
+.row-gray {
+  background: #E7E7E7;
+}
+.front-elevators__advantages {
+  background: url("/img/front-elevators/front-elevators-adv.png");
+  background-repeat: no-repeat;
+  background-size: auto 441px;
+  background-position: calc(50% + 580px);
+  padding: rem(80px) 0 rem(63px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(31px);
+  }
+  &_text {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(20px);
+    max-width: rem(812px);
+  }
+}
+.front-elevators__advantages__list {
+  margin-left: rem(16px);
+  max-width: rem(836px);
+  margin-bottom: rem(20px);
+  &_title {
+    @include subtitleMedium;
+    color: $mainText;
+    margin: rem(23px) 0 0;
+  }
+  &_item {
+    position: relative;
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(5px);
+    max-width: rem(754px);
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6px);
+      height: rem(6px);
+      border-radius: 50%;
+      background: $assetInterface;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(rem(-16px), -25%);
+    }
+  }
+}
+.certified-products {
+  padding: rem(80px) 0;
+  &__list {
+    padding: rem(80px) rem(103px) rem(80px) rem(105px);
+    background: $border;
+    box-shadow: 5px 3px 40px rgba(187, 187, 187, 0.37);
+    display: flex;
+    justify-content: space-between;
+    &_description {
+      max-width: rem(518px);
+      margin-right: rem(77px);
+      &_title {
+        @include h2Bold;
+        color: $mainText;
+        margin-bottom: rem(31px);
+      }
+      &_text {
+        @include bodyRegular;
+        color: $secondGray;
+        margin-bottom: rem(20px);
+        max-width: rem(857px);
+      }
+    }
+    &_images {
+      display: flex;
+    }
+    &_image {
+      max-width: rem(206px);
+      max-height: rem(292px);
+      &:first-child {
+        margin-right: rem(20px);
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.front-elevators__gallary {
+  padding: rem(72px) 0 rem(38px);
+  background: $border;
+  position: relative;
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(45px);
+    text-align: center;
+  }
+}
+.swiper-container-elevators {
+  width: 810px;
+  position: relative;
+}
+.swiper-wrapper-elevators {
+  //width: 100%;
+}
+.swiper-slide-elevators {
+  width: 100%;
+  height: 420px;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  &:hover .swiper-wrapper-elevators_overlay {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  &_caption {
+    @include subtitleSemiBold;
+    color: $activeGray;
+    text-align: center;
+    margin-top: 24px;
+  }
+}
+.swiper-wrapper-elevators_overlay {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(47, 52, 58, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  img {
+    width: 48px;
+    height: 48px;
+  }
+}
+.swiper-pagination-elevators {
+  height: 12px;
+  width: 290px!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%!important;
+  transform: translate(-50%, 0)!important;
+  bottom: 42px!important;
+  .swiper-pagination-bullet-active {
+    background: rgba(41, 101, 180, 0.7);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+}
+.swiper-pagination-elevators span {
+  background: #B6B6B6;
+  opacity: 0.7;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+.swiper-button-next-elevators, .swiper-button-prev-elevators {
+  background: #525252;
+  width: 3.125rem;
+  height: 3.125rem;
+  z-index: 777;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 1.875rem;
+  transition: .3s;
+  outline: none;
+}

@@ -1,0 +1,31 @@
+.breadcrumb {
+  background: rgba(82, 82, 82, 0.5);
+  padding: rem(15px) 0;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  z-index: 1;
+  &__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    li {
+      &:after {
+        content: '\002F';
+        margin: 0 rem(9px);
+        color: #fff;
+      }
+      a {
+        text-decoration: none;
+        @include bodyRegular;
+        color: #fff;
+      }
+    }
+    li:last-child {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}

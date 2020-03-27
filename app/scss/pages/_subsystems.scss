@@ -1,0 +1,96 @@
+.subsystems {
+  padding: rem(130px) 0 rem(50px);
+  &__item {
+    height: rem(164px);
+    width: 100%;
+    background: $main;
+    position: relative;
+    transition: all 0.3s ease;
+    margin-bottom: rem(30px);
+    img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: all 0.3s ease;
+      background: black;
+    }
+    &_description {
+      position: absolute;
+      top: rem(37px);
+      left: rem(37px);
+    }
+    &_title {
+      @include subtitleMedium;
+      color: #ffffff;
+      margin-bottom: rem(14px);
+    }
+  }
+  &__btn {
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: rem(16px);
+    line-height: rem(22px);
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: rem(15px) rem(50px);
+    background: $accent;
+    border: 1px solid $accent;
+    transition: all 0.3s ease;
+    &:hover {
+      background: #fff;
+      color: $accent;
+      transition: all 0.3s ease;
+    }
+  }
+}
+.subsystems__second_screen {
+  background: $border url('/img/fasteners/image1.png');
+  background-repeat: no-repeat;
+  background-size: auto 393px;
+  background-position: calc(50% + 530px);
+  padding: rem(80px) 0 rem(60px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(31px);
+  }
+  &_text {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(20px);
+    max-width: rem(690px);
+  }
+}
+.subsystems__advantages {
+  background: url("/img/proflist/image2.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: calc(50% - 495px);  padding: rem(80px) 0 rem(55px);
+}
+.subsystems__list {
+  max-width: 690px;
+  margin-left: rem(16px);
+  margin-bottom: rem(20px);
+  &_item {
+    position: relative;
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(7px);
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6px);
+      height: rem(6px);
+      border-radius: 50%;
+      background: $assetInterface;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(rem(-16px), -25%);
+    }
+  }
+}

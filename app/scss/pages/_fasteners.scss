@@ -1,0 +1,100 @@
+.fasteners__offer {
+    padding: rem(163px) 0 rem(162px);
+    position: relative;
+    background: url("/img/fasteners/fasteners-bg.png") no-repeat center center/cover;
+}
+.fasteners__second_screen {
+    background: url('/img/fasteners/image1.png');
+    background-repeat: no-repeat;
+    background-size: auto 393px;
+    background-position: calc(50% + 530px);
+    padding: rem(80px) 0 rem(100px);
+    &_title {
+        @include h2Bold;
+        color: $mainText;
+        margin-bottom: rem(31px);
+    }
+    &_text {
+        @include bodyRegular;
+        color: $secondGray;
+        margin-bottom: rem(20px);
+        max-width: rem(690px);
+    }
+}
+.fasteners__name {
+    padding: rem(80px) 0 rem(145px);
+    &-bg {
+        background: $border;
+    }
+    &-left {
+        padding: rem(80px) 0 rem(130px);
+    }
+
+    &_title {
+        @include h2Bold;
+        color: $mainText;
+        margin-bottom: rem(30px);
+    }
+    &_text {
+        @include bodyRegular;
+        color: $secondGray;
+        margin-bottom: rem(20px);
+        //max-width: rem(690px);
+        &-left {
+            max-width: rem(808px);
+            margin-bottom: rem(20px);
+        }
+    }
+    &_img {
+        height: rem(626px);
+        margin-top: rem(80px);
+    }
+    &_left {
+        height: rem(430px);
+        margin-top: 5.4375rem;
+    }
+}
+.fasteners__name_list {
+    //max-width: rem(690px);
+    margin-left: rem(16px);
+    &-left {
+        max-width: 32rem;
+    }
+    &_title {
+        @include subtitleMedium;
+        color: $mainText;
+        margin: rem(35px) 0 rem(8px);
+
+        &-rivets {
+            margin: rem(35px) 0 rem(8px);
+        }
+    }
+    &_item {
+        position: relative;
+        @include bodyRegular;
+        color: $secondGray;
+        margin-bottom: rem(7px);
+        &:before {
+            content: "";
+            display: block;
+            width: rem(6px);
+            height: rem(6px);
+            border-radius: 50%;
+            background: $assetInterface;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(rem(-16px), -25%);
+        }
+    }
+}
+.order__btn-fasteners {
+    margin-top: rem(50px);
+    display: inline-block;
+}
+.fasteners__name_img-anker {
+    width: 247px;
+    height: 241px;
+    margin-top: 107px;
+    margin-left: 23px;
+}

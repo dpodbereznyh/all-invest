@@ -1,0 +1,41 @@
+.about {
+  background: #F3F3F3 url("/img/about/about-decor.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: calc(50% + 520px);
+  height: rem(515px);
+  position: relative;
+  &__title {
+    @include h2Bold;
+    color: $mainText;
+    margin-top: rem(71px);
+    margin-bottom: rem(30px);
+  }
+  &__text {
+    @include bodyMedium;
+    color: $secondGray;
+    margin-bottom: rem(7px);
+  }
+  &__btn {
+    @include formBtn;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: rem(30px);
+    margin-bottom: rem(30px);
+    &:hover {
+      color: $activeBlue;
+      background: #fff;
+      transition: all 0.3s ease;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__decor {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

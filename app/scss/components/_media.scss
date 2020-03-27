@@ -1,0 +1,693 @@
+/*1250-1450px*/
+@media screen and (max-width: 1450px ) {
+  html {
+    font-size: 15px;
+  }
+  .header__menu_list li::after {
+    top: 2.6rem;
+  }
+  .header__menu_list li, .header__nav_btn  {
+    font-size: 0.98rem;
+  }
+  .consultation__img img {
+    width: 100%;
+    height: auto;
+  }
+   .estimation__img {
+    width: rem(425px);
+    height: rem(497px);
+  }
+  .swiper-pagination {
+    transform: translate(0, -50px);
+  }
+  .swiper-pagination-review {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .swiper-container-projects {
+    max-width: 578px;
+  }
+
+}
+/*992-1250px*/
+@media screen and (max-width: 1250px ) {
+  html {
+    font-size: 15px;
+  }
+  .header__menu_list li {
+    width: max-content;
+  }
+  .header__menu_list li, .header__nav_btn  {
+    font-size: 0.82rem;
+  }
+  .services__item_title {
+    top: 1.5rem;
+    left: 1.1875rem;
+  }
+  .work__stages_item-text {
+    font-size: 0.98rem;
+  }
+  .works__item {
+    width: 20.313rem;
+    height: 16.688rem;
+  }
+  .works__item_img {
+    height: 13rem;
+    width: 100%;
+  }
+  .works__item_text {
+    height: 6.063rem;
+  }
+  .consultation__form button {
+    margin-top: 25px;
+  }
+  .consultation__img {
+    margin-left: rem(-110px);
+  }
+  .about__title {
+    margin-top: 3rem;
+  }
+  .services__item {
+    height: 12.8rem;
+  }
+  .estimation__img {
+    width: 100%;
+    height: auto;
+  }
+  .estimation__title {
+    margin-top: 0;
+  }
+  .color-solutions__card {
+    width: 100%;
+  }
+  .fasteners__name_img {
+    margin-top: 0;
+  }
+  .consultation__second_img {
+    height: 20.6875rem;
+    margin-left: -3rem;
+  }
+  .fasteners__name_rivets {
+    margin: 5.4375rem auto 0;
+    display: block;
+  }
+  .fasteners__name_img-anker {
+    width: rem(168px);
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .projects__list_item {
+    margin-bottom: rem(30px);
+  }
+  .projects__list_item_img {
+    margin: 0 auto;
+  }
+  .projects__list {
+    text-align: center;
+  }
+  .swiper-container-keramogranit {
+    width: 853px;
+  }
+  .sm li {
+    margin: 0 rem(26px) 0 0;
+  }
+  .header__nav_btn {
+    width: 180px;
+  }
+  .twentytwenty-wrapper {
+    margin: 0 auto;
+  }
+  .swiper-button-prev-projects {
+    left: 0;
+  }
+  .swiper-button-next-projects {
+    right: 0;
+  }
+}
+/*768-992px*/
+@media screen and (max-width: 992px ) {
+  .proflist__components_img {
+    width: 100%;
+  }
+  .header__menu_list {
+    padding: rem(19px) 0;
+  }
+  .header__menu_list li {
+    margin-right: 2.06rem;
+  }
+  .ddm__list {
+    margin-bottom: rem(20px);
+  }
+  .ddm__title {
+    margin-bottom: 1.5rem;
+  }
+  .ddm__item {
+    line-height: 1.8rem;
+  }
+  .main__screen_title {
+    line-height: 3.5rem;
+    margin-bottom: 2.5625rem;
+  }
+
+  .services__item_title {
+    top: 1rem;
+    left: 0.8rem;
+  }
+  .services__item {
+    height: 9.2rem;
+  }
+  .work__stages_list {
+    margin: 0 auto;
+    width: 60%;
+  }
+  .work__stages_list-bottom {
+    margin-bottom: rem(40px);
+  }
+  .work__stages {
+    height: fit-content;
+  }
+  .work__stages_item-text {
+    font-size: 1.125rem;
+  }
+  .controls {
+    margin-bottom: rem(15px);
+  }
+  .consultation__form button {
+    margin-top: rem(10px);
+  }
+  .consultation__img {
+    margin-left: -1.875rem;
+  }
+  .about__btn {
+    margin: 1.875rem 0 3rem;
+  }
+  .about__decor {
+    height: auto;
+  }
+  .works__item_img img {
+    height: 100%;
+  }
+  .about {
+    height: fit-content;
+  }
+  .consultation__second {
+    height: fit-content;
+    padding: 1.3125rem 0 2rem;
+  }
+  .consultation__second_img {
+    margin-left: auto;
+    display: block;
+    margin-top: -50px;
+  }
+  .footer__contact_title {
+    margin-top: 30px;
+  }
+  .color-solutions__card {
+    margin-bottom: 40px;
+  }
+  .proflist__advantages, .subsystems__advantages, .systems__advantages {
+    background-position: calc(50% - 565px);
+  }
+  .consultation__second_img {
+    margin-left: auto;
+    margin-top: 0;
+  }
+  .fasteners__name_img-anker {
+    width: rem(134px);
+    height: auto;
+  }
+  .system__components_img {
+    width: 19rem;
+    height: auto;
+    margin-top: rem(70px);
+  }
+  .certified-products__list {
+    flex-direction: column;
+  }
+  .certified-products__list_description {
+    margin-right: 0;
+    max-width: 100%;
+    margin-bottom: rem(40px);
+  }
+  .certified-products__list_description_text {
+    max-width: 100%;
+  }
+  .certified-products__list {
+    padding: 3rem 2rem 3rem 2rem;
+  }
+  .certified-products__list_images {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .certified-products__list_image:first-child {
+    margin-bottom: rem(20px);
+    margin-right: 0;
+  }
+  .swiper-container-elevators {
+    width: rem(652px);
+    height: rem(510px);
+  }
+  .swiper-slide-elevators {
+    height: rem(380px);
+  }
+  .swiper-container-keramogranit {
+    width: 633px;
+  }
+  .swiper-slide-keramogranit {
+    padding: 30px;
+  }
+  #main-menu {
+    flex-wrap: wrap;
+  }
+  .header__nav_btn {
+    height: rem(60px);
+  }
+  .work__stages_item-img-before:before, .work__stages_item-img-after:after {
+    display: none;
+  }
+  .work__stages_item {
+    border-bottom: none;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+  .work__stages_item-bottom {
+    border-top: none;
+  }
+  .work__stages_item-bottom {
+    justify-content: start;
+  }
+  .sm-blue a, .header__nav_btn {
+    font-size: 11px;
+  }
+  .header__nav_btn {
+    width: 150px;
+  }
+  .sm li {
+    margin: 0 10px 0 0;
+  }
+  .sm-blue {
+    a {
+      font-size: 11px;
+      &:hover {
+        font-size: 11px;
+      }
+      &:focus {
+        @include subtitleSemiBold;
+        font-size: 11px;
+      }
+      &:active {
+        @include subtitleSemiBold;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+/*576-768px*/
+@media screen and (max-width: 768px ) {
+
+  .main__slide {
+    height: 44.25rem;
+  }
+  .news__list_item-art-text {
+    max-height: 100px;
+  }
+  .nextArrow, .prevArrow, .fa-angle-left  {
+    display: none;
+  }
+
+  .services__item {
+    height: 14.6rem;
+    margin-bottom: rem(40px);
+  }
+  .work__stages_list {
+    width: 100%;
+  }
+  .works__item {
+    margin: 0 auto 40px;
+    height: 19rem;
+  }
+  .works__header {
+    flex-direction: column;
+  }
+  .works__btn {
+    margin-top: 30px;
+  }
+  .consultation__title {
+    margin-bottom: 1.7rem;
+  }
+  .consultation__form button {
+    margin-top: rem(25px);
+  }
+  .consultation__img {
+    margin: 0 auto;
+  }
+  .customers__title {
+    text-align: center;
+  }
+  .customers__item {
+    margin: 0 auto 4.5rem;
+  }
+  .customers__item_img img {
+    max-height: 80%;
+    max-width: 90%;
+  }
+  .review__item_overlay {
+    height: 25.625rem;
+    width: 16rem;
+  }
+  .review__item_overlay-icon {
+    height: 22.5rem;
+    width: 16rem;
+  }
+  .rewNextArrow, .rewPrevArrow {
+    display: none;
+  }
+  .review__item_link {
+    width: 15.75rem;
+    height: auto;
+  }
+  .consultation__second_img {
+    margin-top: -8px;
+  }
+  .footer__menu_item_wrap {
+    width: 14.25rem;
+  }
+  .footer__bottom_wrap {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .breadcrumb__list li a {
+    font-size: 0.8rem;
+  }
+  .order__btn {
+    padding: 1rem 2rem;
+  }
+  .system__components, .proflist__components, .fiber-cement__second_screen, .keramogranit__second_screen, .front-elevators__advantages, .front-elevators__second_screen, .company__second_screen, .subsystems__advantages, .screen__bg_right, .calculation, .proflist__second_screen, .fasteners__second_screen {
+    background: none;
+  }
+  .estimation, .proflist__advantages, .about, .subsystems__second_screen, .systems__advantages {
+    background: #f3f3f3;
+  }
+  .fasteners__name_rivets {
+    margin-top: 0;
+  }
+  .swiper-button-next, .swiper-button-prev, .swiper-pagination {
+    display: none;
+  }
+  .swiper-pagination-review {
+    display: flex;
+  }
+  .fasteners__name_img-samorezy {
+    height: 25rem;
+  }
+  .fasteners__name_img-anker {
+    height: auto;
+  }
+  .swiper-button-prev-review, .swiper-button-next-review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+  }
+  .system__components_img {
+    margin: 0 auto;
+    display: block;
+  }
+  .projects__list_item_img {
+    width: 540px;
+    height: 342px;
+  }
+  .projects__list_item_img:before, .projects__list_item_img:after {
+    height: 151px;
+  }
+  .swiper-container-projects {
+    max-width: 540px;
+  }
+  .swiper-slide-projects {
+    width: 10.125rem !important;
+    height: 10.125rem;
+  }
+  .elevators-specification__table_name {
+    padding: rem(4px) rem(4px) rem(5px) rem(20px);
+  }
+  .elevators-specification__table_value {
+    padding: rem(4px) rem(20px) rem(5px) 0;
+  }
+  .swiper-container-elevators {
+    width: rem(540px);
+    height: 27.375rem;
+  }
+  .swiper-slide-elevators {
+    height: rem(300px);
+  }
+  .swiper-pagination-elevators, .swiper-pagination-keramogranit {
+    display: flex;
+  }
+  .swiper-container-keramogranit {
+    width: 500px;
+  }
+  .swiper-slide-keramogranit {
+    width: 500px;
+    padding: 15px;
+  }
+  #main-menu .mega-menu .column-1-3 {
+    width: 100%;
+  }
+  .sm li {
+    margin: 0 0 10px 0;
+  }
+  .has-mega-menu>a:after {
+    display: none;
+  }
+  .header__bottom_nav>.container-fluid {
+    padding: 0;
+  }
+  .header__nav_btn_mobile {
+    display: block!important;
+  }
+  .header__nav_btn {
+    display: none;
+  }
+  .sm-blue {
+    a {
+      background: none;
+      @include subtitleSemiBold;
+      &:hover {
+        @include subtitleSemiBold;
+        background: none;
+      }
+      &:focus {
+        @include subtitleSemiBold;
+        background: none;
+      }
+      &:active {
+        @include subtitleSemiBold;
+        background: none;
+      }
+    }
+  }
+  #main-menu .mega-menu ul {
+    margin: 20px 0;
+  }
+  .sm-blue a.highlighted {
+    padding: 10px 20px;
+  }
+  .swiper-button-prev-projects, .swiper-button-next-projects {
+    display: block;
+  }
+}
+/*320-576px*/
+@media screen and (max-width: 576px ) {
+
+  .header__nav_btn {
+    padding: 0.7rem;
+  }
+  .header__phone {
+    margin: 20px auto;
+    justify-content: center;
+    max-width: 310px;
+  }
+  .header__logo {
+    justify-content: center;
+  }
+  .header__top_nav {
+    padding: 1rem 0;
+  }
+  .main__screen_title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .main__screen_subtitle {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+  .main__slide {
+    height: 46rem;
+  }
+  .main__screen_offer {
+    padding: 7rem 0;
+  }
+  .selsystem_btn {
+    margin-bottom: 30px;
+  }
+  .main__screen {
+    height: fit-content;
+  }
+  .slick-dots {
+    bottom: 2.125rem;
+  }
+  .services__item {
+    height: 12.8rem;
+    margin-bottom: 30px;
+  }
+  .services__item_title {
+    font-size: 1.75rem;
+  }
+  .work__stages_item, .work__stages_item-bottom {
+    justify-content: start;
+  }
+  .works__title {
+    text-align: center;
+  }
+  .works__item_img img {
+    width: 100%;
+    height: auto;
+  }
+  .works__item {
+    height: 18rem;
+    width: 19rem;
+    margin: 0 auto 40px;
+  }
+  .works__item_img {
+    height: 12rem;
+  }
+  .consultation__img {
+    width: 19rem;
+    height: auto;
+    margin: 40px auto;
+  }
+  .form__btn {
+    line-height: 0;
+  }
+  .consultation__second_img {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .footer__menu_item_wrap {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__contact_title {
+    text-align: center;
+  }
+  .btn {
+    padding: 1.125rem 3rem;
+  }
+  .order__btn {
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    font-size: 1rem;
+  }
+  .order__btn-fasteners {
+    margin: 50px auto;
+  }
+  .estimation__title {
+    font-size: 1.8rem;
+  }
+  .calculation {
+    background: none;
+  }
+  .overlay .popap {
+    top: rem(50px);
+
+  }
+  .fasteners__name_img {
+    margin: 0 auto 20px;
+    display: block;
+    height: 260px;
+  }
+  .fasteners__name_rivets {
+    order: 1;
+  }
+  .fasteners__name_img-anker {
+    height: auto;
+  }
+  .projects__list_item_img, .projects__list_item {
+    width: 300px;
+    height: 196px;
+    margin: 0 auto 20px;
+  }
+  .projects__list_item_img:before, .projects__list_item_img:after {
+    height: 78px;
+  }
+  .swiper-container-projects {
+    max-width: 100%;
+    height: inherit;
+  }
+  .swiper-slide-projects {
+    width: 320px!important;
+    height: 240px!important;
+  }
+  .swiper-slide-projects img {
+    width: 320px;
+    height: 240px;
+  }
+  .elevators-specification__table_name {
+    padding: rem(4px) rem(4px) rem(5px) rem(10px);
+  }
+  .elevators-specification__table_value {
+    padding: rem(4px) rem(10px) rem(5px) 0;
+  }
+  .elevators-specification_title {
+    font-size: 1.9rem;
+  }
+  .certified-products__list {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
+  .certified-products__list_description_title {
+    font-size: 1.6rem;
+  }
+  .swiper-container-elevators {
+    width: rem(300px);
+    height: rem(300px);
+  }
+  .swiper-slide-elevators {
+    height: rem(170px);
+  }
+  .swiper-container-keramogranit {
+    width: 300px;
+  }
+  .swiper-slide-keramogranit {
+    width: 300px!important;
+    padding: 10px;
+  }
+  form .controls {
+    width: 100%!important;
+    margin-right: 0!important;
+  }
+  .consultation__form button {
+    width: 100%;
+  }
+  .footer__menu_item_wrap {
+    margin-right: 0;
+  }
+  .color-solutions__card {
+    flex-direction: column;
+    height: auto;
+  }
+  .color-solutions__image {
+    width: 100%;
+    justify-content: center;
+    order: 1;
+  }
+  .color-solutions__card_title {
+    order: 2;
+  }
+}

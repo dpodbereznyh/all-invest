@@ -1,0 +1,117 @@
+.main__screen_inner-fiber-cement {
+  padding: rem(163px) 0 rem(235px)!important;
+  position: relative;
+}
+.fiber-cement__second_screen {
+  background: url("/img/fiber-cement/fiber-cement-image.png");
+  background-repeat: no-repeat;
+  background-size: auto 392px;
+  background-position: calc(50% + 530px);
+  padding: rem(80px) 0 rem(65px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(31px);
+  }
+  &_text {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(17px);
+    max-width: rem(637px);
+  }
+}
+.fiber-cement__list {
+  margin-left: rem(16px);
+  max-width: rem(836px);
+  margin-bottom: rem(20px);
+  &_title {
+    @include bodyRegular;
+    color: $mainText;
+  }
+  &_item {
+    position: relative;
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(6px);
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6px);
+      height: rem(6px);
+      border-radius: 50%;
+      background: $assetInterface;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(rem(-16px), -25%);
+    }
+  }
+}
+.color-solutions {
+  padding: 0 0 rem(80px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(31px);
+  }
+  &__card {
+    width: rem(600px);
+    height: rem(250px);
+    background: $border;
+    display: flex;
+    margin: 0 auto;
+    &_title {
+      padding: rem(74px) 0 rem(74px) rem(50px);
+      width: 50%;
+      h3 {
+        @include h3Bold;
+        color: $mainText;
+        text-transform: uppercase;
+        margin-bottom: rem(20px);
+      }
+    }
+  }
+  &__image {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    img {
+      max-width: 100%;
+      height: rem(194px);
+      display: block;
+    }
+  }
+  &__btn {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: rem(16px);
+    line-height: rem(22px);
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: rem(15px) rem(50px);
+    background: $accent;
+    border: 1px solid $accent;
+    transition: all 0.3s ease;
+    &:hover {
+      background: #fff;
+      color: $accent;
+      transition: all 0.3s ease;
+    }
+  }
+}
+.techinfo-fiber-cement {
+  padding: rem(82px) 0 rem(92px);
+}
+.techinfo__text-fiber-cement {
+  margin-bottom: 16px;
+}
+.techinfo__list_title-fiber-cement {
+  margin-bottom: 0;
+}
+.techinfo__list-fiber-cement {
+  margin-bottom: 15px;
+}

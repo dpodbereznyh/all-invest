@@ -1,0 +1,48 @@
+.estimation {
+  background: $border url('/img/design/estimation.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: calc(50% - 370px);
+  padding: rem(22px) 0;
+  &__img {
+    width: rem(416px);
+    height: rem(488px);
+  }
+  &__title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(28px);
+    margin-top: rem(59px);
+  }
+  &__text {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(13px);
+  }
+}
+.estimation__list {
+  margin-left: rem(16px);
+  margin-bottom: rem(18px);
+  &_title {
+    @include subtitleMedium;
+    color: $mainText;
+    margin: rem(23px) 0 rem(8px);
+  }
+  &_item {
+    position: relative;
+    @include subtitleMedium;
+    color: $secondGray;
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6px);
+      height: rem(6px);
+      border-radius: 50%;
+      background: $assetInterface;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(rem(-16px), -25%);
+    }
+  }
+}

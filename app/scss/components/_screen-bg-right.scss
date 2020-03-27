@@ -1,0 +1,52 @@
+.screen__bg_right {
+  background: url('/img/design/design-bg.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: calc(50% + 620px);
+  padding: rem(80px) 0 rem(60px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(28px);
+  }
+  &_text {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(15px);
+  }
+  &_right_img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+  }
+}
+.design__list {
+  margin-left: rem(16px);
+  max-width: rem(836px);
+  margin-bottom: rem(20px);
+  &_title {
+    @include subtitleMedium;
+    color: $mainText;
+    margin: rem(23px) 0 rem(8px);
+  }
+  &_item {
+    position: relative;
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(5px);
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6px);
+      height: rem(6px);
+      border-radius: 50%;
+      background: $assetInterface;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(rem(-16px), -25%);
+    }
+  }
+}

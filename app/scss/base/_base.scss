@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  min-width: 320px;
+}
+.container-fluid {
+  max-width: 1284px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.btn {
+  padding: rem(18px) rem(55px);
+  @include buttonLargeBold;
+  color: #fff;
+  background: $secondGray;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  &:hover {
+    background: $activeBlue;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.order__btn {
+  @include buttonLargeBold;
+  text-decoration: none;
+  background-color: $accent;
+  border: rem(2px) solid $accent;
+  text-align: center;
+  transition: all 0.3s ease;
+  padding: rem(18px) rem(55px);
+  color: #ffffff;
+  display: inline-block;
+  &:hover {
+    color: $accent;
+    background: #fff;
+    transition: all 0.3s ease;
+  }
+}
+.form {
+  .controls {
+    height: rem(50px);
+    width: rem(219px);
+    margin-right: rem(12px);
+    display: inline-block;
+    position: relative;
+  }
+  span {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 777;
+    color: red;
+    font-size: 0.7rem;
+    width: inherit;
+  }
+  &__input {
+    width: inherit;
+    height: inherit;
+    padding: 0 0 0 rem(20px);
+    color: #4F4F4F;
+    &::placeholder {
+      font-size: rem(16px);
+      font-weight: normal;
+      font-family: 'Noto Sans', sans-serif;
+      color: #4F4F4F;
+      line-height: rem(50px);
+    }
+    &::-webkit-input-placeholder {
+      font-size: rem(16px);
+      font-weight: normal;
+      font-family: 'Noto Sans', sans-serif;
+      color: #4F4F4F;
+      line-height: rem(50px);
+    }
+  }
+  &__btn {
+    @include buttonMainBold;
+    text-transform: uppercase;
+    padding: 0;
+    color: #fff;
+    background: $activeBlue;
+    height: rem(50px);
+    width: rem(200px);
+    border: 2px solid $activeBlue;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $activeBlue;
+      background: #fff;
+      transition: all 0.3s ease;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+a:hover {
+  text-decoration: none!important;
+}

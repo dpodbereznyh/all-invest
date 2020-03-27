@@ -1,0 +1,470 @@
+.header {
+  position: relative;
+  &__top_nav {
+    padding: rem(43px) 0;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    &_img {
+      width: rem(48px);
+      height: rem(42px);
+      margin-right: rem(5px);
+      img {
+        width: 100%;
+      }
+    }
+    &_text {
+      width: rem(228px);
+      height: rem(21px);
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.header__location {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: rem(10px);
+    display: block;
+  }
+  &_text {
+    color: $main;
+    @include bodyRegular;
+    max-width: rem(233px);
+    margin-bottom: 0;
+  }
+}
+.header__mail {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: rem(10px);
+    display: block;
+  }
+  &_text {
+    color: $main;
+    @include bodyRegular;
+    max-width: rem(200px);
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+    &:hover {
+      color: #0C4898;
+      transition: all 0.3s;
+    }
+  }
+}
+.header__phone {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: rem(10px);
+    display: block;
+  }
+  &_text {
+    a {
+      @include subtitleMedium;
+      color: $main;
+      text-decoration: none;
+      display: block;
+      transition: all 0.3s;
+      &:hover {
+        color: #0C4898;
+        transition: all 0.3s;
+      }
+    }
+    span {
+      @include bodyRegular;
+      color: $secondGray;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+.header__bottom_nav {
+  background: #2F343A;
+}
+.header__nav_btn {
+  //position: absolute;
+  //right: 0;
+  @include buttonMainBold;
+  line-height: 100%;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: rem(209px);
+  height: rem(60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $accent;
+  border: 1px solid $accent;
+  transition: all 0.3s ease;
+  margin-left: auto;
+  &:hover {
+    background: #ffffff;
+    color: $accent;
+    transition: all 0.3s ease;
+  }
+}
+a.header__nav_btn {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header__nav_btn_mobile {
+  display: none;
+}
+.main-nav {
+  position: relative;
+  background: #2F343A;
+}
+
+.main-nav:after {
+  clear: both;
+  content: "\00a0";
+  display: block;
+  height: 0;
+  font: 0px/0 serif;
+  overflow: hidden;
+}
+
+.nav-brand {
+  float: left;
+  margin: 0;
+}
+
+.nav-brand a {
+  display: block;
+  padding: 10px 10px 10px 20px;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 29px;
+  text-decoration: none;
+}
+
+#main-menu {
+  clear: both;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #main-menu {
+    float: left;
+    clear: none;
+  }
+}
+
+
+/* Mega menus */
+
+
+/* make mega menus take the full width of .main-nav */
+
+#main-menu,
+#main-menu > .has-mega-menu {
+  position: static !important;
+  transition: all 0.3s ease;
+  >li> a {
+    text-transform: uppercase;
+  }
+}
+
+#main-menu .mega-menu {
+  margin-left: 0 !important;
+  right: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+  background: rgba(47, 52, 58, 0.95);
+  color: #ffffff;
+}
+
+#main-menu > .has-mega-menu .scroll-up,
+#main-menu > .has-mega-menu .scroll-down {
+  margin-left: 0 !important;
+}
+
+
+/* clear any floats inside the mega menus */
+
+#main-menu .mega-menu > li {
+  overflow: auto;
+}
+
+
+/* reset mega menu list/link styles (which are inherited from the SmartMenus core/theme styles) */
+
+#main-menu .mega-menu {
+  color: #ffffff;
+}
+
+#main-menu .mega-menu ul {
+  position: static;
+  display: block;
+  margin: 5px 0 0;
+  border: 0;
+  padding: 0 0 0 0;
+  width: auto;
+  background: transparent;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#main-menu .mega-menu ul li {
+  border: 0;
+  a {
+    @include bodyRegular;
+
+  }
+}
+
+#main-menu .mega-menu a {
+  display: inline;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  text-decoration: none!important;
+  color: #ffffff!important;
+  @include subtitleMedium;
+}
+
+
+/* simple columns inside the mega menus */
+
+#main-menu .mega-menu .column-1-3 {
+  padding: 0 rem(20px);
+}
+
+@media (min-width: 768px) {
+  #main-menu .mega-menu .column-1-3 {
+    float: left;
+    width: 33.33%;
+  }
+  .sm-blue {
+    background: none!important;
+    box-shadow: none!important;
+    border-radius: 0;
+    ul {
+      padding: rem(40px) 0;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+    }
+    >li {
+      border: none;
+      margin-right: rem(52px);
+      &:hover:after {
+        opacity: 1;
+        transition: all 0.3s ease;
+      }
+      &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #ffffff;
+        opacity: 0;
+        transition: all 0.3s ease;
+      }
+    }
+    li:first-child > a {
+      border-radius: 0;
+      border: none;
+    }
+    li:last-child > a {
+      border-radius: 0!important;
+      border: none;
+      margin-right: 0;
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+    a {
+      background: none;
+      padding: rem(18px) 0;
+      @include subtitleSemiBold;
+      text-shadow: none;
+      &:hover {
+        @include subtitleSemiBold;
+        text-decoration: none;
+        background: none;
+        padding: rem(18px) 0;
+      }
+      &:focus {
+        @include subtitleSemiBold;
+        text-decoration: none;
+        background: none;
+        padding: rem(18px) 0;
+      }
+      &:active {
+        @include subtitleSemiBold;
+        text-decoration: none;
+        background: none;
+        padding: rem(18px) 0;
+      }
+      .sub-arrow {
+        display: none;
+      }
+    }
+  }
+}
+.sm-blue a.highlighted {
+  @include subtitleSemiBold;
+  text-decoration: none;
+  background: none;
+  padding: rem(18px) 0;
+}
+
+/* Sample image placeholder */
+
+.mega-menu-sample-image {
+  margin: 0.83em 0;
+  border: 1px solid;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+
+/* Mobile menu top separator */
+
+#main-menu:before {
+  content: '';
+  display: block;
+  height: 1px;
+  font: 1px/1px sans-serif;
+  overflow: hidden;
+  background: #4b4a73;
+}
+
+@media (min-width: 768px) {
+  #main-menu:before {
+    display: none;
+  }
+}
+
+
+/* Mobile menu toggle button */
+
+.main-menu-btn {
+  float: left;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  text-indent: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* hamburger icon */
+
+.main-menu-btn-icon,
+.main-menu-btn-icon:before,
+.main-menu-btn-icon:after {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  height: 2px;
+  width: 24px;
+  background: #fff;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.main-menu-btn-icon:before {
+  content: '';
+  top: -7px;
+  left: 0;
+}
+
+.main-menu-btn-icon:after {
+  content: '';
+  top: 7px;
+  left: 0;
+}
+
+
+/* x icon */
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon {
+  height: 0;
+  background: transparent;
+}
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:before {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:after {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/* hide menu state checkbox (keep it visible to screen readers) */
+
+#main-menu-state {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+/* hide the menu in mobile view */
+
+#main-menu-state:not(:checked) ~ #main-menu {
+  display: none;
+}
+
+#main-menu-state:checked ~ #main-menu {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  /* hide the button in desktop view */
+  .main-menu-btn {
+    position: absolute;
+    top: -99999px;
+  }
+  /* always show the menu in desktop view */
+  #main-menu-state:not(:checked) ~ #main-menu {
+    display: block;
+  }
+}
+
+
+/* IGNORE: Unrelated generic demo styles */
+
+
+
+.demo-text {
+  margin: 3em 22px;
+}
+
+.demo-text p {
+  margin-bottom: 1em;
+}
+
+.demo-text a {
+  color: #999;
+}

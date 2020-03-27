@@ -1,0 +1,50 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/reset";
+@import "base/fonts";
+@import "base/base";
+
+@import "vendors/normalize";
+@import "vendors/bootstrap/scss/bootstrap-reboot";
+@import "vendors/bootstrap/scss/bootstrap-grid";
+@import "vendors/bootstrap/scss/utilities/sizing";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/mounting";
+@import "pages/proflist";
+@import "pages/fasteners";
+@import "pages/subsystems";
+@import "pages/system";
+@import "pages/company";
+@import "pages/projects";
+@import "pages/front-elevators";
+@import "pages/keramogranit";
+@import "pages/fiber-cement";
+@import "components/works";
+
+@import "components/breadcrumb";
+@import "components/mainscreen";
+@import "components/design";
+@import "components/services";
+@import "components/work-stages";
+@import "components/consultation";
+@import "components/customers";
+@import "components/about";
+@import "components/review";
+@import "components/consultationSecond";
+@import "components/map";
+@import "components/main-screen-inner";
+@import "components/screen-bg-right";
+@import "components/estimation";
+@import "components/calculation";
+@import "components/works";
+@import "components/media";
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+@import "../abstracts/mixins";
+
+@include font-face("Noto Sans", "../fonts/NotoSans/NotoSans-Regular", normal);
+@include font-face("Noto Sans", "../fonts/NotoSans/NotoSans", normal);
+@include font-face("Noto Sans", "../fonts/NotoSans/NotoSans-Bold", bold);

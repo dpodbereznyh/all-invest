@@ -1,0 +1,37 @@
+.company__second_screen {
+  background: url('/img/company/company.png');
+  background-repeat: no-repeat;
+  background-size: auto 344px;
+  background-position: calc(50% + 530px) 120px;
+  padding: rem(115px) 0 rem(60px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(31px);
+  }
+  &_text {
+    @include bodyMedium;
+    color: $secondGray;
+    margin-bottom: rem(10px);
+    max-width: rem(690px);
+    line-height: 32px;
+  }
+}
+.advantages-company {
+  padding: rem(80px) 0 0;
+  &__title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(54px);
+  }
+  &__item {
+    display: flex;
+    margin-bottom: rem(30px);
+    align-items: center;
+  }
+  &__text {
+    margin-left: rem(18px);
+    @include subtitleSemiBold;
+    color: $main;
+  }
+}

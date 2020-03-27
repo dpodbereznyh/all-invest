@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/header/header-logo.ico">
+    <link rel="apple-touch-icon" href="img/header/header-logo.ico">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/header/header-logo72.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/header/header-logo.ico">
+    <link rel="stylesheet" href="libs/sm-core-css.css">
+    <link rel="stylesheet" href="libs/sm-blue.css">
+    <link rel="stylesheet" href="fonts/fontawesome/all.min.css">
+    <link rel="stylesheet" href="libs/swiper.min.css">
+    <link rel="stylesheet" href="libs/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Профлист и сайдинг | АЛЬЯНС-ИНВЕСТ</title>
+</head>
+<body>
+<main class="main">
+    <header class="header">
+        <div class="header__top_nav">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
+                        <a href="/" class="header__logo">
+                            <div class="header__logo_img">
+                                <img src="img/header/header-logo.svg" alt="Альянс Инвест">
+                            </div>
+                            <div class="header__logo_text">
+                                <img src="img/header/logo-text.svg" alt="Альянс Инвест">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-none d-lg-flex col-lg-3 col-xl-auto">
+                        <div class="header__location">
+                            <img src="img/main-screen/location.svg" alt="Адрес">
+                            <p class="header__location_text">
+                                г. Владимир, ул. Уличная 25, 3 этаж, офис 7
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-flex col-md-4 col-lg-3 col-xl-auto">
+                        <div class="header__mail">
+                            <img src="img/main-screen/envelope.svg" alt="Email">
+                            <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
+                                mizinov.invest@yandex.ru
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-auto">
+                        <div class="header__phone">
+                            <img src="img/main-screen/phone.svg" alt="Телефон">
+                            <div class="header__phone_text">
+                                <a href="tel:+79004740609">
+                                    +7 (900) 474-06-09
+                                </a>
+                                <span>
+                               Ежедневно: 9.00 - 18.00
+                           </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom_nav">
+            <div class="container-fluid">
+                <nav class="main-nav" role="navigation">
+                    <!-- Mobile menu toggle button (hamburger/x icon) -->
+                    <input id="main-menu-state" type="checkbox" />
+                    <label class="main-menu-btn" for="main-menu-state">
+                        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+                    </label>
+                    <!-- Sample menu definition -->
+                    <ul id="main-menu" class="sm sm-blue">
+                        <li class="has-mega-menu"><a href="#">УСЛУГИ</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <div class="column-1-3">
+                                        <a href="#">Подсистемы</a>
+                                        <ul>
+                                            <li><a href="#">Перекрестная</a></li>
+                                            <li><a href="#">Горизонтальная</a></li>
+                                            <li><a href="#">Вертикальная</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Крепеж</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Алюминевые композиты</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Керамагранит</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фасадные подъемники</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фиброцемент</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega-menu"><a href="#">МАТЕРИАЛЫ И КОМПЛЕКТУЮЩИЕ</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <div class="column-1-3">
+                                        <a class="sub-link" href="#">Подсистемы</a>
+                                        <ul>
+                                            <li class="sub-sub-link"><a href="#">Перекрестная</a></li>
+                                            <li class="sub-sub-link"><a href="#">Горизонтальная</a></li>
+                                            <li class="sub-sub-link"><a href="#">Вертикальная</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Крепеж</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Алюминевые композиты</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Керамагранит</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фасадные подъемники</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фиброцемент</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                О КОМПАНИИ
+                            </a>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                Наши работы
+                            </a>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                Контакты
+                            </a>
+                        </li>
+                        <button href="#" class="header__nav_btn">
+                            Заказать звонок
+                        </button>
+                    </ul>
+                    <button href="#" class="header__nav_btn header__nav_btn_mobile ">
+                        Заказать звонок
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div class="breadcrumb">
+            <div class="container-fluid">
+                <ul class="breadcrumb__list">
+                    <li>
+                        <a href="#">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Услуги
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Монтаж
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Профлист и сайдинг
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="proflist__offer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10 col-xl-8">
+                    <h1 class="main__screen_title main__screen_inner_title">
+                        Вентилируемые фасады из профлиста и сайдинга
+                    </h1>
+                </div>
+                <div class="col-12">
+                    <p class="main__screen_subtitle">
+                        За один месяц всего от 2800 руб./ кв.м.
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="order__btn">
+                Оставить заявку
+            </a>
+
+        </div>
+    </section>
+    <section class="proflist__second_screen">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <h2 class="proflist__second_screen_title">
+                        Технология монтажа
+                    </h2>
+                    <p class="proflist__second_screen_text">
+                        Процесс монтажа навесного вентилируемого фасада с облицовкой профилированным листом, металлическим сайдингом или линеарными панелями состоит из следующих этапов:
+                    </p>
+
+                    <ul class="proflist__list">
+                        <li class="proflist__list_item">устанавливаются несущие кронштейны;</li>
+                        <li class="proflist__list_item">выполняется монтаж утеплителя с креплением тарельчатыми дюбелями;</li>
+                        <li class="proflist__list_item">выполняется монтаж направляющих каркаса фасадной подконструкции;</li>
+                        <li class="proflist__list_item">крепление облицовки к направляющим, как правило, происходит при помощи саморезов с резиновой шайбой (кровельный саморез), окрашенных в цвет облицовки;</li>
+                        <li class="proflist__list_item">примыкания к окнам, дверям могут выполняться из того же профлиста или специальными доборными элементами из оцинкованной окрашенной стали</li>
+                    </ul>
+                    <p class="proflist__second_screen_text">
+                        Данный тип фасадов очень распространен при реконструкции промышленных зданий, из-за его не высокой стоимости, полной пожаробезопасности и возможности компенсировать любые отклонения существующих ограждающих конструкций.
+                    </p>
+                    <p class="proflist__second_screen_text">
+                        Так же, навесной фасад с облицовкой профнастилом может выполняться без теплоизоляционного слоя. То есть фасад выполняет только декоративную функцию.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="proflist__advantages">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 offset-md-6 col-md-6">
+                    <h2 class="proflist__second_screen_title">
+                        Преимущества
+                    </h2>
+                    <ul class="proflist__list">
+                        <li class="proflist__list_item">устанавливаются несущие кронштейны;</li>
+                        <li class="proflist__list_item">выполняется монтаж утеплителя с креплением тарельчатыми дюбелями;</li>
+                        <li class="proflist__list_item">выполняется монтаж направляющих каркаса фасадной подконструкции;</li>
+                        <li class="proflist__list_item">крепление облицовки к направляющим, как правило, происходит при помощи саморезов с резиновой шайбой (кровельный саморез), окрашенных в цвет облицовки;</li>
+                        <li class="proflist__list_item">примыкания к окнам, дверям могут выполняться из того же профлиста или специальными доборными элементами из оцинкованной окрашенной стали</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="proflist__components">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <h2 class="proflist__components_title">
+                        Составляющие стоимости
+                    </h2>
+                    <p class="proflist__components_text">
+                        Мы бесплатно подготовим подробный расчет стоимости Вашего фасада с подробным перечнем используемых материалов и производимых работ. Если у Вас нет проекта здания, то мы произведем все необходимые замеры.
+                    </p>
+                    <ul class="proflist__components_list">
+                        <li class="proflist__components_list_item">стальная фасадная подконструкция;</li>
+                        <li class="proflist__components_list_item">теплоизоляционный слой толщиной 100 мм;</li>
+                        <li class="proflist__components_list_item">крепеж: анкера, тарельчатые дюбели, вытяжные заклепки;</li>
+                        <li class="proflist__components_list_item">оконные обрамления и отливы из оцинкованной окрашенной стали;</li>
+                        <li class="proflist__components_list_item">профилированный лист С10 (или сайдинг) оцинкованный окрашенный;</li>
+                        <li class="proflist__components_list_item">работы по монтажу фасада</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation" id="consultation" style="background: url('/img/consultation/consultation-bg.png') no-repeat left/ 100% 100%">
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-lg-7 col-xl-8">
+                    <h4 class="consultation__title">
+                        Возникли вопросы?
+                    </h4>
+                    <p class="consultation__subtitle">
+                        Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
+                    </p>
+                    <form action="#" class="consultation__form form">
+                        <div class="controls">
+                            <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
+                            <span class="error_name"></span>
+                        </div>
+                        <div class="controls">
+                            <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
+                            <span class="error_phone"></span>
+                        </div>
+                        <button type="submit" class="form__btn btn">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="consultation__img">
+                        <img src="/img/consultation/img-1.png" alt="consultation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="works" id="works">
+        <div class="container-fluid">
+            <div class="works__header">
+                <h2 class="works__title">
+                    Выполненные объекты
+                </h2>
+                <a href="#" class="works__btn">
+                    Смотреть все
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="/img/works/mo-odincovo.png" alt="ЖК «Жемчужина»">
+                        </div>
+                        <span class="works__item_text">
+                               МО, Одинцовский район, д. Гигерево, ЖК «Жемчужина»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="/img/works/kfc.png" alt="KFC">
+                        </div>
+                        <span class="works__item_text">
+                                г.Ковров, ул. Строителей, д. 25 «KFC»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="/img/works/jarcevskaja.png" alt="г. Москва, ул. Ярцевская, д. 33">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, ул. Ярцевская, д. 33, корп. 1, Жилой дом
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="/img/works/sosh1.png" alt="МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1">
+                        </div>
+                        <span class="works__item_text">
+                               МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="/img/works/polyclinica.png" alt="г. Москва, ул. Нижегородская, д. 29 «Поликлиника»">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, ул. Нижегородская, д. 29 «Поликлиника»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="/img/works/degtyarnyy.png" alt="г. Москва, Дегтярный пер д. 4, стр. 1">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, Дегтярный пер, д. 4, стр. 1
+                           </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customers" id="customers">
+        <div class="container-fluid">
+            <h2 class="customers__title">
+                Наши клиенты
+            </h2>
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="/img/customers/triumf.png" alt="Триумф">
+                        </div>
+                        <span class="customers__item_text">
+                               Триумф
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="/img/customers/mapid.png" alt="Мапид">
+                        </div>
+                        <span class="customers__item_text">
+                               Мапид
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="/img/customers/kfc.png" alt="KFC">
+                        </div>
+                        <span class="customers__item_text">
+                               KFC
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="/img/customers/stroitelnij_trest.png" alt="Строй Трест">
+                        </div>
+                        <span class="customers__item_text">
+                               Строй Трест
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="/img/customers/SVSESS.png" alt="СВСЭСС">
+                        </div>
+                        <span class="customers__item_text">
+                               СВСЭСС
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="/img/customers/vladstroy.png" alt="ВладСтройЗаказчик">
+                        </div>
+                        <span class="customers__item_text">
+                               ВладСтройЗаказчик
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="/img/customers/gvsu.png" alt="ГВСУ-14">
+                        </div>
+                        <span class="customers__item_text">
+                               ГВСУ-14
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="/img/customers/t-stroj.png" alt="Т-СТРОЙ">
+                        </div>
+                        <span class="customers__item_text">
+                               Т-СТРОЙ
+                           </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation__second" style="background: url('/img/consultation-second/bg.png')">
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-10 col-lg-7 col-xl-8">
+                    <h4 class="consultation__title">
+                        Бесплатная консультация
+                    </h4>
+                    <p class="consultation__subtitle">
+                        Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
+                    </p>
+                    <form action="#" class="consultation__form form">
+                        <div class="controls">
+                            <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
+                            <span class="error_name"></span>
+                        </div>
+                        <div class="controls">
+                            <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
+                            <span class="error_phone"></span>
+                        </div>
+                        <button type="submit" class="form__btn btn">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-4">
+                    <img class="consultation__second_img" src="/img/consultation-second/image3.png" alt="consultation">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map__section">
+        <div id="map"></div>
+    </section>
+</main>
+<footer class="footer" id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="footer__menu_wrap">
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Материалы и комплектующие
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Фасадные подсистемы</a></li>
+                            <li class="footer__menu_item"><a href="#">Крепеж</a></li>
+                            <li class="footer__menu_item"><a href="#">Изоляция</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Наши услуги
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Проектирование</a></li>
+                            <li class="footer__menu_item"><a href="#">Поставка</a></li>
+                            <li class="footer__menu_item"><a href="#">Монтаж</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Покупателям
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">О компании</a></li>
+                            <li class="footer__menu_item"><a href="#">Наши проекты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Системы мокрых фасадов
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Керамогранит</a></li>
+                            <li class="footer__menu_item"><a href="#">Фасадные подъемники</a></li>
+                            <li class="footer__menu_item"><a href="#">Фиброцемент</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="footer__menu_title footer__contact_title">
+                    Контакты
+                </p>
+                <div class="footer__phone">
+                    <img src="/img/main-screen/phone.svg" alt="Телефон">
+                    <div class="footer__phone_text">
+                        <a href="tel:+79004740609">
+                            +7 (900) 474-06-09
+                        </a>
+                        <span>
+                               Ежедневно: 9.00 - 18.00
+                           </span>
+                    </div>
+                </div>
+                <div class="footer__location">
+                    <img src="/img/main-screen/location.svg" alt="Адрес">
+                    <p class="footer__location_text">
+                        г. Владимир, ул. Уличная 25, 3 этаж, офис 7
+                    </p>
+                </div>
+                <div class="footer__mail">
+                    <img src="/img/main-screen/envelope.svg" alt="Email">
+                    <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
+                        mizinov.invest@yandex.ru
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container-fluid">
+            <div class="footer__bottom_wrap">
+                <p class="footer__copyright">
+                    &#169; 2020 Альянс Инвест. Все права защищены.
+                </p>
+                <div class="footer__develope">
+                    <p>
+                        Сайт разработан в
+                    </p>
+                    <a href="https://apimedia.ru/">
+                        «API Media»
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="overlay" id="popap__header_btn">
+    <div class="popap">
+        <div class="popap__close">&times;</div>
+        <!-- /.popap_close -->
+        <h4 class="consultation__title">
+            Заказать звонок
+        </h4>
+        <p class="consultation__subtitle">
+            Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
+        </p>
+        <form action="#" class="consultation__form form">
+            <div class="controls">
+                <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
+                <span class="error_name"></span>
+            </div>
+            <div class="controls">
+                <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
+                <span class="error_phone"></span>
+            </div>
+            <button type="submit" class="form__btn btn">
+                Отправить
+            </button>
+        </form>
+        <!-- /.popap_form -->
+    </div>
+    <!-- /.popap -->
+</div>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=164878f7-9a00-498a-a061-ced0e3719e53
+&lang=ru_RU" type="text/javascript"></script>
+<script src="libs/jquery-3.4.1.min.js"></script>
+<script src="libs/swiper.min.js"></script>
+<script src="libs/jquery.fancybox.min.js"></script>
+<script src="js/scripts.min.js"></script>
+<script>
+    var mainSlider = new Swiper('.swiper-container-main', {
+        navigation: {
+            nextEl: '.swiper-button-next-main',
+            prevEl: '.swiper-button-prev-main',
+        },
+        pagination: {
+            el: '.swiper-pagination-main',
+            clickable: true,
+        },
+
+    });
+    var reviewSlider = new Swiper ('.swiper-container-review', {
+        slidesPerView: 4,
+        navigation: {
+            nextEl: '.swiper-button-next-review',
+            prevEl: '.swiper-button-prev-review',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            1201: {
+                slidesPerView: 4,
+            },
+            993: {
+                slidesPerView: 3,
+            },
+            769: {
+                slidesPerView: 2,
+            },
+            577: {
+                slidesPerView: 2,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+        }
+    });
+    var projectsSlider = new Swiper ('.swiper-container-projects', {
+        slidesPerView: 1,
+        spaceBetween: 32,
+        navigation: {
+            nextEl: '.swiper-button-next-projects',
+            prevEl: '.swiper-button-prev-projects',
+        },
+    });
+</script>
+
+
+
+</body>
+</html>

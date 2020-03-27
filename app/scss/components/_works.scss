@@ -1,0 +1,60 @@
+.works {
+  padding: rem(80px) 0 rem(6px);
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: rem(50px);
+  }
+  &__title {
+    @include h2Bold;
+    color: $mainText;
+  }
+  &__btn {
+    width: rem(222px);
+    height: rem(50px);
+    @include buttonMainBold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: $secondGray;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    &:hover {
+      background: $activeBlue;
+      transition: all 0.3s ease;
+      color: #ffffff;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__item {
+    height: rem(315px);
+    width: rem(389px);
+    text-decoration: none;
+    display: block;
+    margin: 0 auto rem(74px);
+    &_img {
+      height: rem(250px);
+      width: inherit;
+      img {
+        width: inherit;
+      }
+    }
+    &_text {
+      padding: 0 rem(50px) 0 rem(30px);
+      min-height: rem(65px);
+      width: inherit;
+      background: $main;
+      @include subtitleSemiBold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+
+    }
+  }
+}

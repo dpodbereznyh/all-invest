@@ -1,0 +1,91 @@
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false ) {
+  @font-face {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+
+    @if $asset-pipeline == true {
+      src: font-url('#{$file-path}.eot');
+      src: font-url('#{$file-path}.eot?#iefix') format('embedded-opentype'), font-url('#{$file-path}.woff') format('woff'), font-url('#{$file-path}.ttf') format('truetype');
+    } @else {
+      src: url('#{$file-path}.eot');
+      src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'), url('#{$file-path}.woff') format('woff'), url('#{$file-path}.ttf') format('truetype');
+    }
+  }
+}
+@mixin h1Bold {
+  font-size: rem(52px);
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: rem(73px);
+}
+@mixin h2Bold {
+  font-size: rem(34px);
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: rem(46px);
+}
+@mixin h3Bold {
+  font-size: rem(32px);
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: rem(32px);
+}
+@mixin h4Bold {
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: rem(28px);
+  line-height: rem(39px);
+}
+
+@mixin subtitleMedium {
+  font-size: rem(18px);
+  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: rem(25px);
+}
+@mixin subtitleSemiBold {
+  font-size: rem(16px);
+  font-weight: 600;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: rem(21px);
+}
+@mixin bodyMedium {
+  font-size: rem(16px);
+  font-weight: 500;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: rem(32px);
+}
+@mixin bodyRegular {
+  font-size: rem(16px);
+  font-weight: normal;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 22px;
+}
+@mixin buttonLargeBold {
+  font-size: rem(20px);
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: rem(27px);
+}
+@mixin buttonMainBold {
+  font-size: rem(16px);
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: rem(22px);
+  letter-spacing: 0.25px;
+}
+@mixin formBtn {
+  @include buttonMainBold;
+  text-transform: uppercase;
+  padding: 0;
+  color: #fff;
+  background: $activeBlue;
+  height: rem(50px);
+  width: rem(200px);
+  border: 2px solid $activeBlue;
+  transition: all 0.3s ease;
+}
+@function rem($px) {
+  @return $px/16px+0rem;
+}

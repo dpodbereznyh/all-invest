@@ -1,0 +1,36 @@
+.customers {
+  padding: rem(82px) 0 rem(40px);
+  &__title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(49px);
+  }
+  &__item {
+    height: rem(180px);
+    width: rem(284px);
+    text-decoration: none;
+    display: block;
+    box-shadow: 3px 3px 15px rgba(26, 26, 26, 0.11);
+    margin: 0 auto rem(40px);
+    &_img {
+      height: rem(140px);
+      width: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+
+      }
+    }
+    &_text {
+      height: rem(40px);
+      width: inherit;
+      background: $accent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      @include bodyMedium;
+    }
+  }
+}

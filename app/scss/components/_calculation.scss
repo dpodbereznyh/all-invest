@@ -1,0 +1,48 @@
+.calculation {
+  padding: rem(80px) 0 rem(65px);
+  background: url("/img/design/calc.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: calc(50% + 337px);
+  &__title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(29px);
+    &_album {
+      margin-top: rem(69px);
+    }
+  }
+  &__text {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(15px);
+    max-width: rem(685px);
+  }
+}
+.calculation__list {
+  margin-left: rem(16px);
+  margin-bottom: rem(40px);
+  max-width: rem(450px);
+  &_title {
+    @include subtitleMedium;
+    color: $mainText;
+    margin: rem(40px) 0 rem(12px);
+  }
+  &_item {
+    position: relative;
+    @include bodyRegular;
+    color: $secondGray;
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6px);
+      height: rem(6px);
+      border-radius: 50%;
+      background: $assetInterface;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(rem(-16px), -25%);
+    }
+  }
+}

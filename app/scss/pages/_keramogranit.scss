@@ -1,0 +1,263 @@
+.main__screen_inner-keramogranit {
+  padding: rem(163px) 0 rem(233px)!important;
+}
+.keramogranit__second_screen {
+  background: url("/img/keramogranit/keramogranit-image.png");
+  background-repeat: no-repeat;
+  background-size: auto 393px;
+  background-position: calc(50% + 530px);
+  padding: rem(80px) 0 rem(58px);
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(31px);
+  }
+  &_text {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(20px);
+    max-width: rem(857px);
+  }
+}
+.keramogranit__list {
+  margin-left: rem(16px);
+  max-width: rem(394px);
+  margin-bottom: rem(20px);
+  &_title {
+    @include subtitleMedium;
+    color: $mainText;
+    margin: rem(23px) 0 0;
+  }
+  &_item {
+    position: relative;
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(5px);
+    &:before {
+      content: "";
+      display: block;
+      width: rem(6px);
+      height: rem(6px);
+      border-radius: 50%;
+      background: $assetInterface;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(rem(-16px), -25%);
+    }
+  }
+}
+.keramogranit__gallary {
+  padding: rem(80px) 0 rem(116px);
+  background: $border;
+  position: relative;
+  &_title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(45px);
+    text-align: center;
+  }
+}
+.swiper-container-keramogranit {
+  width: 1020px;
+  //height: 24.25rem;
+  //position: relative;
+}
+.swiper-wrapper-keramogranit {
+  width: 100%;
+}
+.swiper-slide-keramogranit {
+  width: inherit;
+  //height: 297px;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  background: #ffffff;
+  padding: 50px;
+  &_image {
+    width: 100%;
+    border-bottom: 3px solid #F3F3F3;
+    padding-bottom: rem(15px);
+    margin-bottom: rem(18px);
+    img {
+      width: rem(264px);
+      height: rem(59px);
+      display: block;
+    }
+  }
+  &_caption {
+    @include bodyRegular;
+    color: $secondGray;
+  }
+}
+.swiper-pagination-keramogranit {
+  height: 12px;
+  width: 290px!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%!important;
+  transform: translate(-50%, 0)!important;
+  bottom: 79px!important;
+  .swiper-pagination-bullet-active {
+    background: rgba(41, 101, 180, 0.7);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+}
+.swiper-pagination-keramogranit span {
+  background: #B6B6B6;
+  opacity: 0.7;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+.swiper-button-next-keramogranit, .swiper-button-prev-keramogranit {
+  background: #525252;
+  width: 3.125rem;
+  height: 3.125rem;
+  z-index: 777;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 1.875rem;
+  transition: .3s;
+  outline: none;
+  transition: all 0.3s ease;
+  &:hover {
+    background: rgba(41,101,180,.7);
+    transition: all 0.3s ease;
+  }
+  &:focus {
+    background: rgba(41,101,180,.7);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background: rgba(41,101,180,.7);
+    transition: all 0.3s ease;
+  }
+}
+.color-solutions {
+  padding: rem(82px) 0 rem(80px);
+  &__title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(49px);
+    text-align: center;
+  }
+  &__item {
+    width: rem(284px);
+    text-decoration: none;
+    display: block;
+    box-shadow: 3px 3px 15px rgba(26, 26, 26, 0.11);
+    margin: 0 auto rem(40px);
+    &_img {
+      height: rem(140px);
+      width: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+    &_text {
+      //height: rem(40px);
+      width: inherit;
+      background: $accent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      padding: 8px 0;
+    }
+  }
+  &_btn {
+    max-width: rem(335px);
+    font-weight: bold;
+    font-size: rem(16px);
+    line-height: rem(22px);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: $secondGray;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: rem(13px) 0;
+    color: #ffffff;
+    display: block;
+    margin: 10px auto 0;
+    &:hover {
+      background: $accent;
+      transition: all 0.3s ease;
+      color: #ffffff;
+    }
+  }
+}
+.techinfo {
+  padding: rem(82px) 0 rem(80px);
+  background: $border;
+  &__title {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(26px);
+  }
+  &__nav {
+    display: flex;
+    margin-bottom: rem(41px);
+    &_desc {
+      @include subtitleMedium;
+      color: $secondGray;
+      margin-right: rem(18px);
+      cursor: pointer;
+    }
+    &_specific {
+      @include subtitleMedium;
+      color: $secondGray;
+      cursor: pointer;
+    }
+  }
+  &__text {
+    @include bodyRegular;
+    color: $main;
+    margin-bottom: rem(20px);
+  }
+  &__list {
+    @include bodyRegular;
+    color: $main;
+
+    &_title {
+      @include bodyRegular;
+      color: $main;
+      margin-bottom: rem(5px);
+    }
+  }
+}
+.techinfo-active_desc {
+  display: block;
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: $accent;
+  }
+}
+.techinfo-active_spec {
+  display: none;
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: $accent;
+  }
+}
