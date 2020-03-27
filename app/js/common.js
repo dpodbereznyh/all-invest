@@ -1,14 +1,7 @@
 $(document).ready(function() {
-    // Menu
-    $('.header__menu_list>li').click(function (e) {
-        $('.' + $(this).data('ddm')).toggleClass('ddm-active');
-    });
-
-// SmartMenus mobile menu toggle button
+    // SmartMenus mobile menu toggle button
     $(function() {
-        $('#main-menu').smartmenus({
-            hideTimeout: 300000
-        });
+        $('#main-menu').smartmenus();
 
     });
     // SmartMenus mobile menu toggle button
@@ -32,22 +25,19 @@ $(document).ready(function() {
             });
         }
     });
-
-
-    $('.fa-bars').click(function (e) {
-        e.preventDefault();
-        $('.ddm__wrap').toggleClass('ddm-active');
-    });
-
-    // Submenu
-    $('.sub-menu').hide();
-    $('.ddm__title').mouseover(function (e) {
-        $(this).siblings('.sub-menu').show();
-    });
-    $('.ddm__list').mouseleave(function (e) {
-        $('.sub-menu').hide();
-    });
-
+    //Swiper
+        //initialize swiper when document ready
+        var mainSlider = new Swiper ('.swiper-container-main', {
+            // Optional parameters
+            navigation: {
+                nextEl: '.swiper-button-next-main',
+                prevEl: '.swiper-button-prev-main',
+            },
+            pagination: {
+                el: '.swiper-pagination-review',
+                clickable: true,
+            },
+        });
     // Fancybox
     $(document).ready(function() {
         $(".fancybox").fancybox();
@@ -79,11 +69,6 @@ $(document).ready(function() {
             $('.techinfo-active_spec').css('display', 'none');
         }
     });
-
-
-    // $('.ddm__list').mouseleave(function (e) {
-    //     $('.sub-menu').hide();
-    // });
 
     // Map
     ymaps.ready(init);
