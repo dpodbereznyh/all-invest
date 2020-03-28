@@ -69,38 +69,39 @@ $(document).ready(function() {
             }
         });
     var projectsSlider = new Swiper ('.swiper-container-projects', {
-        slidesPerView: 3,
+        slidesPerView: 2,
+        loop: true,
         spaceBetween: 30,
-        freeMode: true,
-        // loop: true,
         navigation: {
             nextEl: '.swiper-button-next-projects',
             prevEl: '.swiper-button-prev-projects',
         },
         breakpoints: {
-            // when window width is >= 320px
-            1200: {
-                slidesPerView: 3,
-            },
-            900: {
-                slidesPerView: 5,
-                spaceBetween: 30,
-            },
-            660: {
-                slidesPerView: 4,
-                spaceBetween: 30,
-            },
-            500: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            },
             320: {
+                slidesPerView: 1,
+            },
+            430: {
                 slidesPerView: 2,
-                spaceBetween: 10,
+                spaceBetween: 0,
+            },
+            600: {
+                slidesPerView: 3,
+                spaceBetween: 0,
+            },
+            800: {
+                slidesPerView: 4,
+                spaceBetween: 0,
+            },
+            1000: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            1251: {
+                slidesPerView: 3,
+                spaceBetween: 30,
             },
 
         }
-
     });
     // Fancybox
     $(document).ready(function() {

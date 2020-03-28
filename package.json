@@ -26,19 +26,4 @@
     "lodash.iteratee": "^4.7.0",
     "postcss-px-to-viewport": "^1.1.1"
   }
-},
-
-[{
-  "caption": "Info",
-  "fields": [{
-    "field": "title",
-    "caption": "Title"
-  },
-    {
-      "field": "description",
-      "caption": "Description",
-      "inputTVtype": "richtext"
-    }
-  ]
 }
-]

@@ -1,5 +1,5 @@
 .main__screen_inner-projects {
-  padding: rem(183px) 0 rem(248px)!important;
+  padding: rem(190px) 0 rem(260px)!important;
 }
 .projects__list {
   padding: rem(80px) 0;
@@ -8,12 +8,11 @@
     background: $border;
   }
   &_item {
-    height: rem(380px)!important;
-    width: rem(600px);
-    display: flex;
-
+    width: 100%;
+    height: inherit;
     img {
       width: inherit;
+      height: inherit;
     }
     &_title {
       @include subtitleMedium;
@@ -27,16 +26,19 @@
     }
   }
 }
-.swiper-container-projects {
-  margin-top: rem(30px);
-  height: rem(178px);
+.projects-wrap {
+  margin-top: 40px;
+  height: 178px!important;
   position: relative;
+  width: 100%;
+}
+.swiper-container-projects {
+  overflow: hidden;
   width: 100%;
 }
 .swiper-slide-projects {
 
   img {
-    height: inherit;
     margin: 0 auto;
     display: block;
   }
@@ -46,7 +48,7 @@
   height: rem(26px);
   position: absolute;
   top: 50%;
-  transform: translate(0, 50%);
+  transform: translate(-100%, 50%);
   left: 0;
   display: flex;
   align-items: center;
@@ -67,7 +69,7 @@
   height: rem(26px);
   position: absolute;
   top: 50%;
-  transform: translate(0, 50%);
+  transform: translate(100%, 50%);
   right: 0;
   display: flex;
   align-items: center;
