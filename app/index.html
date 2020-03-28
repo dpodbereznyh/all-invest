@@ -199,8 +199,8 @@
                </div>
            </div>
        </header>
-       <section class="swiper-container swiper-container-main" id="main__screen">
-               <ul class="swiper-wrapper">
+       <section class="swiper-container-main" id="main__screen">
+               <ul class="swiper-wrapper swiper-wrapper-main">
                    <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg1.png') no-repeat center center/cover">
                        <div class="main__screen_offer">
                            <div class="container-fluid">
@@ -602,22 +602,9 @@
                <h2 class="review__title">
                    Отзывы клиентов
                </h2>
-               <div class="swiper-container swiper-container-review">
-                   <ul class="review__list swiper-wrapper">
-                       <li class="swiper-slide swiper-slide-review">
-                           <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                               <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                           </a>
-                           <div class="review__item_overlay">
-                               <div class="review__item_overlay-icon">
-                                   <img src="img/review/search.png" alt="search">
-                               </div>
-                               <p class="review__item_overlay-text">
-                                   Н.М. Гальченко, ООО «‎Гальмед»
-                               </p>
-                           </div>
-                       </li>
-                       <li class="swiper-slide swiper-slide-review">
+               <div class="swiper-container-review">
+                   <ul class="swiper-wrapper">
+                       <li class="swiper-slide review__item">
                            <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
                                <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
                                <div class="review__item_overlay">
@@ -629,59 +616,45 @@
                                    </p>
                                </div>
                            </a>
-
                        </li>
-                       <li class="swiper-slide swiper-slide-review">
+                       <li class="swiper-slide review__item">
                            <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
                                <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                           </a>
-                           <div class="review__item_overlay">
-                               <div class="review__item_overlay-icon">
-                                   <img src="img/review/search.png" alt="search">
+                               <div class="review__item_overlay">
+                                   <div class="review__item_overlay-icon">
+                                       <img src="img/review/search.png" alt="search">
+                                   </div>
+                                   <p class="review__item_overlay-text">
+                                       Н.М. Гальченко, ООО «‎Гальмед»
+                                   </p>
                                </div>
-                               <p class="review__item_overlay-text">
-                                   Н.М. Гальченко, ООО «‎Гальмед»
-                               </p>
-                           </div>
+                           </a>
                        </li>
-                       <li class="swiper-slide swiper-slide-review">
+                       <li class="swiper-slide review__item">
                            <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
                                <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                           </a>
-                           <div class="review__item_overlay">
-                               <div class="review__item_overlay-icon">
-                                   <img src="img/review/search.png" alt="search">
+                               <div class="review__item_overlay">
+                                   <div class="review__item_overlay-icon">
+                                       <img src="img/review/search.png" alt="search">
+                                   </div>
+                                   <p class="review__item_overlay-text">
+                                       Н.М. Гальченко, ООО «‎Гальмед»
+                                   </p>
                                </div>
-                               <p class="review__item_overlay-text">
-                                   Н.М. Гальченко, ООО «‎Гальмед»
-                               </p>
-                           </div>
+                           </a>
                        </li>
-                       <li class="swiper-slide swiper-slide-review">
+                       <li class="swiper-slide review__item">
                            <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
                                <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                           </a>
-                           <div class="review__item_overlay">
-                               <div class="review__item_overlay-icon">
-                                   <img src="img/review/search.png" alt="search">
+                               <div class="review__item_overlay">
+                                   <div class="review__item_overlay-icon">
+                                       <img src="img/review/search.png" alt="search">
+                                   </div>
+                                   <p class="review__item_overlay-text">
+                                       Н.М. Гальченко, ООО «‎Гальмед»
+                                   </p>
                                </div>
-                               <p class="review__item_overlay-text">
-                                   Н.М. Гальченко, ООО «‎Гальмед»
-                               </p>
-                           </div>
-                       </li>
-                       <li class="swiper-slide swiper-slide-review">
-                           <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                               <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
                            </a>
-                           <div class="review__item_overlay">
-                               <div class="review__item_overlay-icon">
-                                   <img src="img/review/search.png" alt="search">
-                               </div>
-                               <p class="review__item_overlay-text">
-                                   Н.М. Гальченко, ООО «‎Гальмед»
-                               </p>
-                           </div>
                        </li>
                    </ul>
                </div>
@@ -854,35 +827,35 @@
 
    <script src="js/scripts.min.js"></script>
     <script>
-    var reviewSlider = new Swiper ('.swiper-container-review', {
-        slidesPerView: 4,
-        navigation: {
-            nextEl: '.swiper-button-next-review',
-            prevEl: '.swiper-button-prev-review',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        breakpoints: {
-            1201: {
-                slidesPerView: 4,
-            },
-            993: {
-                slidesPerView: 3,
-            },
-            769: {
-                slidesPerView: 2,
-            },
-            577: {
-                slidesPerView: 2,
-            },
-            320: {
-                slidesPerView: 1,
-                centeredSlides: true,
-            },
-        }
-    });
+    // var reviewSlider = new Swiper ('.swiper-container-review', {
+    //     slidesPerView: 4,
+    //     navigation: {
+    //         nextEl: '.swiper-button-next-review',
+    //         prevEl: '.swiper-button-prev-review',
+    //     },
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //     },
+    //     breakpoints: {
+    //         1201: {
+    //             slidesPerView: 4,
+    //         },
+    //         993: {
+    //             slidesPerView: 3,
+    //         },
+    //         769: {
+    //             slidesPerView: 2,
+    //         },
+    //         577: {
+    //             slidesPerView: 2,
+    //         },
+    //         320: {
+    //             slidesPerView: 1,
+    //             centeredSlides: true,
+    //         },
+    //     }
+    // });
     var projectsSlider = new Swiper ('.swiper-container-projects', {
         slidesPerView: 1,
         spaceBetween: 32,

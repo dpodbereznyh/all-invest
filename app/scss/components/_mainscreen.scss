@@ -19,6 +19,8 @@
 .swiper-container-main {
   height: rem(660px);
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 .swiper-button-next-main, .swiper-button-prev-main {
   //background: rgba(41, 101, 180, 0.7);

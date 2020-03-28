@@ -34,10 +34,74 @@ $(document).ready(function() {
                 prevEl: '.swiper-button-prev-main',
             },
             pagination: {
-                el: '.swiper-pagination-review',
+                el: '.swiper-pagination-main',
                 clickable: true,
             },
         });
+        var reviewSlider = new Swiper ('.swiper-container-review', {
+            // Optional parameters
+            slidesPerView: 4,
+            loop: true,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: '.swiper-button-next-review',
+                prevEl: '.swiper-button-prev-review',
+            },
+            pagination: {
+                el: '.swiper-pagination-review',
+                clickable: true,
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                1142: {
+                    slidesPerView: 4,
+                },
+                836: {
+                    slidesPerView: 3,
+                },
+                590: {
+                    slidesPerView: 2,
+                },
+                320: {
+                    slidesPerView: 1,
+                },
+
+            }
+        });
+    var projectsSlider = new Swiper ('.swiper-container-projects', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        freeMode: true,
+        // loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next-projects',
+            prevEl: '.swiper-button-prev-projects',
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            1200: {
+                slidesPerView: 3,
+            },
+            900: {
+                slidesPerView: 5,
+                spaceBetween: 30,
+            },
+            660: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            },
+            500: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            320: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+
+        }
+
+    });
     // Fancybox
     $(document).ready(function() {
         $(".fancybox").fancybox();
@@ -104,7 +168,7 @@ $(document).ready(function() {
     });
 
     // До/После
-    $ ( ".projects__list_item_img" ) .twentytwenty ();
+    $ ( ".projects__list_item" ) .twentytwenty ();
 
 });
 
