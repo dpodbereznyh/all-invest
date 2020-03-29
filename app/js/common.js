@@ -53,14 +53,16 @@ $(document).ready(function() {
             },
             breakpoints: {
                 // when window width is >= 320px
-                1142: {
+                1350: {
                     slidesPerView: 4,
                 },
-                836: {
+                855: {
                     slidesPerView: 3,
+                    spaceBetween: 10,
                 },
-                590: {
+                640: {
                     slidesPerView: 2,
+                    spaceBetween: 10,
                 },
                 320: {
                     slidesPerView: 1,
@@ -102,6 +104,31 @@ $(document).ready(function() {
             },
 
         }
+    });
+    var keramogranitSlider = new Swiper ('.swiper-container-keramogranit', {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next-keramogranit',
+            prevEl: '.swiper-button-prev-keramogranit',
+        },
+        pagination: {
+            el: '.swiper-pagination-keramogranit',
+            clickable: true,
+        },
+    });
+    var mainSlider = new Swiper('.swiper-container-elevators', {
+        slidesPerView: 1,
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next-elevators',
+            prevEl: '.swiper-button-prev-elevators',
+        },
+        pagination: {
+            el: '.swiper-pagination-elevators',
+            clickable: true,
+        },
+
     });
     // Fancybox
     $(document).ready(function() {

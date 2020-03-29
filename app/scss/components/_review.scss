@@ -28,6 +28,9 @@
     height: rem(402px);
     margin: 0 auto;
     position: relative;
+    img {
+      height: inherit;
+    }
   }
   &__item_overlay {
     height: rem(442px);

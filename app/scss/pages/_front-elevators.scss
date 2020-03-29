@@ -49,7 +49,7 @@
 }
 .elevators-specification {
   background: $border;
-  padding: rem(80px) 0 rem(73px);
+  padding: rem(80px) 0 rem(57px);
   &_title {
     @include h2Bold;
     color: $mainText;
@@ -159,7 +159,7 @@
   }
 }
 .front-elevators__gallary {
-  padding: rem(72px) 0 rem(38px);
+  padding: rem(72px) 0 rem(74px);
   background: $border;
   position: relative;
   &_title {
@@ -169,51 +169,58 @@
     text-align: center;
   }
 }
+.swiper-elevators-wrap {
+  width: 100%;
+  position: relative;
+}
 .swiper-container-elevators {
   width: 810px;
   position: relative;
-}
-.swiper-wrapper-elevators {
-  //width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .swiper-slide-elevators {
   width: 100%;
-  height: 420px;
-  position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
   text-decoration: none;
   display: block;
-  &:hover .swiper-wrapper-elevators_overlay {
-    opacity: 1;
-    transition: all 0.3s ease;
-  }
-  img {
+  .front-elevators-img-wrap {
+    position: relative;
     width: 100%;
     height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    &:hover .swiper-wrapper-elevators_overlay {
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+    .swiper-wrapper-elevators_overlay {
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(47, 52, 58, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: all 0.3s ease;
+      img {
+        width: 48px;
+        height: 48px;
+      }
+    }
   }
+
   &_caption {
     @include subtitleSemiBold;
     color: $activeGray;
     text-align: center;
-    margin-top: 24px;
-  }
-}
-.swiper-wrapper-elevators_overlay {
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(47, 52, 58, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: all 0.3s ease;
-  img {
-    width: 48px;
-    height: 48px;
+    margin-top: rem(24px);
   }
 }
 .swiper-pagination-elevators {
@@ -222,9 +229,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 50%!important;
-  transform: translate(-50%, 0)!important;
-  bottom: 42px!important;
+  width: auto;
+  margin: 20px auto 0;
   .swiper-pagination-bullet-active {
     background: rgba(41, 101, 180, 0.7);
     width: 15px;
@@ -250,8 +256,14 @@
   justify-content: center;
   position: absolute;
   top: 50%;
-  transform: translate(0, -50%);
+  transform: translate(0, -100%);
   font-size: 1.875rem;
   transition: .3s;
   outline: none;
+}
+.swiper-button-next-elevators {
+  right: 0;
+}
+.swiper-button-prev-elevators {
+  left: 0;
 }

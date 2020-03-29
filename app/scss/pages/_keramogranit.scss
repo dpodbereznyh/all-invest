@@ -1,5 +1,5 @@
 .main__screen_inner-keramogranit {
-  padding: rem(163px) 0 rem(233px)!important;
+  padding: rem(208px) 0 rem(233px)!important;
 }
 .keramogranit__second_screen {
   background: url("/img/keramogranit/keramogranit-image.png");
@@ -58,24 +58,24 @@
     text-align: center;
   }
 }
-.swiper-container-keramogranit {
-  width: 1020px;
-  //height: 24.25rem;
-  //position: relative;
-}
-.swiper-wrapper-keramogranit {
+.swiper-keramogranit-wrap {
   width: 100%;
+  position: relative;
+}
+.swiper-container-keramogranit {
+  max-width: rem(1020px);
+  //height: rem(297px);
+  overflow: hidden;
+  margin: 0 auto;
 }
 .swiper-slide-keramogranit {
-  width: inherit;
-  //height: 297px;
-  position: relative;
   transition: all 0.3s ease;
   cursor: pointer;
   text-decoration: none;
   display: block;
   background: #ffffff;
-  padding: 50px;
+  padding: rem(50px);
+  box-sizing: border-box;
   &_image {
     width: 100%;
     border-bottom: 3px solid #F3F3F3;
@@ -94,13 +94,13 @@
 }
 .swiper-pagination-keramogranit {
   height: 12px;
-  width: 290px!important;
+  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 50%!important;
-  transform: translate(-50%, 0)!important;
-  bottom: 79px!important;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 40px);
   .swiper-pagination-bullet-active {
     background: rgba(41, 101, 180, 0.7);
     width: 15px;
@@ -126,7 +126,7 @@
   justify-content: center;
   position: absolute;
   top: 50%;
-  transform: translate(0, -50%);
+
   font-size: 1.875rem;
   transition: .3s;
   outline: none;
@@ -143,6 +143,12 @@
     background: rgba(41,101,180,.7);
     transition: all 0.3s ease;
   }
+}
+.swiper-button-prev-keramogranit {
+  left: 0;
+}
+.swiper-button-next-keramogranit {
+  right: 0;
 }
 .color-solutions {
   padding: rem(82px) 0 rem(80px);

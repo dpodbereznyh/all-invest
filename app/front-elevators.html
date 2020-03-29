@@ -9,7 +9,6 @@
     <link rel="apple-touch-icon" sizes="72x72" href="img/header/header-logo72.ico">
     <link rel="apple-touch-icon" sizes="114x114" href="img/header/header-logo.ico">
     <link rel="stylesheet" href="libs/sm-core-css.css">
-    <link rel="stylesheet" href="libs/sm-blue.css">
     <link rel="stylesheet" href="fonts/fontawesome/all.min.css">
     <link rel="stylesheet" href="libs/swiper.min.css">
     <link rel="stylesheet" href="libs/jquery.fancybox.min.css">
@@ -189,11 +188,11 @@
                                 Контакты
                             </a>
                         </li>
-                        <button href="#" class="header__nav_btn">
-                            Заказать звонок
-                        </button>
+                        <!--<button href="#" class="header__nav_btn">-->
+                        <!--Заказать звонок-->
+                        <!--</button>-->
                     </ul>
-                    <button href="#" class="header__nav_btn header__nav_btn_mobile ">
+                    <button href="#" class="header__nav_btn">
                         Заказать звонок
                     </button>
                 </nav>
@@ -397,52 +396,29 @@
         <h2 class="front-elevators__gallary_title">
             Галерея
         </h2>
-        <div class="swiper-container swiper-container-elevators">
-            <div class="swiper-wrapper swiper-wrapper-elevators">
-                <a data-fancybox="front-elevators" href="img/front-elevators/front-elevators-slide1.png" class="swiper-slide swiper-slide-elevators">
-                    <img src="/img/front-elevators/front-elevators-slide1.png" alt="">
-                    <p class="swiper-slide-elevators_caption">
-                        Н.М. Гальченко, ООО «‎Гальмед»
-                    </p>
-                    <div class="swiper-wrapper-elevators_overlay">
-                        <img src="/img/review/search.png" alt="">
-                    </div>
-                </a>
-                <a data-fancybox="front-elevators" href="img/front-elevators/front-elevators-slide1.png" class="swiper-slide swiper-slide-elevators">
-                    <img src="/img/front-elevators/front-elevators-slide1.png" alt="">
-                    <p class="swiper-slide-elevators_caption">
-                        Н.М. Гальченко, ООО «‎Гальмед»
-                    </p>
-                    <div class="swiper-wrapper-elevators_overlay">
-                        <img src="/img/review/search.png" alt="">
-                    </div>
-                </a>
-                <a data-fancybox="front-elevators" href="img/front-elevators/front-elevators-slide1.png" class="swiper-slide swiper-slide-elevators">
-                    <img src="/img/front-elevators/front-elevators-slide1.png" alt="">
-                    <p class="swiper-slide-elevators_caption">
-                        Н.М. Гальченко, ООО «‎Гальмед»
-                    </p>
-                    <div class="swiper-wrapper-elevators_overlay">
-                        <img src="/img/review/search.png" alt="">
-                    </div>
-                </a>
-                <a data-fancybox="front-elevators" href="img/front-elevators/front-elevators-slide1.png" class="swiper-slide swiper-slide-elevators">
-                    <img src="/img/front-elevators/front-elevators-slide1.png" alt="">
-                    <p class="swiper-slide-elevators_caption">
-                        Н.М. Гальченко, ООО «‎Гальмед»
-                    </p>
-                    <div class="swiper-wrapper-elevators_overlay">
-                        <img src="/img/review/search.png" alt="">
-                    </div>
-                </a>
+        <div class="swiper-elevators-wrap">
+            <div class="swiper-container-elevators">
+                <div class="swiper-wrapper swiper-wrapper-elevators">
+                    <a data-fancybox="front-elevators" href="img/front-elevators/front-elevators-slide1.png" class="swiper-slide swiper-slide-elevators">
+                        <div class="front-elevators-img-wrap">
+                            <img src="/img/front-elevators/front-elevators-slide1.png" alt="">
+                            <div class="swiper-wrapper-elevators_overlay">
+                                <img src="/img/review/search.png" alt="">
+                            </div>
+                        </div>
+                        <p class="swiper-slide-elevators_caption">
+                            Н.М. Гальченко, ООО «‎Гальмед»
+                        </p>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="swiper-pagination swiper-pagination-elevators"></div>
-        <div class="swiper-button-prev swiper-button-prev-elevators">
-            <img src="/img/main-screen/prev.svg" alt="button-next">
-        </div>
-        <div class="swiper-button-next swiper-button-next-elevators">
-            <img src="/img/main-screen/next.svg" alt="button-next">
+            <div class="swiper-pagination-elevators"></div>
+            <div class="swiper-button-prev-elevators">
+                <img src="/img/main-screen/prev.svg" alt="button-next">
+            </div>
+            <div class="swiper-button-next-elevators">
+                <img src="/img/main-screen/next.svg" alt="button-next">
+            </div>
         </div>
     </section>
     <section class="customers" id="customers">
@@ -694,70 +670,8 @@
 </div>
 <script src="https://api-maps.yandex.ru/2.1/?apikey=164878f7-9a00-498a-a061-ced0e3719e53
 &lang=ru_RU" type="text/javascript"></script>
-<script src="libs/jquery-3.4.1.min.js"></script>
-<script src="libs/swiper.min.js"></script>
-<script src="libs/jquery.fancybox.min.js"></script>
 <script src="js/scripts.min.js"></script>
-<script>
-    var mainSlider = new Swiper('.swiper-container-main', {
-        navigation: {
-            nextEl: '.swiper-button-next-main',
-            prevEl: '.swiper-button-prev-main',
-        },
-        pagination: {
-            el: '.swiper-pagination-main',
-            clickable: true,
-        },
 
-    });
-    var mainSlider = new Swiper('.swiper-container-elevators', {
-        navigation: {
-            nextEl: '.swiper-button-next-elevators',
-            prevEl: '.swiper-button-prev-elevators',
-        },
-        pagination: {
-            el: '.swiper-pagination-elevators',
-            clickable: true,
-        },
-
-    });
-    var reviewSlider = new Swiper ('.swiper-container-review', {
-        slidesPerView: 4,
-        navigation: {
-            nextEl: '.swiper-button-next-review',
-            prevEl: '.swiper-button-prev-review',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        breakpoints: {
-            1201: {
-                slidesPerView: 4,
-            },
-            993: {
-                slidesPerView: 3,
-            },
-            769: {
-                slidesPerView: 2,
-            },
-            577: {
-                slidesPerView: 2,
-            },
-            320: {
-                slidesPerView: 1,
-            },
-        }
-    });
-    var projectsSlider = new Swiper ('.swiper-container-projects', {
-        slidesPerView: 1,
-        spaceBetween: 32,
-        navigation: {
-            nextEl: '.swiper-button-next-projects',
-            prevEl: '.swiper-button-prev-projects',
-        },
-    });
-</script>
 
 
 

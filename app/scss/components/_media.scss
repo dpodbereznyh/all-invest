@@ -37,6 +37,9 @@
   html {
     font-size: 15px;
   }
+  .swiper-pagination-elevators {
+    margin: 0 auto 0;
+  }
   .swiper-button-prev-projects, .swiper-button-next-projects {
     transform: translate(0,50%);
 
@@ -261,10 +264,6 @@
   }
   .swiper-container-elevators {
     width: rem(652px);
-    height: rem(510px);
-  }
-  .swiper-slide-elevators {
-    height: rem(380px);
   }
   .swiper-container-keramogranit {
     width: 633px;
@@ -361,7 +360,10 @@
 
 /*576-768px*/
 @media screen and (max-width: 768px ) {
-
+  .swiper-button-prev-review, .swiper-button-next-review, .swiper-button-next-keramogranit, .swiper-button-prev-keramogranit, .swiper-button-prev-elevators, .swiper-button-next-elevators {
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+  }
   .main__slide {
     height: 44.25rem;
   }
@@ -425,7 +427,6 @@
     display: none;
   }
   .review__item_link {
-    width: 15.75rem;
     height: auto;
   }
   .consultation__second_img {
@@ -468,10 +469,9 @@
   }
   .swiper-button-prev-review, .swiper-button-next-review {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
+  }
+  .swiper-button-prev-keramogranit, .swiper-button-next-keramogranit {
+    display: flex;
   }
   .system__components_img {
     margin: 0 auto;
@@ -485,10 +485,6 @@
   }
   .swiper-container-elevators {
     width: rem(540px);
-    height: 27.375rem;
-  }
-  .swiper-slide-elevators {
-    height: rem(300px);
   }
   .swiper-pagination-elevators, .swiper-pagination-keramogranit {
     display: flex;
@@ -650,16 +646,8 @@
   }
   .swiper-container-elevators {
     width: rem(300px);
-    height: rem(300px);
-  }
-  .swiper-slide-elevators {
-    height: rem(170px);
-  }
-  .swiper-container-keramogranit {
-    width: 300px;
   }
   .swiper-slide-keramogranit {
-    width: 300px!important;
     padding: 10px;
   }
   form .controls {
@@ -683,5 +671,11 @@
   }
   .color-solutions__card_title {
     order: 2;
+  }
+  .swiper-container-keramogranit {
+    width: 270px;
+  }
+  .review__item_link {
+    width: 270px;
   }
 }
