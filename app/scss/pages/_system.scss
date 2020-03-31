@@ -3,7 +3,7 @@
 }
 .system__components {
   padding: rem(55px) 0 rem(234px);
-  background: url("/img/system/perekrestnaya.png");
+  background: url("../img/system/perekrestnaya.png");
   background-repeat: no-repeat;
   background-size: auto 476px;
   background-position: calc(50% + 360px);
@@ -40,7 +40,7 @@
   }
 }
 .systems__advantages {
-  background: $border url("/img/proflist/image2.png");
+  background: $border url("../img/proflist/image2.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: calc(50% - 495px);
