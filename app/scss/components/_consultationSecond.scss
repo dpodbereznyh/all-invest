@@ -1,10 +1,7 @@
 .consultation__second {
-
   margin-top: rem(80px);
-  //padding: 24px 0 27px;
   color: #fff;
   height: rem(351px);
-  //background: url("/build/img/consultation-second/bg.png") no-repeat top left/cover;
   &_title {
     @include h4Bold;
     margin-bottom: rem(10px);

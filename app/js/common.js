@@ -105,6 +105,146 @@ $(document).ready(function() {
 
         }
     });
+    var projectsSlider1 = new Swiper ('.swiper-container-projects1', {
+        slidesPerView: 2,
+        loop: true,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next-projects1',
+            prevEl: '.swiper-button-prev-projects1',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            430: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            600: {
+                slidesPerView: 3,
+                spaceBetween: 0,
+            },
+            800: {
+                slidesPerView: 4,
+                spaceBetween: 0,
+            },
+            1000: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            1251: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+
+        }
+    });
+    var projectsSlider1 = new Swiper ('.swiper-container-projects2', {
+        slidesPerView: 2,
+        loop: true,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next-projects2',
+            prevEl: '.swiper-button-prev-projects2',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            430: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            600: {
+                slidesPerView: 3,
+                spaceBetween: 0,
+            },
+            800: {
+                slidesPerView: 4,
+                spaceBetween: 0,
+            },
+            1000: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            1251: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+
+        }
+    });
+    var projectsSlider1 = new Swiper ('.swiper-container-projects3', {
+        slidesPerView: 2,
+        loop: true,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next-projects3',
+            prevEl: '.swiper-button-prev-projects3',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            430: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            600: {
+                slidesPerView: 3,
+                spaceBetween: 0,
+            },
+            800: {
+                slidesPerView: 4,
+                spaceBetween: 0,
+            },
+            1000: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            1251: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+
+        }
+    });
+    var projectsSlider1 = new Swiper ('.swiper-container-projects4', {
+        slidesPerView: 2,
+        loop: true,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-button-next-projects4',
+            prevEl: '.swiper-button-prev-projects4',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            430: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            600: {
+                slidesPerView: 3,
+                spaceBetween: 0,
+            },
+            800: {
+                slidesPerView: 4,
+                spaceBetween: 0,
+            },
+            1000: {
+                slidesPerView: 2,
+                spaceBetween: 0,
+            },
+            1251: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+
+        }
+    });
     var keramogranitSlider = new Swiper ('.swiper-container-keramogranit', {
         slidesPerView: 1,
         loop: true,
@@ -173,7 +313,7 @@ $(document).ready(function() {
         });
         var myPlacemark = new ymaps.Placemark([56.12657906861558, 40.4115845], {}, {
             iconLayout: 'default#image',
-            iconImageHref: 'img/map-marker.png',
+            iconImageHref: 'assets/app/img/map-marker.png',
             iconImageSize: [40, 40],
             iconImageOffset: [-3, -42]
         });
@@ -188,7 +328,7 @@ $(document).ready(function() {
         $('.img__before').toggleClass('img__top')
     })
     // Popap
-    $('.header__nav_btn').on("click", function () {
+    $('.header__nav_btn, .order__btn, .details_btn').on("click", function () {
         $('#popap__header_btn').show();
     });
     $('.popap__close').on("click", function () {

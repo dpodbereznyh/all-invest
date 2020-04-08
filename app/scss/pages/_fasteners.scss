@@ -1,10 +1,10 @@
 .fasteners__offer {
     padding: rem(163px) 0 rem(162px);
     position: relative;
-    background: url("/img/fasteners/fasteners-bg.png") no-repeat center center/cover;
+    background: url("../img/fasteners/fasteners-bg.png") no-repeat center center/cover;
 }
 .fasteners__second_screen {
-    background: url('/img/fasteners/image1.png');
+    background: url('../img/fasteners/image1.png');
     background-repeat: no-repeat;
     background-size: auto 393px;
     background-position: calc(50% + 530px);
@@ -95,6 +95,5 @@
 .fasteners__name_img-anker {
     width: 247px;
     height: 241px;
-    margin-top: 107px;
     margin-left: 23px;
 }

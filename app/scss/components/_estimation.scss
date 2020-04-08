@@ -1,9 +1,9 @@
 .estimation {
-  background: $border url('/img/design/estimation.png');
+  background: $border url('../img/design/estimation.png');
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: calc(50% - 370px);
-  padding: rem(22px) 0;
+  padding: rem(80px) 0;
   &__img {
     width: rem(416px);
     height: rem(488px);

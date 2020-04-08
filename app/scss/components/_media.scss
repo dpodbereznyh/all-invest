@@ -224,7 +224,7 @@
   .color-solutions__card {
     margin-bottom: 40px;
   }
-  .proflist__advantages, .subsystems__advantages, .systems__advantages {
+  .subsystems__advantages, .systems__advantages {
     background-position: calc(50% - 565px);
   }
   .consultation__second_img {
@@ -274,9 +274,6 @@
   #main-menu {
     flex-wrap: wrap;
   }
-  .header__nav_btn {
-    height: rem(60px);
-  }
   .work__stages_item-img-before:before, .work__stages_item-img-after:after {
     display: none;
   }
@@ -297,6 +294,7 @@
   .header__nav_btn {
     width: 150px;
     height: 50px;
+    line-height: 47px;
   }
   .sm li {
     margin: 0 10px 0 0;
@@ -500,16 +498,9 @@
   .swiper-button-prev-projects, .swiper-button-next-projects {
     display: block;
   }
-  .header__nav_btn {
-    height: 50px;
-  }
 }
 /*320-576px*/
 @media screen and (max-width: 576px ) {
-
-  .header__nav_btn {
-    padding: 0.7rem;
-  }
   .twentytwenty-wrapper {
     width: 100%;
   }

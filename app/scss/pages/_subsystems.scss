@@ -48,7 +48,7 @@
   }
 }
 .subsystems__second_screen {
-  background: $border url('/img/fasteners/image1.png');
+  background: $border url('../img/fasteners/image1.png');
   background-repeat: no-repeat;
   background-size: auto 393px;
   background-position: calc(50% + 530px);
@@ -66,7 +66,7 @@
   }
 }
 .subsystems__advantages {
-  background: url("/img/proflist/image2.png");
+  background: url("../img/proflist/image2.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: calc(50% - 495px);  padding: rem(80px) 0 rem(55px);

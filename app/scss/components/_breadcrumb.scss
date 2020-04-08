@@ -5,11 +5,17 @@
   width: 100%;
   top: 100%;
   z-index: 1;
+  .active {
+    color: #fff;
+  }
   &__list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 0;
+    .active {
+      color: #ffffff;
+    }
     li {
       &:after {
         content: '\002F';
