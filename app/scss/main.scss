@@ -16,9 +16,14 @@
 // 6. Page-specific styles
 @import "pages/module";
 
+//Fancybox
+@import "vendors/libs/fancybox/jquery.fancybox.min.css";
 
+//Smart Menu Core
+@import "vendors/libs/smart-menu/sm-core-css.css";
 
-@import "../libs/twentytwenty.css";
+//Twentytwenty
+@import "vendors/libs/twentytwenty/twentytwenty.css";
 
 
 

@@ -8,824 +8,822 @@
     <link rel="apple-touch-icon" href="img/header/header-logo.ico">
     <link rel="apple-touch-icon" sizes="72x72" href="img/header/header-logo72.ico">
     <link rel="apple-touch-icon" sizes="114x114" href="img/header/header-logo.ico">
-    <link rel="stylesheet" href="libs/sm-core-css.css">
-    <link rel="stylesheet" href="libs/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/main.min.css">
     <title>Главная | АЛЬЯНС-ИНВЕСТ</title>
 </head>
 
 <body>
-   <main class="main">
-       <header class="header">
-           <div class="header__top_nav">
-               <div class="container-fluid">
-                   <div class="row align-items-center justify-content-between">
-                       <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
-                           <a href="/" class="header__logo">
-                               <div class="header__logo_img">
-                                   <img src="img/header/header-logo.svg" alt="Альянс Инвест">
-                               </div>
-                               <div class="header__logo_text">
-                                   <img src="img/header/logo-text.svg" alt="Альянс Инвест">
-                               </div>
-                           </a>
-                       </div>
-                       <div class="d-none d-lg-flex col-lg-3 col-xl-auto">
-                           <div class="header__location">
-                               <img src="img/main-screen/location.svg" alt="Адрес">
-                               <p class="header__location_text">
-                                   г. Владимир, ул. Уличная 25, 3 этаж, офис 7
-                               </p>
-                           </div>
-                       </div>
-                       <div class="d-none d-md-flex col-md-4 col-lg-3 col-xl-auto">
-                           <div class="header__mail">
-                               <img src="img/main-screen/envelope.svg" alt="Email">
-                               <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
-                                   mizinov.invest@yandex.ru
-                               </a>
-                           </div>
-                       </div>
-                       <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-auto">
-                           <div class="header__phone">
-                               <img src="img/main-screen/phone.svg" alt="Телефон">
-                               <div class="header__phone_text">
-                                   <a href="tel:+79004740609">
-                                       +7 (900) 474-06-09
-                                   </a>
-                                   <span>
+<main class="main">
+    <header class="header">
+        <div class="header__top_nav">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
+                        <a href="/" class="header__logo">
+                            <div class="header__logo_img">
+                                <img src="img/header/header-logo.svg" alt="Альянс Инвест">
+                            </div>
+                            <div class="header__logo_text">
+                                <img src="img/header/logo-text.svg" alt="Альянс Инвест">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-none d-lg-flex col-lg-3 col-xl-auto">
+                        <div class="header__location">
+                            <img src="img/main-screen/location.svg" alt="Адрес">
+                            <p class="header__location_text">
+                                г. Владимир, ул. Уличная 25, 3 этаж, офис 7
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-flex col-md-4 col-lg-3 col-xl-auto">
+                        <div class="header__mail">
+                            <img src="img/main-screen/envelope.svg" alt="Email">
+                            <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
+                                mizinov.invest@yandex.ru
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-auto">
+                        <div class="header__phone">
+                            <img src="img/main-screen/phone.svg" alt="Телефон">
+                            <div class="header__phone_text">
+                                <a href="tel:+79004740609">
+                                    +7 (900) 474-06-09
+                                </a>
+                                <span>
                                Ежедневно: 9.00 - 18.00
                            </span>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="header__bottom_nav">
-               <div class="container-fluid">
-                    <nav class="main-nav" role="navigation">
-                        <!-- Mobile menu toggle button (hamburger/x icon) -->
-                        <input id="main-menu-state" type="checkbox" />
-                        <label class="main-menu-btn" for="main-menu-state">
-                            <span class="main-menu-btn-icon"></span> Toggle main menu visibility
-                        </label>
-                        <!-- Sample menu definition -->
-                        <ul id="main-menu" class="sm sm-blue">
-                            <li class="has-mega-menu"><a href="#">УСЛУГИ</a>
-                                <ul class="mega-menu">
-                                    <li>
-                                        <div class="column-1-3">
-                                            <a href="#">Подсистемы</a>
-                                            <ul>
-                                                <li><a href="#">Перекрестная</a></li>
-                                                <li><a href="#">Горизонтальная</a></li>
-                                                <li><a href="#">Вертикальная</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Крепеж</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Алюминевые композиты</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Керамагранит</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Фасадные подъемники</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Фиброцемент</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="has-mega-menu"><a href="#">МАТЕРИАЛЫ И КОМПЛЕКТУЮЩИЕ</a>
-                                <ul class="mega-menu">
-                                    <li>
-                                        <div class="column-1-3">
-                                            <a class="sub-link" href="#">Подсистемы</a>
-                                            <ul>
-                                                <li class="sub-sub-link"><a href="#">Перекрестная</a></li>
-                                                <li class="sub-sub-link"><a href="#">Горизонтальная</a></li>
-                                                <li class="sub-sub-link"><a href="#">Вертикальная</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Крепеж</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Алюминевые композиты</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Керамагранит</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Фасадные подъемники</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="column-1-3">
-                                            <a href="#">Фиброцемент</a>
-                                            <ul>
-                                                <li><a href="#"></a></li>
-                                                <li><a href="#"></a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="has-mega-menu">
-                                <a href="#">
-                                    О КОМПАНИИ
-                                </a>
-                            </li>
-                            <li class="has-mega-menu">
-                                <a href="#">
-                                    Наши работы
-                                </a>
-                            </li>
-                            <li class="has-mega-menu">
-                                <a href="#">
-                                    Контакты
-                                </a>
-                            </li>
-                            <!--<button href="#" class="header__nav_btn">-->
-                                <!--Заказать звонок-->
-                            <!--</button>-->
-                        </ul>
-                        <button href="#" class="header__nav_btn">
-                            Заказать звонок
-                        </button>
-                    </nav>
-               </div>
-           </div>
-       </header>
-       <section class="swiper-container-main" id="main__screen">
-               <ul class="swiper-wrapper swiper-wrapper-main">
-                   <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg1.png') no-repeat center center/cover">
-                       <div class="main__screen_offer">
-                           <div class="container-fluid">
-                               <div class="row">
-                                   <div class="col-lg-10 col-xl-8">
-                                       <h1 class="main__screen_title">
-                                           Система навесных вентилируемых фасадов
-                                       </h1>
-                                   </div>
-                                   <div class="col-12">
-                                       <p class="main__screen_subtitle">
-                                           Проектирование, монтаж, комплектация — под ключ
-                                       </p>
-                                   </div>
-                               </div>
-                               <a href="#" class="selsystem_btn btn">
-                                   Выбрать систему
-                               </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom_nav">
+            <div class="container-fluid">
+                <nav class="main-nav" role="navigation">
+                    <!-- Mobile menu toggle button (hamburger/x icon) -->
+                    <input id="main-menu-state" type="checkbox" />
+                    <label class="main-menu-btn" for="main-menu-state">
+                        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+                    </label>
+                    <!-- Sample menu definition -->
+                    <ul id="main-menu" class="sm sm-blue">
+                        <li class="has-mega-menu"><a href="#">УСЛУГИ</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <div class="column-1-3">
+                                        <a href="#">Подсистемы</a>
+                                        <ul>
+                                            <li><a href="#">Перекрестная</a></li>
+                                            <li><a href="#">Горизонтальная</a></li>
+                                            <li><a href="#">Вертикальная</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Крепеж</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Алюминевые композиты</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Керамагранит</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фасадные подъемники</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фиброцемент</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega-menu"><a href="#">МАТЕРИАЛЫ И КОМПЛЕКТУЮЩИЕ</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <div class="column-1-3">
+                                        <a class="sub-link" href="#">Подсистемы</a>
+                                        <ul>
+                                            <li class="sub-sub-link"><a href="#">Перекрестная</a></li>
+                                            <li class="sub-sub-link"><a href="#">Горизонтальная</a></li>
+                                            <li class="sub-sub-link"><a href="#">Вертикальная</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Крепеж</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Алюминевые композиты</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Керамагранит</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фасадные подъемники</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фиброцемент</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                О КОМПАНИИ
+                            </a>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                Наши работы
+                            </a>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                Контакты
+                            </a>
+                        </li>
+                        <!--<button href="#" class="header__nav_btn">-->
+                        <!--Заказать звонок-->
+                        <!--</button>-->
+                    </ul>
+                    <button href="#" class="header__nav_btn">
+                        Заказать звонок
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="swiper-container-main" id="main__screen">
+        <ul class="swiper-wrapper swiper-wrapper-main">
+            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg1.png') no-repeat center center/cover">
+                <div class="main__screen_offer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-8">
+                                <h1 class="main__screen_title">
+                                    Система навесных вентилируемых фасадов
+                                </h1>
+                            </div>
+                            <div class="col-12">
+                                <p class="main__screen_subtitle">
+                                    Проектирование, монтаж, комплектация — под ключ
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="selsystem_btn btn">
+                            Выбрать систему
+                        </a>
 
-                               <a href="#" class="details_btn btn">
-                                   Подробнее
-                               </a>
-                               <div class="swiper-pagination swiper-pagination-main"></div>
-                           </div>
-                       </div>
-                   </li>
-                   <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
-                       <div class="main__screen_offer">
-                           <div class="container-fluid">
-                               <div class="row">
-                                   <div class="col-lg-10 col-xl-8">
-                                       <h1 class="main__screen_title">
-                                           Проектирование навесных вентилируемых фасадов
-                                       </h1>
-                                   </div>
-                                   <div class="col-9 col-lg-12">
-                                       <p class="main__screen_subtitle">
-                                           За один месяц всего от 2800 руб./ кв.м.
-                                       </p>
-                                   </div>
-                               </div>
-                               <a href="#" class="popap_btn btn">
-                                   Оставить заявку
-                               </a>
-                               <div class="swiper-pagination swiper-pagination-main"></div>
-                           </div>
-                       </div>
-                   </li>
-                   <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
-                   </li>
-               </ul>
-           <div class="swiper-button-next swiper-button-next-main">
-               <img src="img/main-screen/next.svg" alt="button-next">
-           </div>
-           <div class="swiper-button-prev swiper-button-prev-main">
-               <img src="img/main-screen/prev.svg" alt="button-next">
-           </div>
-       </section>
-       <section class="services" id="services">
-           <div class="container-fluid">
-               <div class="row">
-                   <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                       <a href="#" class="services__item">
-                           <p class="services__item_title">
-                               Проектирование
-                           </p>
-                           <img src="img/services/service-item1.png" alt="services">
-                       </a>
-                   </div>
-                   <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                       <a href="#" class="services__item">
-                           <p class="services__item_title">
-                               Материалы
-                           </p>
-                           <img src="img/services/service-item2.png" alt="services">
-                       </a>
-                   </div>
-                   <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                       <a href="#" class="services__item">
-                           <p class="services__item_title">
-                               Монтаж
-                           </p>
-                           <img src="img/services/service-item3.png" alt="services">
-                       </a>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <section class="work__stages" id="work_stages">
-           <div class="container-fluid">
-               <h2 class="work__stages_title">
-                   Этапы работы
-               </h2>
-               <div class="row no-gutters">
-                   <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                       <div class="work__stages_list">
-                           <div class="work__stages_item">
-                               <div class="work__stages_item-img work__stages_item-img-before">
-                                   <img src="img/work-stages/stage1.png" alt="Этап 1">
-                               </div>
-                               <div class="work__stages_item-text-wrap">
-                                   <span class="work__stages_item-num">01</span>
-                                   <p class="work__stages_item-text">
-                                       Встреча (выявляем цели<br>и ставим задачу
-                                   </p>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="work__stages_list work__stages_list-bottom">
-                           <div class="work__stages_item work__stages_item-bottom">
-                               <div class="work__stages_item-img work__stages_item-img-after">
-                                   <img src="img/work-stages/stage2.png" alt="Этап 1">
-                               </div>
-                               <div class="work__stages_item-text-wrap">
-                                   <span class="work__stages_item-num">02</span>
-                                   <p class="work__stages_item-text">
-                                       Подписание договора<br>и начало проектирования
-                                   </p>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                       <div class="work__stages_list">
-                           <div class="work__stages_item">
-                               <div class="work__stages_item-img work__stages_item-img-before">
-                                   <img src="img/work-stages/stage3.png" alt="Этап 1">
-                               </div>
-                               <div class="work__stages_item-text-wrap">
-                                   <span class="work__stages_item-num">03</span>
-                                   <p class="work__stages_item-text">
-                                       Разработка проектных решений <br>и согласование вопросов
-                                   </p>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="work__stages_list work__stages_list-bottom">
-                           <div class="work__stages_item work__stages_item-bottom">
-                               <div class="work__stages_item-img work__stages_item-img-after">
-                                   <img src="img/work-stages/stage4.png" alt="Этап 1">
-                               </div>
-                               <div class="work__stages_item-text-wrap">
-                                   <span class="work__stages_item-num">04</span>
-                                   <p class="work__stages_item-text">
-                                       Поставка материалов<br> и комлектующих
-                                   </p>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                       <div class="work__stages_list">
-                           <div class="work__stages_item">
-                               <div class="work__stages_item-img work__stages_item-img-before">
-                                   <img src="img/work-stages/stage5.png" alt="Этап 1">
-                               </div>
-                               <div class="work__stages_item-text-wrap">
-                                   <span class="work__stages_item-num">05</span>
-                                   <p class="work__stages_item-text">
-                                       Монтаж
-                                   </p>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="work__stages_list work__stages_list-bottom">
-                           <div class="work__stages_item work__stages_item-bottom">
-                               <div class="work__stages_item-img work__stages_item-img-after">
-                                   <img src="img/work-stages/stage6.png" alt="Этап 1">
-                               </div>
-                               <div class="work__stages_item-text-wrap">
-                                   <span class="work__stages_item-num">06</span>
-                                   <p class="work__stages_item-text">
-                                       Сдача готового объекта
-                                   </p>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <section class="consultation" id="consultation" style="background: url('img/consultation/consultation-bg.png') no-repeat left/ 100% 100%">
-           <div class="container-fluid">
-               <div class="row justify-content-between align-items-center">
-                   <div class="col-md-6 col-lg-7 col-xl-8">
-                       <h4 class="consultation__title">
-                           Возникли вопросы?
-                       </h4>
-                       <p class="consultation__subtitle">
-                           Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
-                       </p>
-                       <form action="#" class="consultation__form form">
-                           <div class="controls">
-                               <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
-                               <span class="error_name"></span>
-                           </div>
-                           <div class="controls">
-                               <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
-                               <span class="error_phone"></span>
-                           </div>
-                           <button type="submit" class="form__btn btn">
-                               Отправить
-                           </button>
-                       </form>
-                   </div>
-                   <div class="col-md-6 col-lg-4">
-                       <div class="consultation__img">
-                           <img src="img/consultation/img-1.png" alt="consultation">
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <section class="customers" id="customers">
-           <div class="container-fluid">
-               <h2 class="customers__title">
-                   Наши клиенты
-               </h2>
-               <div class="row">
-                   <div class="col-12 col-md-6 col-xl-3">
-                       <a href="#" class="customers__item">
-                           <div class="customers__item_img">
-                               <img src="img/customers/triumf.png" alt="Триумф">
-                           </div>
-                           <span class="customers__item_text">
-                               Триумф
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-12 col-md-6 col-xl-3">
-                       <a href="#" class="customers__item">
-                           <div class="customers__item_img">
-                               <img src="img/customers/mapid.png" alt="Мапид">
-                           </div>
-                           <span class="customers__item_text">
-                               Мапид
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-12 col-md-6 col-xl-3">
-                       <a href="#" class="customers__item">
-                           <div class="customers__item_img">
-                               <img src="img/customers/kfc.png" alt="KFC">
-                           </div>
-                           <span class="customers__item_text">
-                               KFC
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-12 col-md-6 col-xl-3">
-                       <a href="#" class="customers__item">
-                           <div class="customers__item_img">
-                               <img src="img/customers/stroitelnij_trest.png" alt="Строй Трест">
-                           </div>
-                           <span class="customers__item_text">
-                               Строй Трест
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-12 col-md-6 col-xl-3">
-                       <a href="#" class="customers__item">
-                           <div class="customers__item_img">
-                               <img src="img/customers/SVSESS.png" alt="СВСЭСС">
-                           </div>
-                           <span class="customers__item_text">
-                               СВСЭСС
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-12 col-md-6 col-xl-3">
-                       <a href="#" class="customers__item">
-                           <div class="customers__item_img">
-                               <img src="img/customers/vladstroy.png" alt="ВладСтройЗаказчик">
-                           </div>
-                           <span class="customers__item_text">
-                               ВладСтройЗаказчик
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-12 col-md-6 col-xl-3">
-                       <a href="#" class="customers__item">
-                           <div class="customers__item_img">
-                               <img src="img/customers/gvsu.png" alt="ГВСУ-14">
-                           </div>
-                           <span class="customers__item_text">
-                               ГВСУ-14
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-12 col-md-6 col-xl-3">
-                       <a href="#" class="customers__item">
-                           <div class="customers__item_img">
-                               <img src="img/customers/t-stroj.png" alt="Т-СТРОЙ">
-                           </div>
-                           <span class="customers__item_text">
-                               Т-СТРОЙ
-                           </span>
-                       </a>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <section class="about" id="about">
-           <div class="container-fluid">
-               <div class="row">
-                   <div class="col-12 col-md-6">
-                       <h2 class="about__title">
-                           Почему нас выбирают?
-                       </h2>
-                       <p class="about__text">
-                           Ассоциация российских разработчиков и производителей электроники – объединение участников российской электронной отрасли, созданное в 2017 году.
-                       </p>
-                       <p class="about__text">
-                           Цель – возрождение и развитие российской электронной промышленности посредством координации деятельности частных компаний и государства, усиления отраслевой кооперации, проведения профориентационных мероприятий среди молодых специалистов, дальнейшего наращивания экспортного потенциала.
-                       </p>
-                       <a href="#" class="about__btn">
-                           Подробнее
-                       </a>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <section class="works" id="works">
-           <div class="container-fluid">
-               <div class="works__header">
-                   <h2 class="works__title">
-                       Выполненные объекты
-                   </h2>
-                   <a href="#" class="works__btn">
-                       Смотреть все
-                   </a>
-               </div>
-               <div class="row">
-                   <div class="col-sm-12 col-md-6 col-lg-4">
-                       <a href="#" class="works__item">
-                           <div class="works__item_img">
-                               <img src="img/works/mo-odincovo.png" alt="ЖК «Жемчужина»">
-                           </div>
-                           <span class="works__item_text">
-                               МО, Одинцовский район, д. Гигерево, ЖК «Жемчужина»
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-sm-12 col-md-6 col-lg-4">
-                       <a href="#" class="works__item">
-                           <div class="works__item_img">
-                               <img src="img/works/kfc.png" alt="KFC">
-                           </div>
-                           <span class="works__item_text">
-                                г.Ковров, ул. Строителей, д. 25 «KFC»
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-sm-12 col-md-6 col-lg-4">
-                       <a href="#" class="works__item">
-                           <div class="works__item_img">
-                               <img src="img/works/jarcevskaja.png" alt="г. Москва, ул. Ярцевская, д. 33">
-                           </div>
-                           <span class="works__item_text">
-                               г. Москва, ул. Ярцевская, д. 33, корп. 1, Жилой дом
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-sm-12 col-md-6 col-lg-4">
-                       <a href="#" class="works__item">
-                           <div class="works__item_img">
-                               <img src="img/works/sosh1.png" alt="МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1">
-                           </div>
-                           <span class="works__item_text">
-                               МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1»
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-sm-12 col-md-6 col-lg-4">
-                       <a href="#" class="works__item">
-                           <div class="works__item_img">
-                               <img src="img/works/polyclinica.png" alt="г. Москва, ул. Нижегородская, д. 29 «Поликлиника»">
-                           </div>
-                           <span class="works__item_text">
-                               г. Москва, ул. Нижегородская, д. 29 «Поликлиника»
-                           </span>
-                       </a>
-                   </div>
-                   <div class="col-sm-12 col-md-6 col-lg-4">
-                       <a href="#" class="works__item">
-                           <div class="works__item_img">
-                               <img src="img/works/degtyarnyy.png" alt="г. Москва, Дегтярный пер д. 4, стр. 1">
-                           </div>
-                           <span class="works__item_text">
-                               г. Москва, Дегтярный пер, д. 4, стр. 1
-                           </span>
-                       </a>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <section class="review" id="review">
-           <div class="container-fluid">
-               <h2 class="review__title">
-                   Отзывы клиентов
-               </h2>
-               <div class="swiper-container-review">
-                   <ul class="swiper-wrapper">
-                       <li class="swiper-slide review__item">
-                           <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                               <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                               <div class="review__item_overlay">
-                                   <div class="review__item_overlay-icon">
-                                       <img src="img/review/search.png" alt="search">
-                                   </div>
-                                   <p class="review__item_overlay-text">
-                                       Н.М. Гальченко, ООО «‎Гальмед»
-                                   </p>
-                               </div>
-                           </a>
-                       </li>
-                       <li class="swiper-slide review__item">
-                           <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                               <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                               <div class="review__item_overlay">
-                                   <div class="review__item_overlay-icon">
-                                       <img src="img/review/search.png" alt="search">
-                                   </div>
-                                   <p class="review__item_overlay-text">
-                                       Н.М. Гальченко, ООО «‎Гальмед»
-                                   </p>
-                               </div>
-                           </a>
-                       </li>
-                       <li class="swiper-slide review__item">
-                           <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                               <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                               <div class="review__item_overlay">
-                                   <div class="review__item_overlay-icon">
-                                       <img src="img/review/search.png" alt="search">
-                                   </div>
-                                   <p class="review__item_overlay-text">
-                                       Н.М. Гальченко, ООО «‎Гальмед»
-                                   </p>
-                               </div>
-                           </a>
-                       </li>
-                       <li class="swiper-slide review__item">
-                           <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                               <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                               <div class="review__item_overlay">
-                                   <div class="review__item_overlay-icon">
-                                       <img src="img/review/search.png" alt="search">
-                                   </div>
-                                   <p class="review__item_overlay-text">
-                                       Н.М. Гальченко, ООО «‎Гальмед»
-                                   </p>
-                               </div>
-                           </a>
-                       </li>
-                   </ul>
-               </div>
-           </div>
-           <div class="swiper-button-next swiper-button-next-review">
-               <img src="img/main-screen/next.svg" alt="button-next">
-           </div>
-           <div class="swiper-button-prev swiper-button-prev-review">
-               <img src="img/main-screen/prev.svg" alt="button-next">
-           </div>
-           <div class="swiper-pagination swiper-pagination-review"></div>
-       </section>
-       <section class="consultation__second" style="background: url('img/consultation-second/bg.png')">
-           <div class="container-fluid">
-               <div class="row justify-content-between align-items-center">
-                   <div class="col-md-10 col-lg-7 col-xl-8">
-                       <h4 class="consultation__title">
-                           Бесплатная консультация
-                       </h4>
-                       <p class="consultation__subtitle">
-                           Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
-                       </p>
-                       <form action="#" class="consultation__form form">
-                           <div class="controls">
-                                <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
-                                <span class="error_name"></span>
-                           </div>
-                           <div class="controls">
-                                <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
-                                <span class="error_phone"></span>
-                           </div>
-                           <button type="submit" class="form__btn btn">
-                               Отправить
-                           </button>
-                       </form>
-                   </div>
-                   <div class="col-md-12 col-lg-5 col-xl-4">
-                       <img class="consultation__second_img" src="img/consultation-second/image3.png" alt="consultation">
-                   </div>
-               </div>
-           </div>
-       </section>
-       <section class="map__section">
-           <div id="map"></div>
-       </section>
-   </main>
-    <footer class="footer" id="footer">
+                        <a href="#" class="details_btn btn">
+                            Подробнее
+                        </a>
+                        <div class="swiper-pagination swiper-pagination-main"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
+                <div class="main__screen_offer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-8">
+                                <h1 class="main__screen_title">
+                                    Проектирование навесных вентилируемых фасадов
+                                </h1>
+                            </div>
+                            <div class="col-9 col-lg-12">
+                                <p class="main__screen_subtitle">
+                                    За один месяц всего от 2800 руб./ кв.м.
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="popap_btn btn">
+                            Оставить заявку
+                        </a>
+                        <div class="swiper-pagination swiper-pagination-main"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
+            </li>
+        </ul>
+        <div class="swiper-button-next swiper-button-next-main">
+            <img src="img/main-screen/next.svg" alt="button-next">
+        </div>
+        <div class="swiper-button-prev swiper-button-prev-main">
+            <img src="img/main-screen/prev.svg" alt="button-next">
+        </div>
+    </section>
+    <section class="services" id="services">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9">
-                    <div class="footer__menu_wrap">
-                        <div class="footer__menu_item_wrap">
-                            <a href="#" class="footer__menu_title">
-                                Материалы и комплектующие
-                            </a>
-                            <ul class="footer__menu_list">
-                                <li class="footer__menu_item"><a href="#">Фасадные подсистемы</a></li>
-                                <li class="footer__menu_item"><a href="#">Крепеж</a></li>
-                                <li class="footer__menu_item"><a href="#">Изоляция</a></li>
-                            </ul>
+                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
+                    <a href="#" class="services__item">
+                        <p class="services__item_title">
+                            Проектирование
+                        </p>
+                        <img src="img/services/service-item1.png" alt="services">
+                    </a>
+                </div>
+                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
+                    <a href="#" class="services__item">
+                        <p class="services__item_title">
+                            Материалы
+                        </p>
+                        <img src="img/services/service-item2.png" alt="services">
+                    </a>
+                </div>
+                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
+                    <a href="#" class="services__item">
+                        <p class="services__item_title">
+                            Монтаж
+                        </p>
+                        <img src="img/services/service-item3.png" alt="services">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work__stages" id="work_stages">
+        <div class="container-fluid">
+            <h2 class="work__stages_title">
+                Этапы работы
+            </h2>
+            <div class="row no-gutters">
+                <div class="col-12 d-md-flex d-lg-block col-lg-4">
+                    <div class="work__stages_list">
+                        <div class="work__stages_item">
+                            <div class="work__stages_item-img work__stages_item-img-before">
+                                <img src="img/work-stages/stage1.png" alt="Этап 1">
+                            </div>
+                            <div class="work__stages_item-text-wrap">
+                                <span class="work__stages_item-num">01</span>
+                                <p class="work__stages_item-text">
+                                    Встреча (выявляем цели<br>и ставим задачу
+                                </p>
+                            </div>
                         </div>
-                        <div class="footer__menu_item_wrap">
-                            <a href="#" class="footer__menu_title">
-                                Наши услуги
-                            </a>
-                            <ul class="footer__menu_list">
-                                <li class="footer__menu_item"><a href="#">Проектирование</a></li>
-                                <li class="footer__menu_item"><a href="#">Поставка</a></li>
-                                <li class="footer__menu_item"><a href="#">Монтаж</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__menu_item_wrap">
-                            <a href="#" class="footer__menu_title">
-                                Покупателям
-                            </a>
-                            <ul class="footer__menu_list">
-                                <li class="footer__menu_item"><a href="#">О компании</a></li>
-                                <li class="footer__menu_item"><a href="#">Наши проекты</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer__menu_item_wrap">
-                            <a href="#" class="footer__menu_title">
-                                Системы мокрых фасадов
-                            </a>
-                            <ul class="footer__menu_list">
-                                <li class="footer__menu_item"><a href="#">Керамогранит</a></li>
-                                <li class="footer__menu_item"><a href="#">Фасадные подъемники</a></li>
-                                <li class="footer__menu_item"><a href="#">Фиброцемент</a></li>
-                            </ul>
+                    </div>
+                    <div class="work__stages_list work__stages_list-bottom">
+                        <div class="work__stages_item work__stages_item-bottom">
+                            <div class="work__stages_item-img work__stages_item-img-after">
+                                <img src="img/work-stages/stage2.png" alt="Этап 1">
+                            </div>
+                            <div class="work__stages_item-text-wrap">
+                                <span class="work__stages_item-num">02</span>
+                                <p class="work__stages_item-text">
+                                    Подписание договора<br>и начало проектирования
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
-                    <p class="footer__menu_title footer__contact_title">
-                        Контакты
+                <div class="col-12 d-md-flex d-lg-block col-lg-4">
+                    <div class="work__stages_list">
+                        <div class="work__stages_item">
+                            <div class="work__stages_item-img work__stages_item-img-before">
+                                <img src="img/work-stages/stage3.png" alt="Этап 1">
+                            </div>
+                            <div class="work__stages_item-text-wrap">
+                                <span class="work__stages_item-num">03</span>
+                                <p class="work__stages_item-text">
+                                    Разработка проектных решений <br>и согласование вопросов
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work__stages_list work__stages_list-bottom">
+                        <div class="work__stages_item work__stages_item-bottom">
+                            <div class="work__stages_item-img work__stages_item-img-after">
+                                <img src="img/work-stages/stage4.png" alt="Этап 1">
+                            </div>
+                            <div class="work__stages_item-text-wrap">
+                                <span class="work__stages_item-num">04</span>
+                                <p class="work__stages_item-text">
+                                    Поставка материалов<br> и комлектующих
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-md-flex d-lg-block col-lg-4">
+                    <div class="work__stages_list">
+                        <div class="work__stages_item">
+                            <div class="work__stages_item-img work__stages_item-img-before">
+                                <img src="img/work-stages/stage5.png" alt="Этап 1">
+                            </div>
+                            <div class="work__stages_item-text-wrap">
+                                <span class="work__stages_item-num">05</span>
+                                <p class="work__stages_item-text">
+                                    Монтаж
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work__stages_list work__stages_list-bottom">
+                        <div class="work__stages_item work__stages_item-bottom">
+                            <div class="work__stages_item-img work__stages_item-img-after">
+                                <img src="img/work-stages/stage6.png" alt="Этап 1">
+                            </div>
+                            <div class="work__stages_item-text-wrap">
+                                <span class="work__stages_item-num">06</span>
+                                <p class="work__stages_item-text">
+                                    Сдача готового объекта
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation" id="consultation" style="background: url('img/consultation/consultation-bg.png') no-repeat left/ 100% 100%">
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-lg-7 col-xl-8">
+                    <h4 class="consultation__title">
+                        Возникли вопросы?
+                    </h4>
+                    <p class="consultation__subtitle">
+                        Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
                     </p>
-                    <div class="footer__phone">
-                        <img src="img/main-screen/phone.svg" alt="Телефон">
-                        <div class="footer__phone_text">
-                            <a href="tel:+79004740609">
-                                +7 (900) 474-06-09
-                            </a>
-                            <span>
+                    <form action="#" class="consultation__form form">
+                        <div class="controls">
+                            <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
+                            <span class="error_name"></span>
+                        </div>
+                        <div class="controls">
+                            <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
+                            <span class="error_phone"></span>
+                        </div>
+                        <button type="submit" class="form__btn btn">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="consultation__img">
+                        <img src="img/consultation/img-1.png" alt="consultation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customers" id="customers">
+        <div class="container-fluid">
+            <h2 class="customers__title">
+                Наши клиенты
+            </h2>
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="img/customers/triumf.png" alt="Триумф">
+                        </div>
+                        <span class="customers__item_text">
+                               Триумф
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="img/customers/mapid.png" alt="Мапид">
+                        </div>
+                        <span class="customers__item_text">
+                               Мапид
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="img/customers/kfc.png" alt="KFC">
+                        </div>
+                        <span class="customers__item_text">
+                               KFC
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="img/customers/stroitelnij_trest.png" alt="Строй Трест">
+                        </div>
+                        <span class="customers__item_text">
+                               Строй Трест
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="img/customers/SVSESS.png" alt="СВСЭСС">
+                        </div>
+                        <span class="customers__item_text">
+                               СВСЭСС
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="img/customers/vladstroy.png" alt="ВладСтройЗаказчик">
+                        </div>
+                        <span class="customers__item_text">
+                               ВладСтройЗаказчик
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="img/customers/gvsu.png" alt="ГВСУ-14">
+                        </div>
+                        <span class="customers__item_text">
+                               ГВСУ-14
+                           </span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a href="#" class="customers__item">
+                        <div class="customers__item_img">
+                            <img src="img/customers/t-stroj.png" alt="Т-СТРОЙ">
+                        </div>
+                        <span class="customers__item_text">
+                               Т-СТРОЙ
+                           </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h2 class="about__title">
+                        Почему нас выбирают?
+                    </h2>
+                    <p class="about__text">
+                        Ассоциация российских разработчиков и производителей электроники – объединение участников российской электронной отрасли, созданное в 2017 году.
+                    </p>
+                    <p class="about__text">
+                        Цель – возрождение и развитие российской электронной промышленности посредством координации деятельности частных компаний и государства, усиления отраслевой кооперации, проведения профориентационных мероприятий среди молодых специалистов, дальнейшего наращивания экспортного потенциала.
+                    </p>
+                    <a href="#" class="about__btn">
+                        Подробнее
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="works" id="works">
+        <div class="container-fluid">
+            <div class="works__header">
+                <h2 class="works__title">
+                    Выполненные объекты
+                </h2>
+                <a href="#" class="works__btn">
+                    Смотреть все
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/mo-odincovo.png" alt="ЖК «Жемчужина»">
+                        </div>
+                        <span class="works__item_text">
+                               МО, Одинцовский район, д. Гигерево, ЖК «Жемчужина»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/kfc.png" alt="KFC">
+                        </div>
+                        <span class="works__item_text">
+                                г.Ковров, ул. Строителей, д. 25 «KFC»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/jarcevskaja.png" alt="г. Москва, ул. Ярцевская, д. 33">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, ул. Ярцевская, д. 33, корп. 1, Жилой дом
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/sosh1.png" alt="МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1">
+                        </div>
+                        <span class="works__item_text">
+                               МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/polyclinica.png" alt="г. Москва, ул. Нижегородская, д. 29 «Поликлиника»">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, ул. Нижегородская, д. 29 «Поликлиника»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/degtyarnyy.png" alt="г. Москва, Дегтярный пер д. 4, стр. 1">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, Дегтярный пер, д. 4, стр. 1
+                           </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <div class="container-fluid">
+            <h2 class="review__title">
+                Отзывы клиентов
+            </h2>
+            <div class="swiper-container-review">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide review__item">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                            <div class="review__item_overlay">
+                                <div class="review__item_overlay-icon">
+                                    <img src="img/review/search.png" alt="search">
+                                </div>
+                                <p class="review__item_overlay-text">
+                                    Н.М. Гальченко, ООО «‎Гальмед»
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide review__item">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                            <div class="review__item_overlay">
+                                <div class="review__item_overlay-icon">
+                                    <img src="img/review/search.png" alt="search">
+                                </div>
+                                <p class="review__item_overlay-text">
+                                    Н.М. Гальченко, ООО «‎Гальмед»
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide review__item">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                            <div class="review__item_overlay">
+                                <div class="review__item_overlay-icon">
+                                    <img src="img/review/search.png" alt="search">
+                                </div>
+                                <p class="review__item_overlay-text">
+                                    Н.М. Гальченко, ООО «‎Гальмед»
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide review__item">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                            <div class="review__item_overlay">
+                                <div class="review__item_overlay-icon">
+                                    <img src="img/review/search.png" alt="search">
+                                </div>
+                                <p class="review__item_overlay-text">
+                                    Н.М. Гальченко, ООО «‎Гальмед»
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-button-next-review">
+            <img src="img/main-screen/next.svg" alt="button-next">
+        </div>
+        <div class="swiper-button-prev swiper-button-prev-review">
+            <img src="img/main-screen/prev.svg" alt="button-next">
+        </div>
+        <div class="swiper-pagination swiper-pagination-review"></div>
+    </section>
+    <section class="consultation__second" style="background: url('img/consultation-second/bg.png')">
+        <div class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-10 col-lg-7 col-xl-8">
+                    <h4 class="consultation__title">
+                        Бесплатная консультация
+                    </h4>
+                    <p class="consultation__subtitle">
+                        Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
+                    </p>
+                    <form action="#" class="consultation__form form">
+                        <div class="controls">
+                            <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
+                            <span class="error_name"></span>
+                        </div>
+                        <div class="controls">
+                            <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
+                            <span class="error_phone"></span>
+                        </div>
+                        <button type="submit" class="form__btn btn">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+                <div class="col-md-12 col-lg-5 col-xl-4">
+                    <img class="consultation__second_img" src="img/consultation-second/image3.png" alt="consultation">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map__section">
+        <div id="map"></div>
+    </section>
+</main>
+<footer class="footer" id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="footer__menu_wrap">
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Материалы и комплектующие
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Фасадные подсистемы</a></li>
+                            <li class="footer__menu_item"><a href="#">Крепеж</a></li>
+                            <li class="footer__menu_item"><a href="#">Изоляция</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Наши услуги
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Проектирование</a></li>
+                            <li class="footer__menu_item"><a href="#">Поставка</a></li>
+                            <li class="footer__menu_item"><a href="#">Монтаж</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Покупателям
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">О компании</a></li>
+                            <li class="footer__menu_item"><a href="#">Наши проекты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Системы мокрых фасадов
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Керамогранит</a></li>
+                            <li class="footer__menu_item"><a href="#">Фасадные подъемники</a></li>
+                            <li class="footer__menu_item"><a href="#">Фиброцемент</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="footer__menu_title footer__contact_title">
+                    Контакты
+                </p>
+                <div class="footer__phone">
+                    <img src="img/main-screen/phone.svg" alt="Телефон">
+                    <div class="footer__phone_text">
+                        <a href="tel:+79004740609">
+                            +7 (900) 474-06-09
+                        </a>
+                        <span>
                                Ежедневно: 9.00 - 18.00
                            </span>
-                        </div>
-                    </div>
-                    <div class="footer__location">
-                        <img src="img/main-screen/location.svg" alt="Адрес">
-                        <p class="footer__location_text">
-                            г. Владимир, ул. Уличная 25, 3 этаж, офис 7
-                        </p>
-                    </div>
-                    <div class="footer__mail">
-                        <img src="img/main-screen/envelope.svg" alt="Email">
-                        <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
-                            mizinov.invest@yandex.ru
-                        </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="footer__bottom">
-            <div class="container-fluid">
-                <div class="footer__bottom_wrap">
-                    <p class="footer__copyright">
-                        &#169; 2020 Альянс Инвест. Все права защищены.
+                <div class="footer__location">
+                    <img src="img/main-screen/location.svg" alt="Адрес">
+                    <p class="footer__location_text">
+                        г. Владимир, ул. Уличная 25, 3 этаж, офис 7
                     </p>
-                    <div class="footer__develope">
-                        <p>
-                            Сайт разработан в
-                        </p>
-                        <a href="https://apimedia.ru/">
-                            «API Media»
-                        </a>
-                    </div>
+                </div>
+                <div class="footer__mail">
+                    <img src="img/main-screen/envelope.svg" alt="Email">
+                    <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
+                        mizinov.invest@yandex.ru
+                    </a>
                 </div>
             </div>
         </div>
-    </footer>
-   <div class="overlay" id="popap__header_btn">
-       <div class="popap">
-           <div class="popap__close">&times;</div>
-           <!-- /.popap_close -->
-           <h4 class="consultation__title">
-               Заказать звонок
-           </h4>
-           <p class="consultation__subtitle">
-               Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
-           </p>
-           <form action="#" class="consultation__form form">
-               <div class="controls">
-                   <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
-                   <span class="error_name"></span>
-               </div>
-               <div class="controls">
-                   <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
-                   <span class="error_phone"></span>
-               </div>
-               <button type="submit" class="form__btn btn">
-                   Отправить
-               </button>
-           </form>
-           <!-- /.popap_form -->
-       </div>
-       <!-- /.popap -->
-   </div>
-   <script src="https://api-maps.yandex.ru/2.1/?apikey=164878f7-9a00-498a-a061-ced0e3719e53
+    </div>
+    <div class="footer__bottom">
+        <div class="container-fluid">
+            <div class="footer__bottom_wrap">
+                <p class="footer__copyright">
+                    &#169; 2020 Альянс Инвест. Все права защищены.
+                </p>
+                <div class="footer__develope">
+                    <p>
+                        Сайт разработан в
+                    </p>
+                    <a href="https://apimedia.ru/">
+                        «API Media»
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="overlay" id="popap__header_btn">
+    <div class="popap">
+        <div class="popap__close">&times;</div>
+        <!-- /.popap_close -->
+        <h4 class="consultation__title">
+            Заказать звонок
+        </h4>
+        <p class="consultation__subtitle">
+            Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
+        </p>
+        <form action="#" class="consultation__form form">
+            <div class="controls">
+                <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
+                <span class="error_name"></span>
+            </div>
+            <div class="controls">
+                <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
+                <span class="error_phone"></span>
+            </div>
+            <button type="submit" class="form__btn btn">
+                Отправить
+            </button>
+        </form>
+        <!-- /.popap_form -->
+    </div>
+    <!-- /.popap -->
+</div>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=164878f7-9a00-498a-a061-ced0e3719e53
 &lang=ru_RU" type="text/javascript"></script>
 
-   <script src="js/scripts.min.js"></script>
-    <script>
+<script src="js/scripts.min.js"></script>
+<script>
     // var reviewSlider = new Swiper ('.swiper-container-review', {
     //     slidesPerView: 4,
     //     navigation: {
