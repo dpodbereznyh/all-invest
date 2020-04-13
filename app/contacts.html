@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/header/header-logo.ico">
+    <link rel="apple-touch-icon" href="img/header/header-logo.ico">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/header/header-logo72.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/header/header-logo.ico">
+    <link rel="stylesheet" href="scss/vendors/libs/smart-menu/sm-core-css.css">
+    <link rel="stylesheet" href="fonts/fontawesome/all.min.css">
+    <link rel="stylesheet" href="scss/vendors/libs/swiper.min.css">
+    <link rel="stylesheet" href="scss/vendors/libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Проектирование | АЛЬЯНС-ИНВЕСТ</title>
+</head>
+<body>
+<main class="main">
+    <header class="header">
+        <div class="header__top_nav">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
+                        <a href="/" class="header__logo">
+                            <div class="header__logo_img">
+                                <img src="img/header/header-logo.svg" alt="Альянс Инвест">
+                            </div>
+                            <div class="header__logo_text">
+                                <img src="img/header/logo-text.svg" alt="Альянс Инвест">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-none d-lg-flex col-lg-3 col-xl-auto">
+                        <div class="header__location">
+                            <img src="img/main-screen/location.svg" alt="Адрес">
+                            <p class="header__location_text">
+                                г. Владимир, ул. Уличная 25, 3 этаж, офис 7
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-none d-md-flex col-md-4 col-lg-3 col-xl-auto">
+                        <div class="header__mail">
+                            <img src="img/main-screen/envelope.svg" alt="Email">
+                            <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
+                                mizinov.invest@yandex.ru
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-auto">
+                        <div class="header__phone">
+                            <img src="img/main-screen/phone.svg" alt="Телефон">
+                            <div class="header__phone_text">
+                                <a href="tel:+79004740609">
+                                    +7 (900) 474-06-09
+                                </a>
+                                <span>
+                               Ежедневно: 9.00 - 18.00
+                           </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom_nav">
+            <div class="container-fluid">
+                <nav class="main-nav" role="navigation">
+                    <!-- Mobile menu toggle button (hamburger/x icon) -->
+                    <input id="main-menu-state" type="checkbox" />
+                    <label class="main-menu-btn" for="main-menu-state">
+                        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+                    </label>
+                    <!-- Sample menu definition -->
+                    <ul id="main-menu" class="sm sm-blue">
+                        <li class="has-mega-menu"><a href="#">УСЛУГИ</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <div class="column-1-3">
+                                        <a href="#">Подсистемы</a>
+                                        <ul>
+                                            <li><a href="#">Перекрестная</a></li>
+                                            <li><a href="#">Горизонтальная</a></li>
+                                            <li><a href="#">Вертикальная</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Крепеж</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Алюминевые композиты</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Керамагранит</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фасадные подъемники</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фиброцемент</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega-menu"><a href="#">МАТЕРИАЛЫ И КОМПЛЕКТУЮЩИЕ</a>
+                            <ul class="mega-menu">
+                                <li>
+                                    <div class="column-1-3">
+                                        <a class="sub-link" href="#">Подсистемы</a>
+                                        <ul>
+                                            <li class="sub-sub-link"><a href="#">Перекрестная</a></li>
+                                            <li class="sub-sub-link"><a href="#">Горизонтальная</a></li>
+                                            <li class="sub-sub-link"><a href="#">Вертикальная</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Крепеж</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Алюминевые композиты</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Керамагранит</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фасадные подъемники</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column-1-3">
+                                        <a href="#">Фиброцемент</a>
+                                        <ul>
+                                            <li><a href="#"></a></li>
+                                            <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                О КОМПАНИИ
+                            </a>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                Наши работы
+                            </a>
+                        </li>
+                        <li class="has-mega-menu">
+                            <a href="#">
+                                Контакты
+                            </a>
+                        </li>
+                        <!--<button href="#" class="header__nav_btn">-->
+                        <!--Заказать звонок-->
+                        <!--</button>-->
+                    </ul>
+                    <button href="#" class="header__nav_btn">
+                        Заказать звонок
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div class="breadcrumb">
+            <div class="container-fluid">
+                <ul class="breadcrumb__list">
+                    <li>
+                        <a href="#">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main__screen_inner main__screen_inner-contacts">
+        <div class="container-fluid">
+            <h2 class="main__screen_inner-contacts_title">
+                Контактная информация
+            </h2>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="contacts__location">
+                        <img src="img/main-screen/location.svg" alt="Адрес">
+                        <p class="contacts__location_text">
+                            г. Владимир, ул. Уличная 25, 3 этаж, офис 7
+                        </p>
+                    </div>
+                    <div class="contacts__phone">
+                        <img src="img/main-screen/phone.svg" alt="Телефон">
+                        <div class="contacts__phone_text">
+                            <a href="tel:+79004740609">
+                                +7 (900) 474-06-09
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contacts__mail">
+                        <img src="img/main-screen/envelope.svg" alt="Email">
+                        <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
+                            mizinov.invest@yandex.ru
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="contacts__map">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2345ff8c60fc92167c8fa7779c1225370e716ec9bdd00afa0cfe38f8c7f4e2a&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer" id="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="footer__menu_wrap">
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Материалы и комплектующие
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Фасадные подсистемы</a></li>
+                            <li class="footer__menu_item"><a href="#">Крепеж</a></li>
+                            <li class="footer__menu_item"><a href="#">Изоляция</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Наши услуги
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Проектирование</a></li>
+                            <li class="footer__menu_item"><a href="#">Поставка</a></li>
+                            <li class="footer__menu_item"><a href="#">Монтаж</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Покупателям
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">О компании</a></li>
+                            <li class="footer__menu_item"><a href="#">Наши проекты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__menu_item_wrap">
+                        <a href="#" class="footer__menu_title">
+                            Системы мокрых фасадов
+                        </a>
+                        <ul class="footer__menu_list">
+                            <li class="footer__menu_item"><a href="#">Керамогранит</a></li>
+                            <li class="footer__menu_item"><a href="#">Фасадные подъемники</a></li>
+                            <li class="footer__menu_item"><a href="#">Фиброцемент</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="footer__menu_title footer__contact_title">
+                    Контакты
+                </p>
+                <div class="footer__phone">
+                    <img src="img/main-screen/phone.svg" alt="Телефон">
+                    <div class="footer__phone_text">
+                        <a href="tel:+79004740609">
+                            +7 (900) 474-06-09
+                        </a>
+                        <span>
+                               Ежедневно: 9.00 - 18.00
+                           </span>
+                    </div>
+                </div>
+                <div class="footer__location">
+                    <img src="img/main-screen/location.svg" alt="Адрес">
+                    <p class="footer__location_text">
+                        г. Владимир, ул. Уличная 25, 3 этаж, офис 7
+                    </p>
+                </div>
+                <div class="footer__mail">
+                    <img src="img/main-screen/envelope.svg" alt="Email">
+                    <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
+                        mizinov.invest@yandex.ru
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="container-fluid">
+            <div class="footer__bottom_wrap">
+                <p class="footer__copyright">
+                    &#169; 2020 Альянс Инвест. Все права защищены.
+                </p>
+                <div class="footer__develope">
+                    <p>
+                        Сайт разработан в
+                    </p>
+                    <a href="https://apimedia.ru/">
+                        «API Media»
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="overlay" id="popap__header_btn">
+    <div class="popap">
+        <div class="popap__close">&times;</div>
+        <!-- /.popap_close -->
+        <h4 class="consultation__title">
+            Заказать звонок
+        </h4>
+        <p class="consultation__subtitle">
+            Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
+        </p>
+        <form action="#" class="consultation__form form">
+            <div class="controls">
+                <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
+                <span class="error_name"></span>
+            </div>
+            <div class="controls">
+                <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
+                <span class="error_phone"></span>
+            </div>
+            <button type="submit" class="form__btn btn">
+                Отправить
+            </button>
+        </form>
+        <!-- /.popap_form -->
+    </div>
+    <!-- /.popap -->
+</div>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=7f0ef56a-a931-4ae5-8275-5c24492e7fde&lang=ru_RU" type="text/javascript">
+    </script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=164878f7-9a00-498a-a061-ced0e3719e53&lang=ru_RU" type="text/javascript"></script>
+<script src="scss/vendors/libs/jquery-3.4.1.min.js"></script>
+<script src="js/vendors/swiper.min.js"></script>
+<script src="js/vendors/jquery.fancybox.min.js"></script>
+<script src="js/scripts.min.js"></script>
+<script>
+    var mainSlider = new Swiper('.swiper-container-main', {
+        navigation: {
+            nextEl: '.swiper-button-next-main',
+            prevEl: '.swiper-button-prev-main',
+        },
+        pagination: {
+            el: '.swiper-pagination-main',
+            clickable: true,
+        },
+
+    });
+    var reviewSlider = new Swiper ('.swiper-container-review', {
+        slidesPerView: 4,
+        navigation: {
+            nextEl: '.swiper-button-next-review',
+            prevEl: '.swiper-button-prev-review',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            1201: {
+                slidesPerView: 4,
+            },
+            993: {
+                slidesPerView: 3,
+            },
+            769: {
+                slidesPerView: 2,
+            },
+            577: {
+                slidesPerView: 2,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+        }
+    });
+    var projectsSlider = new Swiper ('.swiper-container-projects', {
+        slidesPerView: 1,
+        spaceBetween: 32,
+        navigation: {
+            nextEl: '.swiper-button-next-projects',
+            prevEl: '.swiper-button-prev-projects',
+        },
+    });
+</script>
+
+
+
+</body>
+</html>

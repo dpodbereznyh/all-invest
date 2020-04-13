@@ -9,7 +9,7 @@
   }
   &_item {
     width: 100%;
-    height: inherit;
+    height: rem(386px);
     img {
       width: inherit;
       height: inherit;
@@ -35,12 +35,16 @@
 .swiper-container-projects, .swiper-container-projects1, .swiper-container-projects2, .swiper-container-projects3, .swiper-container-projects4 {
   overflow: hidden;
   width: 100%;
+  height: 100%;
 }
 .swiper-slide-projects {
 
   img {
     margin: 0 auto;
     display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
   }
 }
 .swiper-button-prev-projects, .swiper-button-prev-projects1, .swiper-button-prev-projects2, .swiper-button-prev-projects3, .swiper-button-prev-projects4 {
@@ -48,7 +52,7 @@
   height: rem(26px);
   position: absolute;
   top: 50%;
-  transform: translate(-100%, 50%);
+  transform: translate(-100%, -50%);
   left: 0;
   display: flex;
   align-items: center;
@@ -69,7 +73,7 @@
   height: rem(26px);
   position: absolute;
   top: 50%;
-  transform: translate(100%, 50%);
+  transform: translate(100%, -50%);
   right: 0;
   display: flex;
   align-items: center;

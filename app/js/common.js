@@ -303,24 +303,24 @@ $(document).ready(function() {
     });
 
     // Map
-    ymaps.ready(init);
-
-    function init() {
-        var myMap = new ymaps.Map("map", {
-            center: [56.12657906861558, 40.4115845],
-            zoom: 16,
-            controls: []
-        });
-        var myPlacemark = new ymaps.Placemark([56.12657906861558, 40.4115845], {}, {
-            iconLayout: 'default#image',
-            iconImageHref: 'assets/app/img/map-marker.png',
-            iconImageSize: [40, 40],
-            iconImageOffset: [-3, -42]
-        });
-        myMap.geoObjects.add(myPlacemark);
-
-        myMap.behaviors.disable(['scrollZoom'])
-    }
+    // ymaps.ready(init);
+    //
+    // function init() {
+    //     var myMap = new ymaps.Map("map", {
+    //         center: [56.12657906861558, 40.4115845],
+    //         zoom: 16,
+    //         controls: []
+    //     });
+    //     var myPlacemark = new ymaps.Placemark([56.12657906861558, 40.4115845], {}, {
+    //         iconLayout: 'default#image',
+    //         iconImageHref: 'assets/app/img/map-marker.png',
+    //         iconImageSize: [40, 40],
+    //         iconImageOffset: [-3, -42]
+    //     });
+    //     myMap.geoObjects.add(myPlacemark);
+    //
+    //     myMap.behaviors.disable(['scrollZoom'])
+    // }
     // Projects Nav
     $('.image__nav').on('click', function () {
         $('.img__after').toggleClass('img__hide');

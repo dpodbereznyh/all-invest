@@ -13,9 +13,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 0;
-    .active {
-      color: #ffffff;
-    }
+
     li {
       &:after {
         content: '\002F';
@@ -27,6 +25,10 @@
         @include bodyRegular;
         color: #fff;
       }
+      .active {
+        color: #ffffff;
+        @include bodyRegular;
+      }
     }
     li:last-child {
       &:after {
@@ -34,4 +36,8 @@
       }
     }
   }
+}
+.breadcrumb .active {
+  color: #fff;
+  @include bodyRegular;
 }

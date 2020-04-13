@@ -362,6 +362,9 @@
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
     height: var(--swiper-navigation-size);
   }
+  .contacts__map {
+    margin-top: rem(40px);
+  }
   .main__slide {
     height: 44.25rem;
   }

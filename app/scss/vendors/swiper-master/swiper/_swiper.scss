@@ -1,4 +1,4 @@
-@import "./scss/functions";
+@import "scss/functions";
 
 $themeColor: #007aff !default;
 $colors: ('white': #ffffff, 'black': #000000) !default;
@@ -10,6 +10,6 @@ $colors: ('white': #ffffff, 'black': #000000) !default;
   font-style: normal;
 }
 
-@import "./components/core/core";
+@import "components/core/core";
 
 //IMPORT_COMPONENTS
