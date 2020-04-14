@@ -362,6 +362,7 @@
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
     height: var(--swiper-navigation-size);
   }
+
   .contacts__map {
     margin-top: rem(40px);
   }
@@ -448,7 +449,7 @@
     padding: 1rem 2rem;
   }
   .system__components, .proflist__components, .fiber-cement__second_screen, .keramogranit__second_screen, .front-elevators__advantages, .front-elevators__second_screen, .company__second_screen, .subsystems__advantages, .screen__bg_right, .calculation, .proflist__second_screen, .fasteners__second_screen {
-    background: none;
+    background: none!important;
   }
   .estimation, .proflist__advantages, .about, .subsystems__second_screen, .systems__advantages {
     background: #f3f3f3;
