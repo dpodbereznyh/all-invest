@@ -59,7 +59,8 @@
     }
     &-text {
       @include subtitleSemiBold;
-      color: $activeGray
+      color: $activeGray;
+      text-align: center;
     }
   }
 }
