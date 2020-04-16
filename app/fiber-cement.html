@@ -8,10 +8,13 @@
     <link rel="apple-touch-icon" href="img/header/header-logo.ico">
     <link rel="apple-touch-icon" sizes="72x72" href="img/header/header-logo72.ico">
     <link rel="apple-touch-icon" sizes="114x114" href="img/header/header-logo.ico">
+    <link rel="stylesheet" href="libs/sm-core-css.css">
+    <link rel="stylesheet" href="fonts/fontawesome/all.min.css">
+    <link rel="stylesheet" href="libs/swiper.min.css">
+    <link rel="stylesheet" href="libs/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/main.min.css">
-    <title>Главная | АЛЬЯНС-ИНВЕСТ</title>
+    <title>Фиброцемент | АЛЬЯНС-ИНВЕСТ</title>
 </head>
-
 <body>
 <main class="main">
     <header class="header">
@@ -195,185 +198,107 @@
                 </nav>
             </div>
         </div>
+        <div class="breadcrumb">
+            <div class="container-fluid">
+                <ul class="breadcrumb__list">
+                    <li>
+                        <a href="#">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Материалы и комплектующие
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Фиброцемент
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
-    <section class="swiper-container-main" id="main__screen">
-        <ul class="swiper-wrapper swiper-wrapper-main">
-            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg1.png') no-repeat center center/cover">
-                <div class="main__screen_offer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-10 col-xl-8">
-                                <h1 class="main__screen_title">
-                                    Система навесных вентилируемых фасадов
-                                </h1>
-                            </div>
-                            <div class="col-12">
-                                <p class="main__screen_subtitle">
-                                    Проектирование, монтаж, комплектация — под ключ
-                                </p>
-                            </div>
-                        </div>
-                        <a href="#" class="selsystem_btn btn">
-                            Выбрать систему
-                        </a>
-
-                        <a href="#" class="details_btn btn">
-                            Подробнее
-                        </a>
-                        <div class="swiper-pagination swiper-pagination-main"></div>
-                    </div>
-                </div>
-            </li>
-            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
-                <div class="main__screen_offer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-10 col-xl-8">
-                                <h1 class="main__screen_title">
-                                    Проектирование навесных вентилируемых фасадов
-                                </h1>
-                            </div>
-                            <div class="col-9 col-lg-12">
-                                <p class="main__screen_subtitle">
-                                    За один месяц всего от 2800 руб./ кв.м.
-                                </p>
-                            </div>
-                        </div>
-                        <a href="#" class="popap_btn btn">
-                            Оставить заявку
-                        </a>
-                        <div class="swiper-pagination swiper-pagination-main"></div>
-                    </div>
-                </div>
-            </li>
-            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
-            </li>
-        </ul>
-        <div class="swiper-button-next swiper-button-next-main">
-            <img src="img/main-screen/next.svg" alt="button-next">
-        </div>
-        <div class="swiper-button-prev swiper-button-prev-main">
-            <img src="img/main-screen/prev.svg" alt="button-next">
-        </div>
-    </section>
-    <section class="services" id="services">
+    <section class="main__screen_inner main__screen_inner-fiber-cement" style="background: url('/img/fiber-cement/fiber-cement-bg.png') no-repeat center center/cover">
         <div class="container-fluid">
             <div class="row">
-                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                    <a href="#" class="services__item">
-                        <p class="services__item_title">
-                            Проектирование
-                        </p>
-                        <img src="img/services/service-item1.png" alt="services">
-                    </a>
+                <div class="col-lg-10 col-xl-8">
+                    <h1 class="main__screen_title main__screen_inner_title">
+                        Фиброцемент
+                    </h1>
                 </div>
-                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                    <a href="#" class="services__item">
-                        <p class="services__item_title">
-                            Материалы
-                        </p>
-                        <img src="img/services/service-item2.png" alt="services">
-                    </a>
+                <div class="col-12">
+                    <p class="main__screen_subtitle">
+                        За один месяц всего от 2800 руб. / кв.м.
+                    </p>
                 </div>
-                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                    <a href="#" class="services__item">
-                        <p class="services__item_title">
-                            Монтаж
-                        </p>
-                        <img src="img/services/service-item3.png" alt="services">
-                    </a>
+            </div>
+            <a href="#" class="order__btn">
+                Оставить заявку
+            </a>
+        </div>
+    </section>
+    <section class="fiber-cement__second_screen">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h2 class="fiber-cement__second_screen_title">
+                        Фиброцемент
+                    </h2>
+                    <p class="fiber-cement__second_screen_text">
+                        Фиброцементные плиты для фасадов – это современный строительный материал, фракции которого имеют форму прямоугольника. Его широко применяют для облицовки фасадов зданий различного назначения и этажности.
+                    </p>
+                    <p class="fiber-cement__second_screen_text">
+                        Одной из главных особенностей плит из такого материала, как фиброцемент, является их экологическая безопасность.При изготовлении прямоугольных панелей используется сырье без токсичных составляющих и потенциально опасных добавок, а в процессе их использования в воздух не выделяются опасные для здоровья людей и животных элементы, причем даже при воздействии высоких температур.
+                    </p>
+                    <p class="fiber-cement__list_title">
+                        Преимущества:
+                    </p>
+                    <ul class="fiber-cement__list">
+                        <li class="fiber-cement__list_item">Экологичность изделий в силу использования безопасного и чистого сырья;</li>
+                        <li class="fiber-cement__list_item">Способность поглощать шумы, отличные теплоизоляционные характеристики, пожарная безопасность;</li>
+                        <li class="fiber-cement__list_item">Устойчивость к перепадам температур, даже к глубокому замораживанию, природной агрессивной среде;</li>
+                        <li class="fiber-cement__list_item">Отсутствие возможности образования на слоях фасада грибка, плесени и налета, а также от коррозийных процессов;</li>
+                        <li class="fiber-cement__list_item">Простота монтажных работ и возможность их проведения при любой погоде;</li>
+                        <li class="fiber-cement__list_item">Отличные декоративные свойства, повышенная прочность, износостойкость и период эксплуатации, который может продлиться больше 100 лет, универсальность.</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section class="work__stages" id="work_stages">
+    <section class="color-solutions">
         <div class="container-fluid">
-            <h2 class="work__stages_title">
-                Этапы работы
+            <h2 class="color-solutions__title">
+                Каталоги цветовых решений
             </h2>
-            <div class="row no-gutters">
-                <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                    <div class="work__stages_list">
-                        <div class="work__stages_item">
-                            <div class="work__stages_item-img work__stages_item-img-before">
-                                <img src="img/work-stages/stage1.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">01</span>
-                                <p class="work__stages_item-text">
-                                    Встреча (выявляем цели<br>и ставим задачу
-                                </p>
-                            </div>
+            <div class="row">
+                <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-0 col-lg-6">
+                    <div class="color-solutions__card">
+                        <div class="color-solutions__card_title">
+                            <h3>
+                                ral
+                            </h3>
+                            <a href="#" class="color-solutions__btn">
+                                Подробнее
+                            </a>
                         </div>
-                    </div>
-                    <div class="work__stages_list work__stages_list-bottom">
-                        <div class="work__stages_item work__stages_item-bottom">
-                            <div class="work__stages_item-img work__stages_item-img-after">
-                                <img src="img/work-stages/stage2.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">02</span>
-                                <p class="work__stages_item-text">
-                                    Подписание договора<br>и начало проектирования
-                                </p>
-                            </div>
+                        <div class="color-solutions__image">
+                            <img src="img/fiber-cement/ral.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                    <div class="work__stages_list">
-                        <div class="work__stages_item">
-                            <div class="work__stages_item-img work__stages_item-img-before">
-                                <img src="img/work-stages/stage3.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">03</span>
-                                <p class="work__stages_item-text">
-                                    Разработка проектных решений <br>и согласование вопросов
-                                </p>
-                            </div>
+                <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-0 col-lg-6">
+                    <div class="color-solutions__card">
+                        <div class="color-solutions__card_title">
+                            <h3>
+                                ncs
+                            </h3>
+                            <a href="#" class="color-solutions__btn">
+                                Подробнее
+                            </a>
                         </div>
-                    </div>
-                    <div class="work__stages_list work__stages_list-bottom">
-                        <div class="work__stages_item work__stages_item-bottom">
-                            <div class="work__stages_item-img work__stages_item-img-after">
-                                <img src="img/work-stages/stage4.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">04</span>
-                                <p class="work__stages_item-text">
-                                    Поставка материалов<br> и комлектующих
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                    <div class="work__stages_list">
-                        <div class="work__stages_item">
-                            <div class="work__stages_item-img work__stages_item-img-before">
-                                <img src="img/work-stages/stage5.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">05</span>
-                                <p class="work__stages_item-text">
-                                    Монтаж
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work__stages_list work__stages_list-bottom">
-                        <div class="work__stages_item work__stages_item-bottom">
-                            <div class="work__stages_item-img work__stages_item-img-after">
-                                <img src="img/work-stages/stage6.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">06</span>
-                                <p class="work__stages_item-text">
-                                    Сдача готового объекта
-                                </p>
-                            </div>
-                        </div>
+                        <div class="color-solutions__image"><img src="img/fiber-cement/ncs.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -407,6 +332,175 @@
                     <div class="consultation__img">
                         <img src="img/consultation/img-1.png" alt="consultation">
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="works" id="works">
+        <div class="container-fluid">
+            <div class="works__header">
+                <h2 class="works__title">
+                    Выполненные объекты
+                </h2>
+                <a href="#" class="works__btn">
+                    Смотреть все
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/mo-odincovo.png" alt="ЖК «Жемчужина»">
+                        </div>
+                        <span class="works__item_text">
+                               МО, Одинцовский район, д. Гигерево, ЖК «Жемчужина»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/kfc.png" alt="KFC">
+                        </div>
+                        <span class="works__item_text">
+                                г.Ковров, ул. Строителей, д. 25 «KFC»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/jarcevskaja.png" alt="г. Москва, ул. Ярцевская, д. 33">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, ул. Ярцевская, д. 33, корп. 1, Жилой дом
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/sosh1.png" alt="МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1">
+                        </div>
+                        <span class="works__item_text">
+                               МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/polyclinica.png" alt="г. Москва, ул. Нижегородская, д. 29 «Поликлиника»">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, ул. Нижегородская, д. 29 «Поликлиника»
+                           </span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="#" class="works__item">
+                        <div class="works__item_img">
+                            <img src="img/works/degtyarnyy.png" alt="г. Москва, Дегтярный пер д. 4, стр. 1">
+                        </div>
+                        <span class="works__item_text">
+                               г. Москва, Дегтярный пер, д. 4, стр. 1
+                           </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="techinfo techinfo-fiber-cement">
+        <div class="container-fluid">
+            <h2 class="techinfo__title techinfo__title-fiber-cement">
+                Техническая информация
+            </h2>
+            <div class="techinfo__nav techinfo__nav-fiber-cement">
+                <div class="techinfo__nav_desc">Описание
+                    <div class="techinfo-active_desc"></div>
+
+                </div>
+                <div class="techinfo__nav_specific">Характеристики
+                    <div class="techinfo-active_spec"></div>
+                </div>
+            </div>
+            <div class="techinfo__desc_wrap">
+                <div class="techinfo__description">
+                    <p class="techinfo__text techinfo__text-fiber-cement">
+                        1Толщина фиброцементной фасадной панели EQUITONE: 8 мм; 12 мм.                    </p>
+                    <p class="techinfo__list_title techinfo__list_title-fiber-cement">
+                        Размер панели (мм), Вес (кг/ед):
+                    </p>
+                    <ul class="techinfo__list techinfo__list-fiber-cement">
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">1220х2500x8: 44 кг</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">1250х2500x8: 46,5 кг</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">1220х3050x8: 54 кг</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">1250х3100x8: 72,5 кг</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">1250х2500х12: 57,7 кг</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">1250х3100х12: 89,9 кг</li>
+                    </ul>
+                    <p class="techinfo__list_title techinfo__list_title-fiber-cement">
+                        Вес 1 кв. метра панели, кг:
+                    </p>
+                    <ul class="techinfo__list techinfo__list-fiber-cement">
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">8 мм: 14.9 кг/м2</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">12 мм: 23,2 кг/м2</li>
+                    </ul>
+                    <p class="techinfo__list_title techinfo__list_title-fiber-cement">
+                        Долговечность: Категория А
+                    </p>
+                    <ul class="techinfo__list techinfo__list-fiber-cement">
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">Прочность: Класс 4</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">Реакция на пламя: A2-s1-d0</li>
+                    </ul>
+                    <p class="techinfo__list_title techinfo__list_title-fiber-cement">
+                        Класс пожаростойкости: НГ
+                    </p>
+                    <ul class="techinfo__list techinfo__list-fiber-cement">
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">Коэффициент термического расширения > 0,01 m/mK</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">Коэффициент теплопроводности 0.407 W/mK</li>
+                    </ul>
+                    <ul class="techinfo__list techinfo__list-fiber-cement">
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">Прочность при изгибе (показатели излома): 17 Н/мм2 / 26Н/мм2</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">Плотность, кг/м3: не менее 1550</li>
+                        <li class="techinfo__list_item techinfo__list_item-fiber-cement">Морозостойкость: число циклов - 150, остаточная прочность (%), не менее 90.</li>
+                    </ul>
+
+
+                </div>
+                <div class="techinfo__specifications">
+                    <p class="techinfo__text">
+                        2Износоустойчивость. Сюда включается сразу 3 понятия. Это сопротивляемость глубокому износу, «терпимость» к поверхностному износу, стойкость. У разных типов синтетического камня износоустойчивость может быть разной. По шкале EN максимальное значение (наименее прочный камень) составляет 205 мм куб.
+                    </p>
+                    <p class="techinfo__text">
+                        Морозоустойчивость. Один из важнейших показателей, определяющих возможность применения материала вне помещений. Любая разновидность керамогранита способна выдержать до 50-ти циклов, предусматривающих замораживание и последующее размораживание.
+                    </p>
+                    <p class="techinfo__text">
+                        Водопоглощение. У керамогранита оно крайне низкое. Стандарт EN определяет значение не более 3%. Однако в реальности цифра в среднем составляет 0,05-0.5%. Невозможность глубокого проникновения влаги в плитку гарантирует её защиту от разрыва при морозах.
+                    </p>
+                    <p class="techinfo__text">
+                        Удельный вес керамогранита составляет около 2400 кг/куб.м. Это примерно соответствует удельному весу стекла.
+                    </p>
+                    <p class="techinfo__list_title">
+                        Устойчивость к механическому воздействию. Здесь EN выделяет две позиции:
+                    </p>
+                    <ul class="techinfo__list">
+                        <li class="techinfo__list_item">— сопротивляемость царапинам: >6 Моос;</li>
+                        <li class="techinfo__list_item">— устойчивость к образованию разлома: >27 N/mm кв.</li>
+                    </ul>
+                    <p class="techinfo__text">
+                        Помимо этих значений, существует такое понятие, как «прочность на изгиб». Керамогранит по этой характеристике прочнее природного камня в три раза, обычной напольной керамической плитки в полтора раза, а настенной – в два. Получаемая при производстве плотность керамогранита достигает 1400 кг/куб.м.
+                    </p>
+                    <p class="techinfo__text">
+                        Стойкость цвета, его чистота. EN определяет эту характеристику, как «без изменений». Действительно, керамогранит не взаимодействует с химическими веществами, не реагирует на длительное солнечное излучение. Однако стоит помнить; чем сложнее фактура камня, тем сильнее он «притягивает» загрязнения.
+                    </p>
+                    <p class="techinfo__text">
+                        Длина, ширина. Самый популярные размеры керамогранита – 600 на 600 мм. Для малых помещений используют меньшие размеры, например, 300 на 300 мм. Производители же «держат» общий диапазон от 200 на 200 мм до 1200 на 1800 мм.
+                    </p>
+                    <p class="techinfo__text">
+                        Теплопроводность. Нормативные документы не отражают эту характеристику. Но постоянное использование искусственного камня для вентфасадов и в качестве напольного покрытия теплых полов свидетельствует, что коэффициент теплопроводности керамогранита меньше, чем у природного гранита.
+
+                    </p>
                 </div>
             </div>
         </div>
@@ -500,167 +594,6 @@
             </div>
         </div>
     </section>
-    <section class="about" id="about">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h2 class="about__title">
-                        Почему нас выбирают?
-                    </h2>
-                    <p class="about__text">
-                        Ассоциация российских разработчиков и производителей электроники – объединение участников российской электронной отрасли, созданное в 2017 году.
-                    </p>
-                    <p class="about__text">
-                        Цель – возрождение и развитие российской электронной промышленности посредством координации деятельности частных компаний и государства, усиления отраслевой кооперации, проведения профориентационных мероприятий среди молодых специалистов, дальнейшего наращивания экспортного потенциала.
-                    </p>
-                    <a href="#" class="about__btn">
-                        Подробнее
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="works" id="works">
-        <div class="container-fluid">
-            <div class="works__header">
-                <h2 class="works__title">
-                    Выполненные объекты
-                </h2>
-                <a href="#" class="works__btn">
-                    Смотреть все
-                </a>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/mo-odincovo.png" alt="ЖК «Жемчужина»">
-                        </div>
-                        <span class="works__item_text">
-                               МО, Одинцовский район, д. Гигерево, ЖК «Жемчужина»
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/kfc.png" alt="KFC">
-                        </div>
-                        <span class="works__item_text">
-                                г.Ковров, ул. Строителей, д. 25 «KFC»
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/jarcevskaja.png" alt="г. Москва, ул. Ярцевская, д. 33">
-                        </div>
-                        <span class="works__item_text">
-                               г. Москва, ул. Ярцевская, д. 33, корп. 1, Жилой дом
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/sosh1.png" alt="МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1">
-                        </div>
-                        <span class="works__item_text">
-                               МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1»
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/polyclinica.png" alt="г. Москва, ул. Нижегородская, д. 29 «Поликлиника»">
-                        </div>
-                        <span class="works__item_text">
-                               г. Москва, ул. Нижегородская, д. 29 «Поликлиника»
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/degtyarnyy.png" alt="г. Москва, Дегтярный пер д. 4, стр. 1">
-                        </div>
-                        <span class="works__item_text">
-                               г. Москва, Дегтярный пер, д. 4, стр. 1
-                           </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="review" id="review">
-        <div class="container-fluid">
-            <h2 class="review__title">
-                Отзывы клиентов
-            </h2>
-            <div class="swiper-container-review">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide review__item">
-                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                            <div class="review__item_overlay">
-                                <div class="review__item_overlay-icon">
-                                </div>
-                                <p class="review__item_overlay-text">
-                                    Н.М. Гальченко, ООО «‎Гальмед»
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide review__item">
-                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                            <div class="review__item_overlay">
-                                <div class="review__item_overlay-icon">
-                                </div>
-                                <p class="review__item_overlay-text">
-                                    Н.М. Гальченко, ООО «‎Гальмед»
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide review__item">
-                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                            <div class="review__item_overlay">
-                                <div class="review__item_overlay-icon">
-                                </div>
-                                <p class="review__item_overlay-text">
-                                    Н.М. Гальченко, ООО «‎Гальмед»
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide review__item">
-                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                            <div class="review__item_overlay">
-                                <div class="review__item_overlay-icon">
-                                </div>
-
-                            </div>
-                        </a>
-                        <p class="review__item_overlay-text">
-                            Н.М. Гальченко, ООО «‎Гальмед»
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="swiper-button-next swiper-button-next-review">
-            <img src="img/main-screen/next.svg" alt="button-next">
-        </div>
-        <div class="swiper-button-prev swiper-button-prev-review">
-            <img src="img/main-screen/prev.svg" alt="button-next">
-        </div>
-        <div class="swiper-pagination swiper-pagination-review"></div>
-    </section>
     <section class="consultation__second" style="background: url('img/consultation-second/bg.png')">
         <div class="container-fluid">
             <div class="row justify-content-between align-items-center">
@@ -692,8 +625,9 @@
         </div>
     </section>
     <section class="map__section">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2345ff8c60fc92167c8fa7779c1225370e716ec9bdd00afa0cfe38f8c7f4e2a&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+        <div id="map"></div>
     </section>
+
 </main>
 <footer class="footer" id="footer">
     <div class="container-fluid">
@@ -746,7 +680,7 @@
                     Контакты
                 </p>
                 <div class="footer__phone">
-                    <img src="img/main-screen/phone.svg" alt="Телефон">
+                    <img src="/img/main-screen/phone.svg" alt="Телефон">
                     <div class="footer__phone_text">
                         <a href="tel:+79004740609">
                             +7 (900) 474-06-09
@@ -757,13 +691,13 @@
                     </div>
                 </div>
                 <div class="footer__location">
-                    <img src="img/main-screen/location.svg" alt="Адрес">
+                    <img src="/img/main-screen/location.svg" alt="Адрес">
                     <p class="footer__location_text">
                         г. Владимир, ул. Уличная 25, 3 этаж, офис 7
                     </p>
                 </div>
                 <div class="footer__mail">
-                    <img src="img/main-screen/envelope.svg" alt="Email">
+                    <img src="/img/main-screen/envelope.svg" alt="Email">
                     <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
                         mizinov.invest@yandex.ru
                     </a>
@@ -816,37 +750,63 @@
     </div>
     <!-- /.popap -->
 </div>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=164878f7-9a00-498a-a061-ced0e3719e53
+&lang=ru_RU" type="text/javascript"></script>
+<script src="libs/jquery-3.4.1.min.js"></script>
+<script src="libs/swiper.min.js"></script>
+<script src="libs/jquery.fancybox.min.js"></script>
 <script src="js/scripts.min.js"></script>
 <script>
-    // var reviewSlider = new Swiper ('.swiper-container-review', {
-    //     slidesPerView: 4,
-    //     navigation: {
-    //         nextEl: '.swiper-button-next-review',
-    //         prevEl: '.swiper-button-prev-review',
-    //     },
-    //     pagination: {
-    //         el: '.swiper-pagination',
-    //         clickable: true,
-    //     },
-    //     breakpoints: {
-    //         1201: {
-    //             slidesPerView: 4,
-    //         },
-    //         993: {
-    //             slidesPerView: 3,
-    //         },
-    //         769: {
-    //             slidesPerView: 2,
-    //         },
-    //         577: {
-    //             slidesPerView: 2,
-    //         },
-    //         320: {
-    //             slidesPerView: 1,
-    //             centeredSlides: true,
-    //         },
-    //     }
-    // });
+    var mainSlider = new Swiper('.swiper-container-main', {
+        navigation: {
+            nextEl: '.swiper-button-next-main',
+            prevEl: '.swiper-button-prev-main',
+        },
+        pagination: {
+            el: '.swiper-pagination-main',
+            clickable: true,
+        },
+
+    });
+    var mainSlider = new Swiper('.swiper-container-elevators', {
+        navigation: {
+            nextEl: '.swiper-button-next-elevators',
+            prevEl: '.swiper-button-prev-elevators',
+        },
+        pagination: {
+            el: '.swiper-pagination-elevators',
+            clickable: true,
+        },
+
+    });
+    var reviewSlider = new Swiper ('.swiper-container-review', {
+        slidesPerView: 4,
+        navigation: {
+            nextEl: '.swiper-button-next-review',
+            prevEl: '.swiper-button-prev-review',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            1201: {
+                slidesPerView: 4,
+            },
+            993: {
+                slidesPerView: 3,
+            },
+            769: {
+                slidesPerView: 2,
+            },
+            577: {
+                slidesPerView: 2,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+        }
+    });
     var projectsSlider = new Swiper ('.swiper-container-projects', {
         slidesPerView: 1,
         spaceBetween: 32,
@@ -861,4 +821,3 @@
 
 </body>
 </html>
-

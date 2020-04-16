@@ -88,7 +88,7 @@
     margin-top: 0;
   }
   .color-solutions__card {
-    width: 100%;
+    width: 100%!important;
   }
   .fasteners__name_img {
     margin-top: 0;
@@ -222,7 +222,7 @@
     margin-top: 30px;
   }
   .color-solutions__card {
-    margin-bottom: 40px;
+    margin-bottom: 40px!important;
   }
   .subsystems__advantages, .systems__advantages {
     background-position: calc(50% - 565px);
@@ -656,13 +656,13 @@
     margin-right: 0;
   }
   .color-solutions__card {
-    flex-direction: column;
-    height: auto;
+    flex-direction: column!important;
+    height: auto!important;
   }
   .color-solutions__image {
-    width: 100%;
-    justify-content: center;
-    order: 1;
+    width: 100%!important;
+    justify-content: center!important;
+    order: 1!important;
   }
   .color-solutions__card_title {
     order: 2;
