@@ -8,10 +8,13 @@
     <link rel="apple-touch-icon" href="img/header/header-logo.ico">
     <link rel="apple-touch-icon" sizes="72x72" href="img/header/header-logo72.ico">
     <link rel="apple-touch-icon" sizes="114x114" href="img/header/header-logo.ico">
+    <link rel="stylesheet" href="libs/sm-core-css.css">
+    <link rel="stylesheet" href="fonts/fontawesome/all.min.css">
+    <link rel="stylesheet" href="libs/swiper.min.css">
+    <link rel="stylesheet" href="libs/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/main.min.css">
-    <title>Главная | АЛЬЯНС-ИНВЕСТ</title>
+    <title>Фасадные подъемники | АЛЬЯНС-ИНВЕСТ</title>
 </head>
-
 <body>
 <main class="main">
     <header class="header">
@@ -195,191 +198,148 @@
                 </nav>
             </div>
         </div>
+        <div class="breadcrumb">
+            <div class="container-fluid">
+                <ul class="breadcrumb__list">
+                    <li>
+                        <a href="#">
+                            Главная
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Материалы и комплектующие
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Фасадные подъемники
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
-    <section class="swiper-container-main" id="main__screen">
-        <ul class="swiper-wrapper swiper-wrapper-main">
-            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg1.png') no-repeat center center/cover">
-                <div class="main__screen_offer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-10 col-xl-8">
-                                <h1 class="main__screen_title">
-                                    Система навесных вентилируемых фасадов
-                                </h1>
-                            </div>
-                            <div class="col-12">
-                                <p class="main__screen_subtitle">
-                                    Проектирование, монтаж, комплектация — под ключ
-                                </p>
-                            </div>
-                        </div>
-                        <a href="#" class="selsystem_btn btn">
-                            Выбрать систему
-                        </a>
-
-                        <a href="#" class="details_btn btn">
-                            Подробнее
-                        </a>
-                        <div class="swiper-pagination swiper-pagination-main"></div>
-                    </div>
-                </div>
-            </li>
-            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
-                <div class="main__screen_offer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-10 col-xl-8">
-                                <h1 class="main__screen_title">
-                                    Проектирование навесных вентилируемых фасадов
-                                </h1>
-                            </div>
-                            <div class="col-9 col-lg-12">
-                                <p class="main__screen_subtitle">
-                                    За один месяц всего от 2800 руб./ кв.м.
-                                </p>
-                            </div>
-                        </div>
-                        <a href="#" class="popap_btn btn">
-                            Оставить заявку
-                        </a>
-                        <div class="swiper-pagination swiper-pagination-main"></div>
-                    </div>
-                </div>
-            </li>
-            <li class="swiper-slide swiper-slide-main" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
-            </li>
-        </ul>
-        <div class="swiper-button-next swiper-button-next-main">
-            <img src="img/main-screen/next.svg" alt="button-next">
-        </div>
-        <div class="swiper-button-prev swiper-button-prev-main">
-            <img src="img/main-screen/prev.svg" alt="button-next">
-        </div>
-    </section>
-    <section class="services" id="services">
+    <section class="main__screen_inner main__screen_inner-elevetors" style="background: url('/img/front-elevators/front-elevators-bg.png') no-repeat center center/cover">
         <div class="container-fluid">
             <div class="row">
-                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                    <a href="#" class="services__item">
-                        <p class="services__item_title">
-                            Проектирование
-                        </p>
-                        <img src="img/services/service-item1.png" alt="services">
-                    </a>
+                <div class="col-lg-10 col-xl-8">
+                    <h1 class="main__screen_title main__screen_inner_title">
+                        Фасадные подъемники
+                    </h1>
                 </div>
-                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                    <a href="#" class="services__item">
-                        <p class="services__item_title">
-                            Материалы
-                        </p>
-                        <img src="img/services/service-item2.png" alt="services">
-                    </a>
-                </div>
-                <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4">
-                    <a href="#" class="services__item">
-                        <p class="services__item_title">
-                            Монтаж
-                        </p>
-                        <img src="img/services/service-item3.png" alt="services">
-                    </a>
+                <div class="col-12">
+                    <p class="main__screen_subtitle">
+                        Классической надежной конструкции
+                    </p>
                 </div>
             </div>
+            <a href="#" class="order__btn">
+                Оставить заявку
+            </a>
         </div>
     </section>
-    <section class="work__stages" id="work_stages">
+    <section class="front-elevators__second_screen">
         <div class="container-fluid">
-            <h2 class="work__stages_title">
-                Этапы работы
-            </h2>
-            <div class="row no-gutters">
-                <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                    <div class="work__stages_list">
-                        <div class="work__stages_item">
-                            <div class="work__stages_item-img work__stages_item-img-before">
-                                <img src="img/work-stages/stage1.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">01</span>
-                                <p class="work__stages_item-text">
-                                    Встреча (выявляем цели<br>и ставим задачу
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work__stages_list work__stages_list-bottom">
-                        <div class="work__stages_item work__stages_item-bottom">
-                            <div class="work__stages_item-img work__stages_item-img-after">
-                                <img src="img/work-stages/stage2.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">02</span>
-                                <p class="work__stages_item-text">
-                                    Подписание договора<br>и начало проектирования
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                    <div class="work__stages_list">
-                        <div class="work__stages_item">
-                            <div class="work__stages_item-img work__stages_item-img-before">
-                                <img src="img/work-stages/stage3.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">03</span>
-                                <p class="work__stages_item-text">
-                                    Разработка проектных решений <br>и согласование вопросов
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work__stages_list work__stages_list-bottom">
-                        <div class="work__stages_item work__stages_item-bottom">
-                            <div class="work__stages_item-img work__stages_item-img-after">
-                                <img src="img/work-stages/stage4.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">04</span>
-                                <p class="work__stages_item-text">
-                                    Поставка материалов<br> и комлектующих
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 d-md-flex d-lg-block col-lg-4">
-                    <div class="work__stages_list">
-                        <div class="work__stages_item">
-                            <div class="work__stages_item-img work__stages_item-img-before">
-                                <img src="img/work-stages/stage5.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">05</span>
-                                <p class="work__stages_item-text">
-                                    Монтаж
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work__stages_list work__stages_list-bottom">
-                        <div class="work__stages_item work__stages_item-bottom">
-                            <div class="work__stages_item-img work__stages_item-img-after">
-                                <img src="img/work-stages/stage6.svg" alt="Этап 1">
-                            </div>
-                            <div class="work__stages_item-text-wrap">
-                                <span class="work__stages_item-num">06</span>
-                                <p class="work__stages_item-text">
-                                    Сдача готового объекта
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-12 col-md-8 col-xl-9">
+                    <h2 class="front-elevators__second_screen_title">
+                        Фасадный подъемник ZLP630
+                    </h2>
+                    <p class="front-elevators__second_screen_text">
+                        Фасадный подъемник (люлька строительная фасадная китайского производства HAOKE) ZLP630 является навесным оборудованием для работы на высоте. Подъемник подвешивается вдоль фасада здания на канатах и приводится в движение двумя лебедками с канатоведущими шкивами вверх и вниз. Устройство (консоль) для подвешивания платформы установливается на крыше здания. Консоль состоит из легко монтируемых элементов, которые поднимаются на крышу здания вручную. В аварийной ситуации возможно ручное опускание вниз. По сравнению с традиционными лесами устанавливается и отличается большей безопасностью.
+                    </p>
+                    <p class="front-elevators__second_screen_text">
+                        Оборудование имеет следующие характеристики: большая область применения, большая рабочая высота, высокая эффективность строительства, нетрудоемкий монтаж.
+                    </p>
+                    <p class="front-elevators__list_title">
+                        Основные виды применения:
+                    </p>
+                    <ul class="front-elevators__list">
+                        <li class="front-elevators__list_item">внешнее строительство и отделка зданий или установка забральных стен и внешних компонентов;</li>
+                        <li class="front-elevators__list_item">внешний уход и чистка зданий;</li>
+                        <li class="front-elevators__list_item">строительство, проверка и уход за дымоотводными трубами, дамбами,<br> мостами и буровыми вышками;</li>
+                        <li class="front-elevators__list_item">сварка, очистка и окраска крупных судов;</li>
+                        <li class="front-elevators__list_item">установка высоких рекламных щитов.</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section class="consultation" id="consultation" style="background: url('img/consultation/consultation-bg.png') no-repeat left/ 100% 100%">
+    <section class="elevators-specification">
+        <div class="container-fluid">
+            <h2 class="elevators-specification_title">
+                Эксплуатационные характеристики
+            </h2>
+            <table class="elevators-specification__table">
+                <tr class="row-gray">
+                    <td class="elevators-specification__table_name">Грузоподъемность максимальная</td>
+                    <td class="elevators-specification__table_value">630 кг</td>
+                </tr>
+                <tr>
+                    <td class="elevators-specification__table_name">Высота подъема</td>
+                    <td class="elevators-specification__table_value">150 м</td>
+                </tr>
+                <tr class="row-gray">
+                    <td class="elevators-specification__table_name">Скорость подъема</td>
+                    <td class="elevators-specification__table_value">9,6 м/мин</td>
+                </tr>
+                <tr>
+                    <td class="elevators-specification__table_name">Тип лебедки</td>
+                    <td class="elevators-specification__table_value">с канатоведущими шкивами</td>
+                </tr>
+                <tr class="row-gray">
+                    <td class="elevators-specification__table_name">Тяговое усилие одной лебедки</td>
+                    <td class="elevators-specification__table_value">6,3 кН</td>
+                </tr>
+                <tr>
+                    <td class="elevators-specification__table_name">Мощность электродвигателя</td>
+                    <td class="elevators-specification__table_value">1,5 кВт</td>
+                </tr>
+                <tr class="row-gray">
+                    <td class="elevators-specification__table_name">Количество лебедок</td>
+                    <td class="elevators-specification__table_value">2 шт</td>
+                </tr>
+                <tr>
+                    <td class="elevators-specification__table_name">Диаметр подъемного каната</td>
+                    <td class="elevators-specification__table_value">8,3 мм</td>
+                </tr>
+                <tr class="row-gray">
+                    <td class="elevators-specification__table_name"><p>Размеры рабочей площадки - корзины (длина х ширина х высота ограждения)</p></td>
+                    <td class="elevators-specification__table_value"><p>6000 мм х 600 мм х 1160 мм</p></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="front-elevators__advantages">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-8 col-xl-9">
+                    <h2 class="front-elevators__advantages_title">
+                        Преимущества
+                    </h2>
+                    <p class="front-elevators__advantages_text">
+                        Фасадные подъемники ZLP востребованы и надежны в эксплуатации, применяются при выполнении фасадных работ на строительных объектах любого уровня сложности. Такое оборудование используется для вертикального подъема рабочих, инструментов и строительных материалов вдоль сооружения. Высота подъема может достигать 100-150 метров. Данные модели зарекомендовали себя на строительных объектах как безопасное, удобное и функциональное оборудование для проведения монтажных, отделочных, покрасочных работ.
+                    </p>
+                    <p class="front-elevators__advantages_text">
+                        Данные фасадные подъемники имеют сборно-разборную конструкцию, что является неоспоримым преимуществом при транспортировке оборудования с одного объекта на другой. На объекте сборка конструкции занимает не более 15 минут, после чего можно незамедлительно приступать к выполнению различного вида работ.
+                    </p>
+                    <p class="front-elevators__list_title">
+                        Достоинства конструкции:
+                    </p>
+                    <ul class="front-elevators__advantages__list">
+                        <li class="front-elevators__advantages__list_item">управление подъемником продублировано на внешней стороне электрического шкафа;</li>
+                        <li class="front-elevators__advantages__list_item">износостойкий, бронзовый червячный вал и усиленное зубчатое колесо из медного сплава;</li>
+                        <li class="front-elevators__advantages__list_item">усиленная трапециевидная боковая часть ограждения подъемника;</li>
+                        <li class="front-elevators__advantages__list_item">мощный оцинкованный ловитель;</li>
+                        <li class="front-elevators__advantages__list_item">надежное оборудование электрического шкафа с выносным пультом управления;</li>
+                        <li class="front-elevators__advantages__list_item">легкая в сборке, надежная и безопасная корзина, отвечающая требованием технического регламента РФ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation" id="consultation" style="background: url('/img/consultation/consultation-bg.png') no-repeat left/ 100% 100%">
         <div class="container-fluid">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6 col-lg-7 col-xl-8">
@@ -405,9 +365,59 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="consultation__img">
-                        <img src="img/consultation/img-1.png" alt="consultation">
+                        <img src="/img/consultation/img-1.png" alt="consultation">
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="certified-products">
+        <div class="container-fluid">
+            <div class="certified-products__list">
+                <div class="certified-products__list_description">
+                    <h2 class="certified-products__list_description_title">
+                        Сертифицированная продукция
+                    </h2>
+                    <p class="certified-products__list_description_text">
+                        Альянс-Инвест занимается продажей подъемного оборудования на протяжении более 10 лет и на данный момент является одним из лидеров в продаже фасадных подъемников.
+                    </p>
+                    <p class="certified-products__list_description_text">
+                        Вся продукция компании сертифицирована, прошла испытания и имеет необходимые пакеты документов.
+                    </p>
+                </div>
+                <div class="certified-products__list_images">
+                    <div class="certified-products__list_image"><img src="/img/front-elevators/elevators-sert1.png" alt=""></div>
+                    <div class="certified-products__list_image"><img src="/img/front-elevators/elevators-sert2.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="front-elevators__gallary">
+        <h2 class="front-elevators__gallary_title">
+            Галерея
+        </h2>
+        <div class="swiper-elevators-wrap">
+            <div class="swiper-container-elevators">
+                <div class="swiper-wrapper swiper-wrapper-elevators">
+                    <a data-fancybox="front-elevators" href="img/front-elevators/front-elevators-slide1.png" class="swiper-slide swiper-slide-elevators">
+                        <div class="front-elevators-img-wrap">
+                            <img src="/img/front-elevators/front-elevators-slide1.png" alt="">
+                            <div class="swiper-wrapper-elevators_overlay">
+                                <img src="/img/review/search.png" alt="">
+                            </div>
+                        </div>
+                        <p class="swiper-slide-elevators_caption">
+                            Н.М. Гальченко, ООО «‎Гальмед»
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-pagination-elevators"></div>
+            <div class="swiper-button-prev-elevators">
+                <img src="/img/main-screen/prev.svg" alt="button-next">
+            </div>
+            <div class="swiper-button-next-elevators">
+                <img src="/img/main-screen/next.svg" alt="button-next">
             </div>
         </div>
     </section>
@@ -420,7 +430,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <a href="#" class="customers__item">
                         <div class="customers__item_img">
-                            <img src="img/customers/triumf.png" alt="Триумф">
+                            <img src="/img/customers/triumf.png" alt="Триумф">
                         </div>
                         <span class="customers__item_text">
                                Триумф
@@ -430,7 +440,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <a href="#" class="customers__item">
                         <div class="customers__item_img">
-                            <img src="img/customers/mapid.png" alt="Мапид">
+                            <img src="/img/customers/mapid.png" alt="Мапид">
                         </div>
                         <span class="customers__item_text">
                                Мапид
@@ -440,7 +450,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <a href="#" class="customers__item">
                         <div class="customers__item_img">
-                            <img src="img/customers/kfc.png" alt="KFC">
+                            <img src="/img/customers/kfc.png" alt="KFC">
                         </div>
                         <span class="customers__item_text">
                                KFC
@@ -450,7 +460,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <a href="#" class="customers__item">
                         <div class="customers__item_img">
-                            <img src="img/customers/stroitelnij_trest.png" alt="Строй Трест">
+                            <img src="/img/customers/stroitelnij_trest.png" alt="Строй Трест">
                         </div>
                         <span class="customers__item_text">
                                Строй Трест
@@ -460,7 +470,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <a href="#" class="customers__item">
                         <div class="customers__item_img">
-                            <img src="img/customers/SVSESS.png" alt="СВСЭСС">
+                            <img src="/img/customers/SVSESS.png" alt="СВСЭСС">
                         </div>
                         <span class="customers__item_text">
                                СВСЭСС
@@ -470,7 +480,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <a href="#" class="customers__item">
                         <div class="customers__item_img">
-                            <img src="img/customers/vladstroy.png" alt="ВладСтройЗаказчик">
+                            <img src="/img/customers/vladstroy.png" alt="ВладСтройЗаказчик">
                         </div>
                         <span class="customers__item_text">
                                ВладСтройЗаказчик
@@ -480,7 +490,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <a href="#" class="customers__item">
                         <div class="customers__item_img">
-                            <img src="img/customers/gvsu.png" alt="ГВСУ-14">
+                            <img src="/img/customers/gvsu.png" alt="ГВСУ-14">
                         </div>
                         <span class="customers__item_text">
                                ГВСУ-14
@@ -490,7 +500,7 @@
                 <div class="col-12 col-md-6 col-xl-3">
                     <a href="#" class="customers__item">
                         <div class="customers__item_img">
-                            <img src="img/customers/t-stroj.png" alt="Т-СТРОЙ">
+                            <img src="/img/customers/t-stroj.png" alt="Т-СТРОЙ">
                         </div>
                         <span class="customers__item_text">
                                Т-СТРОЙ
@@ -500,168 +510,7 @@
             </div>
         </div>
     </section>
-    <section class="about" id="about">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h2 class="about__title">
-                        Почему нас выбирают?
-                    </h2>
-                    <p class="about__text">
-                        Ассоциация российских разработчиков и производителей электроники – объединение участников российской электронной отрасли, созданное в 2017 году.
-                    </p>
-                    <p class="about__text">
-                        Цель – возрождение и развитие российской электронной промышленности посредством координации деятельности частных компаний и государства, усиления отраслевой кооперации, проведения профориентационных мероприятий среди молодых специалистов, дальнейшего наращивания экспортного потенциала.
-                    </p>
-                    <a href="#" class="about__btn">
-                        Подробнее
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="works" id="works">
-        <div class="container-fluid">
-            <div class="works__header">
-                <h2 class="works__title">
-                    Выполненные объекты
-                </h2>
-                <a href="#" class="works__btn">
-                    Смотреть все
-                </a>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/mo-odincovo.png" alt="ЖК «Жемчужина»">
-                        </div>
-                        <span class="works__item_text">
-                               МО, Одинцовский район, д. Гигерево, ЖК «Жемчужина»
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/kfc.png" alt="KFC">
-                        </div>
-                        <span class="works__item_text">
-                                г.Ковров, ул. Строителей, д. 25 «KFC»
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/jarcevskaja.png" alt="г. Москва, ул. Ярцевская, д. 33">
-                        </div>
-                        <span class="works__item_text">
-                               г. Москва, ул. Ярцевская, д. 33, корп. 1, Жилой дом
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/sosh1.png" alt="МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1">
-                        </div>
-                        <span class="works__item_text">
-                               МО, г. Домодедово, мкр. Северный, ул. Советская, д. 70 «СОШ №1»
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/polyclinica.png" alt="г. Москва, ул. Нижегородская, д. 29 «Поликлиника»">
-                        </div>
-                        <span class="works__item_text">
-                               г. Москва, ул. Нижегородская, д. 29 «Поликлиника»
-                           </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="#" class="works__item">
-                        <div class="works__item_img">
-                            <img src="img/works/degtyarnyy.png" alt="г. Москва, Дегтярный пер д. 4, стр. 1">
-                        </div>
-                        <span class="works__item_text">
-                               г. Москва, Дегтярный пер, д. 4, стр. 1
-                           </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="review" id="review">
-        <div class="container-fluid">
-            <h2 class="review__title">
-                Отзывы клиентов
-            </h2>
-            <div class="swiper-container-review">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide review__item">
-                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                            <div class="review__item_overlay">
-                                <div class="review__item_overlay-icon">
-                                </div>
-                                <p class="review__item_overlay-text">
-                                    Н.М. Гальченко, ООО «‎Гальмед»
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide review__item">
-                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                            <div class="review__item_overlay">
-                                <div class="review__item_overlay-icon">
-                                </div>
-                                <p class="review__item_overlay-text">
-                                    Н.М. Гальченко, ООО «‎Гальмед»
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide review__item">
-                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                            <div class="review__item_overlay">
-                                <div class="review__item_overlay-icon">
-                                </div>
-                                <p class="review__item_overlay-text">
-                                    Н.М. Гальченко, ООО «‎Гальмед»
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide review__item">
-                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
-                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
-                            <div class="review__item_overlay">
-                                <div class="review__item_overlay-icon">
-                                </div>
-
-                            </div>
-                            <p class="review__item_overlay-text">
-                                Н.М. Гальченко, ООО «‎Гальмед»
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="swiper-button-next swiper-button-next-review">
-            <img src="img/main-screen/next.svg" alt="button-next">
-        </div>
-        <div class="swiper-button-prev swiper-button-prev-review">
-            <img src="img/main-screen/prev.svg" alt="button-next">
-        </div>
-        <div class="swiper-pagination swiper-pagination-review"></div>
-    </section>
-    <section class="consultation__second" style="background: url('img/consultation-second/bg.png')">
+    <section class="consultation__second" style="background: url('/img/consultation-second/bg.png')">
         <div class="container-fluid">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-10 col-lg-7 col-xl-8">
@@ -686,14 +535,17 @@
                     </form>
                 </div>
                 <div class="col-md-12 col-lg-5 col-xl-4">
-                    <img class="consultation__second_img" src="img/consultation-second/image3.png" alt="consultation">
+                    <img class="consultation__second_img" src="/img/consultation-second/image3.png" alt="consultation">
                 </div>
             </div>
         </div>
     </section>
     <section class="map__section">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab2345ff8c60fc92167c8fa7779c1225370e716ec9bdd00afa0cfe38f8c7f4e2a&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+        <div id="map"></div>
     </section>
+
+
+
 </main>
 <footer class="footer" id="footer">
     <div class="container-fluid">
@@ -746,7 +598,7 @@
                     Контакты
                 </p>
                 <div class="footer__phone">
-                    <img src="img/main-screen/phone.svg" alt="Телефон">
+                    <img src="/img/main-screen/phone.svg" alt="Телефон">
                     <div class="footer__phone_text">
                         <a href="tel:+79004740609">
                             +7 (900) 474-06-09
@@ -757,13 +609,13 @@
                     </div>
                 </div>
                 <div class="footer__location">
-                    <img src="img/main-screen/location.svg" alt="Адрес">
+                    <img src="/img/main-screen/location.svg" alt="Адрес">
                     <p class="footer__location_text">
                         г. Владимир, ул. Уличная 25, 3 этаж, офис 7
                     </p>
                 </div>
                 <div class="footer__mail">
-                    <img src="img/main-screen/envelope.svg" alt="Email">
+                    <img src="/img/main-screen/envelope.svg" alt="Email">
                     <a href="mailto:mizinov.invest@yandex.ru" class="header__mail_text">
                         mizinov.invest@yandex.ru
                     </a>
@@ -816,49 +668,12 @@
     </div>
     <!-- /.popap -->
 </div>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=164878f7-9a00-498a-a061-ced0e3719e53
+&lang=ru_RU" type="text/javascript"></script>
 <script src="js/scripts.min.js"></script>
-<script>
-    // var reviewSlider = new Swiper ('.swiper-container-review', {
-    //     slidesPerView: 4,
-    //     navigation: {
-    //         nextEl: '.swiper-button-next-review',
-    //         prevEl: '.swiper-button-prev-review',
-    //     },
-    //     pagination: {
-    //         el: '.swiper-pagination',
-    //         clickable: true,
-    //     },
-    //     breakpoints: {
-    //         1201: {
-    //             slidesPerView: 4,
-    //         },
-    //         993: {
-    //             slidesPerView: 3,
-    //         },
-    //         769: {
-    //             slidesPerView: 2,
-    //         },
-    //         577: {
-    //             slidesPerView: 2,
-    //         },
-    //         320: {
-    //             slidesPerView: 1,
-    //             centeredSlides: true,
-    //         },
-    //     }
-    // });
-    var projectsSlider = new Swiper ('.swiper-container-projects', {
-        slidesPerView: 1,
-        spaceBetween: 32,
-        navigation: {
-            nextEl: '.swiper-button-next-projects',
-            prevEl: '.swiper-button-prev-projects',
-        },
-    });
-</script>
+
 
 
 
 </body>
 </html>
-

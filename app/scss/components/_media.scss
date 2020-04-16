@@ -107,9 +107,9 @@
     margin-top: 0;
     margin-left: 0;
   }
-  .projects__list_item {
-    margin-bottom: rem(30px);
-  }
+  //.projects__list_item {
+  //  margin-bottom: rem(30px);
+  //}
   .projects__list_item_img {
     margin: 0 auto;
   }
@@ -354,6 +354,11 @@
   .swiper-pagination-main {
     display: flex!important;
   }
+  .swiper-button-prev-projects, .swiper-button-next-projects {
+    display: flex;
+    width: auto!important;
+    height: auto!important;
+  }
 }
 
 /*576-768px*/
@@ -497,10 +502,6 @@
   .swiper-slide-keramogranit {
     width: 500px;
     padding: 15px;
-  }
-
-  .swiper-button-prev-projects, .swiper-button-next-projects {
-    display: block;
   }
 }
 /*320-576px*/
