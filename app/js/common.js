@@ -72,7 +72,7 @@ $(document).ready(function() {
         });
     var projectsSlider = new Swiper ('.swiper-container-projects', {
         slidesPerView: 2,
-        loop: true,
+        loop: false,
         spaceBetween: 30,
         navigation: {
             nextEl: '.swiper-button-next-projects',
