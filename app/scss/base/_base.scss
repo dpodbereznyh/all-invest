@@ -14,6 +14,9 @@ body {
   //padding-left: 16px;
   box-sizing: border-box;
 }
+sup {
+  font-size: rem(12px);
+}
 .btn {
   padding: rem(18px) rem(55px);
   @include buttonLargeBold;

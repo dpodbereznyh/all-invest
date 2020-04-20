@@ -42,6 +42,7 @@ $(document).ready(function() {
             // Optional parameters
             slidesPerView: 4,
             spaceBetween: 30,
+            loop: false,
             navigation: {
                 nextEl: '.swiper-button-next-review',
                 prevEl: '.swiper-button-prev-review',
