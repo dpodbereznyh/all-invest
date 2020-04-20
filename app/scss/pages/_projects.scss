@@ -26,11 +26,16 @@
     }
   }
 }
+.projects__description {
+  height: rem(386px);
+  display: flex;
+  flex-direction: column;
+}
 .projects-wrap {
-  margin-top: 40px;
   height: 178px!important;
   position: relative;
   width: 100%;
+  margin-top: auto;
 }
 .swiper-container-projects, .swiper-container-projects1, .swiper-container-projects2, .swiper-container-projects3, .swiper-container-projects4 {
   overflow: hidden;

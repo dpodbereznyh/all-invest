@@ -8,12 +8,13 @@
     <link rel="apple-touch-icon" href="img/header/header-logo.ico">
     <link rel="apple-touch-icon" sizes="72x72" href="img/header/header-logo72.ico">
     <link rel="apple-touch-icon" sizes="114x114" href="img/header/header-logo.ico">
-    <link rel="stylesheet" href="scss/vendors/libs/smart-menu/sm-core-css.css">
+    <link rel="stylesheet" href="libs/sm-core-css.css">
+    <link rel="stylesheet" href="libs/sm-blue.css">
     <link rel="stylesheet" href="fonts/fontawesome/all.min.css">
-    <link rel="stylesheet" href="scss/vendors/libs/swiper.min.css">
-    <link rel="stylesheet" href="scss/vendors/libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="libs/swiper.min.css">
+    <link rel="stylesheet" href="libs/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/main.min.css">
-    <title>Проектирование | АЛЬЯНС-ИНВЕСТ</title>
+    <title>О компании | АЛЬЯНС-ИНВЕСТ</title>
 </head>
 <body>
 <main class="main">
@@ -188,11 +189,11 @@
                                 Контакты
                             </a>
                         </li>
-                        <!--<button href="#" class="header__nav_btn">-->
-                        <!--Заказать звонок-->
-                        <!--</button>-->
+                        <button href="#" class="header__nav_btn">
+                            Заказать звонок
+                        </button>
                     </ul>
-                    <button href="#" class="header__nav_btn">
+                    <button href="#" class="header__nav_btn header__nav_btn_mobile ">
                         Заказать звонок
                     </button>
                 </nav>
@@ -208,169 +209,124 @@
                     </li>
                     <li>
                         <a href="#">
-                            Услуги
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Проектирование
+                            О компании
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
-    <section class="main__screen_inner main__screen_inner-design" style="background: url('img/main-screen/bg2.png') no-repeat center center/cover">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-10 col-xl-8">
-                    <h1 class="main__screen_title main__screen_inner_title">
-                        Проектирование навесных вентилируемых фасадов
-                    </h1>
-                </div>
-                <div class="col-12">
-                    <p class="main__screen_subtitle">
-                        За один месяц всего от 2800 руб./ кв.м.
-                    </p>
-                </div>
-            </div>
-            <a href="#" class="order__btn">
-                Оставить заявку
-            </a>
-
-        </div>
-    </section>
-    <section class="screen__bg_right screen__bg_right-design">
+    <section class="company__second_screen">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-7">
-                    <h2 class="screen__bg_right_title">
-                        Рабочий проект по монтажу
+                    <h2 class="company__second_screen_title">
+                        О компании
                     </h2>
-                    <p class="screen__bg_right_text">
-                        Исчерпывающий проект, позволяющий наиболее точно рассчитать спецификацию комплектующих, а так же контролировать монтажников.
+                    <p class="company__second_screen_text">
+                        Ассоциация российских разработчиков и производителей электроники – объединение участников российской электронной отрасли, созданное в 2017 году.
                     </p>
-                    <p class="screen__bg_right_text">
-                        Строго соответствует техническим свидетельствам, требованиям МЧС.
+                    <p class="company__second_screen_text">
+                        Цель – возрождение и развитие российской электронной промышленности посредством координации деятельности частных компаний и государства, усиления отраслевой кооперации, проведения профориентационных мероприятий среди молодых специалистов, дальнейшего наращивания экспортного потенциала.
                     </p>
-                    <p class="screen__bg_right_text">
-                        Выполняется на основании архитектурных чертежей или данных геодезической съемки фасада, с учетом результатов вырывных испытаний анкеров на объекте.
-                    </p>
-                    <p class="design__list_title">
-                        В проект входит:
-                    </p>
-                    <ul class="design__list">
-                        <li class="design__list_item">пояснительная записка;</li>
-                        <li class="design__list_item">статический прочностной расчет фасадной системы;</li>
-                        <li class="design__list_item">cхема раскладки облицовочных элементов;</li>
-                        <li class="design__list_item">монтажная схема установки кронштейнов;</li>
-                        <li class="design__list_item">монтажная схема установки направляющих;</li>
-                        <li class="design__list_item">конструктивные решения узлов примыкания фасадных конструкций к проемам, парапетам, балконам и прочим конструкциям;</li>
-                        <li class="design__list_item">детализированные чертежи облицовочных элементов, вспомогательных элементов;</li>
-                        <li class="design__list_item">общая спецификация комплектующих фасадной системы и крепежа</li>
-                    </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section class="estimation">
+    <section class="advantages-company">
         <div class="container-fluid">
+            <h2 class="advantages-company__title">
+                Преимущества компании
+            </h2>
             <div class="row">
-                <!--<div class="d-none d-md-flex col-md-5">-->
-                <!--<img class="estimation__img" src="img/design/estimation.png" alt="Предварительные расчеты">-->
-                <!--</div>-->
-                <div class="col-12 offset-md-5 col-md-7">
-                    <h2 class="estimation__title">
-                        Предварительные расчеты
-                    </h2>
-                    <p class="estimation__text">
-                        Оперативный расчет спецификации комплектующих, необходимых для монтажа навесного вентилируемого фасада.
-                    </p>
-                    <p class="estimation__text">
-                        Выполняется на основании архитектурных чертежей или фотографий объекта или рисунков «от руки».
-                    </p>
-                    <p class="estimation__list_title">
-                        В проект входит:
-                    </p>
-                    <ul class="estimation__list">
-                        <li class="estimation__list_item">спецификация на участок фасада;</li>
-                        <li class="estimation__list_item">расчет площади фасада здания без проемов;</li>
-                        <li class="estimation__list_item">рекомендации по несущей способности фасадных анкеров</li>
-                    </ul>
-                    <p class="estimation__text">
-                        Предварительный расчет незаменим при составлении коммерческих предложений по монтажу фасада или поставке строительных материалов.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="calculation">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-8 col-lg-7">
-                    <h2 class="calculation__title">
-                        Статические прочностные расчеты
-                    </h2>
-                    <p class="calculation__text">
-                        Прочностной раcчет фасадной конструкции Вашего объекта с учетом резльтатов испытаний анкерной техники.
-                    </p>
-                    <p class="calculation__text">
-                        Подбор оптимальных сечений направляющих, кронштейнов, шага их установки.
-                    </p>
-                    <p class="calculation__list_title">
-                        В проект входит:
-                    </p>
-                    <ul class="calculation__list">
-                        <li class="calculation__list_item">расчет для угловой зоны фасада;</li>
-                        <li class="calculation__list_item">расчет площади фасада здания без проемов;</li>
-                        <li class="calculation__list_item">расчет прочности направляющих различной длины, согласно конструктива объекта;</li>
-                        <li class="calculation__list_item">расчет прочности кронштейна;</li>
-                        <li class="calculation__list_item">расчет узла крепления направляющей к кронштейну</li>
-                    </ul>
-                    <p class="calculation__text">
-                        Статический расчет определяет шаг установки кронштейнов и конструктив всей системы. Без статического расчета монтаж фасада невозможен!
-
-                    </p>
-                    <h2 class="calculation__title calculation__title_album ">
-                        Альбом технических решений
-                    </h2>
-                    <p class="calculation__text">
-                        Пакет документов, необходимый для получения Технического Свидетелсьтва на навесную фасадную систему с воздушным зазором.
-                    </p>
-                    <p class="calculation__text">
-                        Включите в альбом Вашей фасадной системы все моменты за которые ее так любят монтажники и проектировщики.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="consultation" id="consultation" style="background: url('img/consultation/consultation-bg.png') no-repeat left/ 100% 100%">
-        <div class="container-fluid">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-6 col-lg-7 col-xl-8">
-                    <h4 class="consultation__title">
-                        Возникли вопросы?
-                    </h4>
-                    <p class="consultation__subtitle">
-                        Наш менеджер свяжется с вами в течение часа<br> и вы сможете задать ему любые интересующие вопросы
-                    </p>
-                    <form action="#" class="consultation__form form">
-                        <div class="controls">
-                            <input type="text" name="name" value="" placeholder="Ваше имя" class="form__input">
-                            <span class="error_name"></span>
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/money.svg" alt="Наши преимущества">
                         </div>
-                        <div class="controls">
-                            <input type="tel" name="phone" value="" placeholder="Номер телефона" class="form__input">
-                            <span class="error_phone"></span>
-                        </div>
-                        <button type="submit" class="form__btn btn">
-                            Отправить
-                        </button>
-                    </form>
+                        <p class="advantages-company__text">
+                            Возможна работа<br>без предоплаты
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="consultation__img">
-                        <img src="img/consultation/img-1.png" alt="consultation">
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/time.svg" alt="Наши преимущества">
+                        </div>
+                        <p class="advantages-company__text">
+                            Выполнение работ<br> в сжатые сроки
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/speed.svg" alt="Наши преимущества">
+                        </div>
+                        <p class="advantages-company__text">
+                            Оперативное<br> реагирование
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/help.svg" alt="Наши преимущества">
+                        </div>
+                        <p class="advantages-company__text">
+                            Поможем на любом<br> этапе строительства
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/price.svg" alt="Наши преимущества">
+                        </div>
+                        <p class="advantages-company__text">
+                            Доступные цены
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/sertificate.svg" alt="Наши преимущества">
+                        </div>
+                        <p class="advantages-company__text">
+                            Все материалы<br> сертифицированы
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/nds.svg" alt="Наши преимущества">
+                        </div>
+                        <p class="advantages-company__text">
+                            Работаем с НДС
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/logistic.svg" alt="Наши преимущества">
+                        </div>
+                        <p class="advantages-company__text">
+                            Отлаженная система<br> доставки
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-md-1 col-md-5 offset-lg-0 col-lg-4">
+                    <div class="advantages-company__item">
+                        <div class="advantages-company__icon">
+                            <img src="img/company/full.svg" alt="Наши преимущества">
+                        </div>
+                        <p class="advantages-company__text">
+                            Выполняем работы «под ключ»<br> со всеми согласованиями
+                        </p>
                     </div>
                 </div>
             </div>
@@ -449,6 +405,104 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="review" id="review">
+        <div class="container-fluid">
+            <h2 class="review__title">
+                Отзывы клиентов
+            </h2>
+            <div class="swiper-container swiper-container-review">
+                <ul class="review__list swiper-wrapper">
+                    <li class="swiper-slide swiper-slide-review">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                        </a>
+                        <div class="review__item_overlay">
+                            <div class="review__item_overlay-icon">
+                                <img src="img/review/search.png" alt="search">
+                            </div>
+                            <p class="review__item_overlay-text">
+                                Н.М. Гальченко, ООО «‎Гальмед»
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-review">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                            <div class="review__item_overlay">
+                                <div class="review__item_overlay-icon">
+                                    <img src="img/review/search.png" alt="search">
+                                </div>
+                                <p class="review__item_overlay-text">
+                                    Н.М. Гальченко, ООО «‎Гальмед»
+                                </p>
+                            </div>
+                        </a>
+
+                    </li>
+                    <li class="swiper-slide swiper-slide-review">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                        </a>
+                        <div class="review__item_overlay">
+                            <div class="review__item_overlay-icon">
+                                <img src="img/review/search.png" alt="search">
+                            </div>
+                            <p class="review__item_overlay-text">
+                                Н.М. Гальченко, ООО «‎Гальмед»
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-review">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                        </a>
+                        <div class="review__item_overlay">
+                            <div class="review__item_overlay-icon">
+                                <img src="img/review/search.png" alt="search">
+                            </div>
+                            <p class="review__item_overlay-text">
+                                Н.М. Гальченко, ООО «‎Гальмед»
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-review">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                        </a>
+                        <div class="review__item_overlay">
+                            <div class="review__item_overlay-icon">
+                                <img src="img/review/search.png" alt="search">
+                            </div>
+                            <p class="review__item_overlay-text">
+                                Н.М. Гальченко, ООО «‎Гальмед»
+                            </p>
+                        </div>
+                    </li>
+                    <li class="swiper-slide swiper-slide-review">
+                        <a data-fancybox="review" href="img/review/review1.png" class="review__item_link fancybox">
+                            <img src="img/review/review1.png" alt="Н.М. Гальченко, ООО «‎Гальмед»">
+                        </a>
+                        <div class="review__item_overlay">
+                            <div class="review__item_overlay-icon">
+                                <img src="img/review/search.png" alt="search">
+                            </div>
+                            <p class="review__item_overlay-text">
+                                Н.М. Гальченко, ООО «‎Гальмед»
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="swiper-button-next swiper-button-next-review">
+            <img src="img/main-screen/next.svg" alt="button-next">
+        </div>
+        <div class="swiper-button-prev swiper-button-prev-review">
+            <img src="img/main-screen/prev.svg" alt="button-next">
+        </div>
+        <div class="swiper-pagination swiper-pagination-review"></div>
     </section>
     <section class="customers" id="customers">
         <div class="container-fluid">
@@ -539,8 +593,8 @@
             </div>
         </div>
     </section>
-    <section class="consultation__second" style="background: url('/img/consultation-second/bg.png')">
-        <div class="container">
+    <section class="consultation__second" style="background: url('img/consultation-second/bg.png')">
+        <div class="container-fluid">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-10 col-lg-7 col-xl-8">
                     <h4 class="consultation__title">
@@ -569,53 +623,14 @@
             </div>
         </div>
     </section>
-    <section class="section__bottom">
-        <div class="container-fluid">
-            <h2>
-                Сертифицированное подъемное оборудование – от «Альянс-Инвест»
-            </h2>
-            <p>
-                Монтаж вентилируемых фасадов, которые очень популярны как у владельцев частных домов, так и представителей бизнес-сообщества и чиновников, всегда проходит в несколько этапов. Конечно, когда речь идет об установке вентилируемого навесного фасада на стену одноэтажного здания, проблем с установкой скорее всего не возникнет. А вот когда такая система нужна на здание высотой в несколько этажей, то справиться без навыков промышленного альпинизм или спецтехники практически нереально.
-            </p>
-            <p>
-                Провести минимальную подготовку стены, удалив с нее навесные элементы, вмонтировать подсистему с направляющими, направление которые выбрано в зависимости от облицовочного материала, утеплить слой между стеной и будущей облицовкой, создав вентилируемую прослойку, провести гидроветрозащиту, а после провести облицовку – на большой высоте без специальных приспособлений будет очень долго, да и, согласитесь, опасно.
-            </p>
-            <p>
-                Для проведения фасадных, а также разного рода высотных работ, наша компания «Альянс-Инвест» предлагает к продаже сертифицированное подъемное оборудование. Больше 10 лет мы продаем проверенные фасадные подъемники, являясь на данный момент одними из лидеров в этом направлении.
-            </p>
-            <p>
-                Наши подъемники отличаются отличным качеством, а также сборно-разборной конструкцией, которая легко и быстро разбирается, на это понадобится не больше 15 минут, без проблем транспортируется на кузовной Газели до места установки, и также быстро собирается для дальнейшей работы. Причем сфера применения подъемников не ограничивается монтажом вентфасадов. При помощи их можно проводить покрасочные, отделочные, монтажные и ремонтные работы на высоте.
-            </p>
-            <p>
-                Техника, которую можно по выгодной цене купить у нас, зарекомендовала себя как надежное, безопасное и качественное оборудование для проведения высотных работ.
-            </p>
-            <h6>
-                Преимущества фиброцементных изделий
-            </h6>
-            <ul>
-                <li class="section__bottom_list_item">Абсолютная экологическая безопасность и чистота;</li>
-                <li class="calculation__list_item">Долгий срок службы. Гарантия на фиброцемент достигает 50 лет;</li>
-                <li class="calculation__list_item">Устойчивость к перепадам температуры, коррозии, гниению, образованию грибка и плесени; высокая морозостойкость, абсолютная пожаробезопасность;</li>
-                <li class="calculation__list_item">Устанавливаются плиты на фасад здания достаточно быстро и просто, без специальных навыков и оборудования;</li>
-                <li class="calculation__list_item">Фиброцемент сочетается со всеми материалами для отделки и строительства, такими как камень, кирпич, древесина, стекло, штукатуркаи другие.</li>
-            </ul>
-            <h2>
-                Размеры плит из фиброцемента
-            </h2>
-            <p>
-                Существуют стандартные размеры для изготавливаемых плит из фиброцемента: длина одной фракции может быть от 1,2 до 3,6 метра, а ширина – от 45,5 сантиметров до 1,5 метров. Толщина при этом максимально достигает 6 миллиметров.
-            </p>
-            <p>
-                В зависимости от размера плиты, меняется и ее вес, одна плита по тяжести варьируется от 22 до 26 килограммов. Такой вес среди других облицовочных материалов считается небольшим. Это безусловный плюс, так как такой декор вентилируемого фасада не даст дополнительной нагрузки на фундамент постройки и несущие конструкции.
-            </p>
-            <p>
-                В нашей компании «Альянс — Инвест», которая больше 10 лет специализируется на наружной функциональной отделке зданий различного назначения и этажности, вы можете приобрести качественный фиброцемент, в состав которого входят только безопасные и качественные ингредиенты, по выгодной и недорогой цене.  Мы предлагаем купить фиброцементные плиты разнообразных цветов, размеров и фактур, которые прослужат долгие годы, став настоящим украшением вашего жилища. Мы тщательно проверяем всю продукцию на соответствие стандартов качества и нормативам безопасности, а значит готовы гарантировать, что купленная у нас продукция отличается высоким качеством и эксплуатационными характеристиками.
-            </p>
-        </div>
-    </section>
     <section class="map__section">
         <div id="map"></div>
     </section>
+
+
+
+
+
 </main>
 <footer class="footer" id="footer">
     <div class="container-fluid">
@@ -740,9 +755,9 @@
 </div>
 <script src="https://api-maps.yandex.ru/2.1/?apikey=164878f7-9a00-498a-a061-ced0e3719e53
 &lang=ru_RU" type="text/javascript"></script>
-<script src="scss/vendors/libs/jquery-3.4.1.min.js"></script>
-<script src="js/vendors/swiper.min.js"></script>
-<script src="js/vendors/jquery.fancybox.min.js"></script>
+<script src="libs/jquery-3.4.1.min.js"></script>
+<script src="libs/swiper.min.js"></script>
+<script src="libs/jquery.fancybox.min.js"></script>
 <script src="js/scripts.min.js"></script>
 <script>
     var mainSlider = new Swiper('.swiper-container-main', {

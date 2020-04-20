@@ -1,0 +1,105 @@
+.details {
+  padding: 80px 0;
+  h1 {
+    @include h1Bold;
+    text-shadow: 5px 3px 15px rgba(34, 34, 34, 0.43);
+    color: $mainText;
+  }
+  h2 {
+    @include h2Bold;
+    color: $mainText;
+    margin-bottom: rem(30px);
+  }
+  h3 {
+    @include h3Bold;
+    color: $mainText;
+    margin-bottom: rem(30px);
+  }
+  h4 {
+    @include h4Bold;
+    color: $mainText;
+    margin-bottom: rem(30px);
+  }
+  h6 {
+    @include bodyRegular;
+    color: $mainText;
+    margin: rem(20px) 0 rem(20px);
+  }
+  p {
+    @include bodyRegular;
+    color: $secondGray;
+    margin-bottom: rem(15px);
+  }
+  a {
+    color: $main;
+    @include bodyRegular;
+    max-width: rem(200px);
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s;
+    &:hover {
+      color: #0C4898;
+      transition: all 0.3s;
+    }
+  }
+  table {
+    @include bodyMedium;
+    color: $secondGray;
+    width: 100%;
+    caption {
+      @include h4Bold;
+      color: $mainText;
+      margin-bottom: rem(30px);
+      caption-side: top;
+    }
+    tr {
+      border: 1px solid $mainText;
+      &:nth-child(even) {
+        background-color: #e7e7e7;
+      }
+    }
+    th {
+      padding: rem(4px) rem(10px) rem(5px) rem(10px);
+      border: 1px solid $mainText;
+      width: 50%;
+      @include bodyRegular;
+      font-weight: bold;
+      color: $mainText;
+      text-align: center;
+    }
+    tfoot {
+      tr {
+        th {
+          text-align: start;
+          padding: rem(4px) 0 rem(5px);
+        }
+      }
+    }
+    td {
+      padding: rem(4px) rem(10px) rem(5px) rem(10px);
+      border: 1px solid $mainText;
+      width: 50%;
+    }
+  }
+  ul {
+    margin-left: rem(16px);
+    margin-bottom: rem(40px);
+    li {
+      position: relative;
+      @include bodyRegular;
+      color: $secondGray;
+      &:before {
+        content: "";
+        display: block;
+        width: rem(6px);
+        height: rem(6px);
+        border-radius: 50%;
+        background: $assetInterface;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(rem(-16px), -25%);
+      }
+    }
+  }
+}

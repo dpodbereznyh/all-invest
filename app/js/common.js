@@ -41,7 +41,6 @@ $(document).ready(function() {
         var reviewSlider = new Swiper ('.swiper-container-review', {
             // Optional parameters
             slidesPerView: 4,
-            loop: true,
             spaceBetween: 30,
             navigation: {
                 nextEl: '.swiper-button-next-review',
