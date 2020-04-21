@@ -1,5 +1,4 @@
 .details {
-  padding: 80px 0;
   h1 {
     @include h1Bold;
     text-shadow: 5px 3px 15px rgba(34, 34, 34, 0.43);
@@ -35,12 +34,16 @@
     @include bodyRegular;
     max-width: rem(200px);
     text-decoration: none;
-    display: block;
+    display: inline-block;
     transition: all 0.3s;
     &:hover {
       color: #0C4898;
       transition: all 0.3s;
     }
+  }
+  img {
+    display: block;
+    box-sizing: border-box;
   }
   table {
     @include bodyMedium;
@@ -97,9 +100,12 @@
         background: $assetInterface;
         position: absolute;
         left: 0;
-        top: 50%;
+        top: rem(10px);
         transform: translate(rem(-16px), -25%);
       }
     }
   }
+}
+.details_padding {
+  padding: 80px 0;
 }

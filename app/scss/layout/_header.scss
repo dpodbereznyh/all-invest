@@ -57,6 +57,9 @@
     }
   }
 }
+.sub-link:hover {
+  color: #ccc;
+}
 .header__phone {
   display: flex;
   align-items: center;
@@ -232,8 +235,11 @@ a.header__nav_btn {
   padding: 0;
   background: transparent;
   text-decoration: none!important;
-  color: #ffffff!important;
+  color: #ffffff;
   @include subtitleMedium;
+  &:hover {
+    color: #ccc;
+  }
 }
 
 

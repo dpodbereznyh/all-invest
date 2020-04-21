@@ -21,7 +21,6 @@
 }
 .keramogranit__list {
   margin-left: rem(16px);
-  max-width: rem(394px);
   margin-bottom: rem(20px);
   &_title {
     @include subtitleMedium;
@@ -42,7 +41,7 @@
       background: $assetInterface;
       position: absolute;
       left: 0;
-      top: 50%;
+      top: rem(10px);
       transform: translate(rem(-16px), -25%);
     }
   }
